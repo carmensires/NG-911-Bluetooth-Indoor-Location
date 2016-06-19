@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:background="@color/MainBackground"
+    android:theme="@style/Base.Theme.AppCompat">
+    <TextView
+        android:id="@+id/textSplash"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="28dip"
+        android:layout_marginLeft="10dip"
+        android:layout_centerVertical="true"
+        android:singleLine="true"
+        android:ellipsize="end"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:text="@string/title_activity_splash" />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageViewSplash"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/icon64"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:layout_weight="0.1" />
+
+    <RelativeLayout
+        android:id="@+id/loadingPanel"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center" >
+
+        <ProgressBar
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:indeterminate="true"
+            android:layout_marginBottom="300dp"
+            android:layout_alignParentEnd="false"/>
+    </RelativeLayout>
+</LinearLayout>

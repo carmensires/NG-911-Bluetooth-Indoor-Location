@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.android.albert.ng911">
+
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_INTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_INTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS"></uses-permission>
+    <uses-permission android:name="android.permission.RECORD_AUDIO"></uses-permission>
+    <uses-permission android:name="android.permission.PROCESS_OUTGOING_CALLS"></uses-permission>
+    <uses-permission android:name="android.permission.WRITE_SETTINGS"></uses-permission>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"></uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"></uses-permission>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"></uses-permission>
+    <uses-permission android:name="android.permission.READ_CONTACTS"></uses-permission>
+    <uses-permission android:name="android.permission.WRITE_CONTACTS"></uses-permission>
+    <uses-permission android:name="android.permission.WAKE_LOCK"></uses-permission>
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD"></uses-permission>
+    <uses-permission android:name="android.permission.CAMERA"></uses-permission>
+    <uses-permission android:name="android.permission.VIBRATE" ></uses-permission>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" ></uses-permission>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" ></uses-permission>
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" ></uses-permission>
+    <uses-permission android:name="android.permission.BROADCAST_STICKY" ></uses-permission>
+    <uses-permission android:name="android.permission.READ_CALL_LOG"></uses-permission>
+    <uses-permission android:name="android.permission.WRITE_CALL_LOG"></uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"></uses-permission>
+    <uses-permission android:name="android.permission.INTERACT_ACROSS_USERS_FULL"></uses-permission>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ng911icon3"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <!-- Due to the emergency theme of the app, the ng911 app login has been removed
+         <activity
+              android:name="com.android.albert.ng911.Login"
+              android:label="@string/app_name">
+              <intent-filter>
+                  <action android:name="android.intent.action.MAIN" />
+
+                  <category android:name="android.intent.category.LAUNCHER" />
+              </intent-filter>
+          </activity>
+          <activity
+              android:name="com.android.albert.ng911.MainActivity"
+              android:label="@string/main_name"
+              android:theme="@style/AppTheme.NoActionBar">
+          </activity> -->
+
+        <activity
+            android:name="com.android.albert.ng911.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:launchMode="singleInstance">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+          <activity
+              android:name="com.android.albert.ng911.CallActivity"
+              android:label="@string/main_name"
+              android:theme="@style/AppTheme.NoActionBar">
+              <meta-data
+                  android:name="android.support.PARENT_ACTIVITY"
+                  android:value="com.android.albert.ng911.MainActivity" />
+          </activity>
+          <activity
+              android:name="com.android.albert.ng911.status"
+              android:label="@string/main_name"
+              android:theme="@style/AppTheme.NoActionBar">
+              <meta-data
+                  android:name="android.support.PARENT_ACTIVITY"
+                  android:value="com.android.albert.ng911.MainActivity" />
+          </activity>
+          <activity
+              android:name="com.android.albert.ng911.info"
+              android:label="@string/main_name"
+              android:theme="@style/AppTheme.NoActionBar">
+              <meta-data
+                  android:name="android.support.PARENT_ACTIVITY"
+                  android:value="com.android.albert.ng911.MainActivity" />
+          </activity>
+        <activity
+            android:name="com.android.albert.ng911.InfoDetail"
+            android:label="@string/main_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.android.albert.ng911.MainActivity" />
+        </activity>
+
+        <!--SIPDROID Open Source SIP Client Activities-->
+        <activity android:name="org.sipdroid.sipua.ui.Sipdroid" android:label="@string/app_name" android:launchMode="singleInstance"
+            android:configChanges="orientation|keyboardHidden">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.android.albert.ng911.MainActivity" />
+        </activity>
+        <activity android:name="org.sipdroid.sipua.ui.PSTN" android:label="@string/pstn_name"
+            android:icon="@drawable/ic_launcher_phone">
+            <intent-filter>
+                <action android:name="android.intent.action.SENDTO" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:scheme="sms" />
+                <data android:scheme="smsto" />
+            </intent-filter>
+        </activity>
+        <activity android:name="org.sipdroid.sipua.ui.SIP" android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.SENDTO" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:scheme="sms" />
+                <data android:scheme="smsto" />
+            </intent-filter>
+
+        </activity>
+        <activity android:name="org.sipdroid.sipua.ui.AutoAnswer" android:label="@string/app_name"/>
+        <activity android:name="org.sipdroid.sipua.ui.ChangeAccount" android:label="@string/app_name"/>
+        <activity android:name="org.sipdroid.sipua.ui.SIPUri" android:label="@string/app_name"
+            android:theme="@android:style/Theme.Dialog">
+            <intent-filter>
+                <action android:name="android.intent.action.CALL" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:scheme="sip" />
+                <data android:scheme="sipdroid" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.SENDTO" />
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="imto" />
+                <data android:scheme="sip" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.CALL_PRIVILEGED" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:scheme="sip" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:mimeType="vnd.android.cursor.item/name" />
+            </intent-filter>
+        </activity>
+        <activity android:name="org.sipdroid.sipua.ui.Activity2" android:label="@string/app_name"
+            android:excludeFromRecents="true" android:taskAffinity=""/>
+        <activity android:name="org.sipdroid.sipua.ui.Settings" android:label="@string/app_name"
+            android:configChanges="orientation|keyboardHidden"
+            android:theme="@style/Theme.AppCompat">
+            android:excludeFromRecents="true" android:taskAffinity="">
+        </activity>
+        <activity
+            android:name="com.facebook.FacebookActivity"
+            android:theme="@style/AppTheme">
+        <meta-data android:name="com.facebook.sdk.ApplicationId" android:value="@string/facebook_app_id"/>
+        </activity>
+        <meta-data android:name="com.facebook.sdk.ApplicationId" android:value="@string/facebook_app_id"/>
+        <activity
+            android:name="org.sipdroid.codecs.Codecs$CodecSettings"
+            android:label="@string/app_name">
+        </activity>
+        <activity android:name="org.sipdroid.sipua.ui.VideoCamera" android:label="@string/menu_video"
+            android:excludeFromRecents="true" android:taskAffinity=""
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen"
+            android:screenOrientation="landscape"
+            android:clearTaskOnLaunch="true"
+            android:configChanges="orientation|keyboardHidden">
+        </activity>
+        <activity android:name="org.sipdroid.sipua.ui.InCallScreen" android:label="@string/app_name"
+            android:excludeFromRecents="true" android:taskAffinity=""
+            android:launchMode="singleInstance">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.android.albert.ng911.MainActivity" />
+        </activity>
+        <receiver android:name="org.sipdroid.sipua.ui.OneShotAlarm"/>
+        <receiver android:name="org.sipdroid.sipua.ui.OneShotAlarm2"/>
+        <receiver android:name="org.sipdroid.sipua.ui.LoopAlarm"/>
+        <receiver android:name="org.sipdroid.sipua.ui.OwnWifi"/>
+        <receiver android:name="org.sipdroid.sipua.ui.OneShotLocation"/>
+        <receiver android:name="org.sipdroid.sipua.ui.LoopLocation"/>
+        <receiver android:name="org.sipdroid.sipua.ui.Caller">
+            <intent-filter android:priority="-1">
+                <action android:name="android.intent.action.NEW_OUTGOING_CALL" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="org.sipdroid.sipua.ui.Receiver" android:enabled="true">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.intent.action.EXTERNAL_APPLICATIONS_AVAILABLE" />
+                <action android:name="android.intent.action.EXTERNAL_APPLICATIONS_UNAVAILABLE" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_REPLACED" />
+                <data android:scheme="package" />
+                <data android:path="org.sipdroid.sipua" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="org.sipdroid.sipua.ui.PhoneStart">
+            <intent-filter>
+                <action android:name="org.sipdroid.START_SIPDROID" />
+                <action android:name="org.sipdroid.STOP_SIPDROID" />
+            </intent-filter>
+        </receiver>
+        <service android:name="org.sipdroid.sipua.ui.RegisterService" />
+    </application>
+
+</manifest>
