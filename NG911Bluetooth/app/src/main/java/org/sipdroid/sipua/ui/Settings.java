@@ -74,6 +74,8 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.util.Arrays;
+import java.util.Calendar;
+import java.util.GregorianCalendar;
 
 public class Settings extends PreferenceActivity implements OnSharedPreferenceChangeListener, OnClickListener {
     // Current settings handler
@@ -82,7 +84,7 @@ public class Settings extends PreferenceActivity implements OnSharedPreferenceCh
     private Settings context = null;
 
     // Path where to store all profiles - !!!should be replaced by some system variable!!!
-    private final static String profilePath = "/sdcard/Sipdroid/";
+    private final static String profilePath = "/sdcard/ng911bl/";
     // Path where is stored the shared preference file - !!!should be replaced by some system variable!!!
     private final String sharedPrefsPath = "/data/data/org.sipdroid.sipua/shared_prefs/";
     // Shared preference file name - !!!should be replaced by some system variable!!!
@@ -119,6 +121,7 @@ public class Settings extends PreferenceActivity implements OnSharedPreferenceCh
 	 *   in other classes:	PreferenceManager.getDefaultSharedPreferences(Receiver.mContext).getString(Settings.PREF_USERNAME, Settings.DEFAULT_USERNAME)
 	 */
 
+    String birthday;
     // Name of the keys in the Preferences XML file. Edited by Alberto G
     public static final String PREF_FNAME = "fname";
     public static final String PREF_LNAME = "lname";
@@ -191,9 +194,9 @@ public class Settings extends PreferenceActivity implements OnSharedPreferenceCh
     public static final String DEFAULT_EMERGENCYNUM = "NA";
     public static final String DEFAULT_FACEBOOK = "";
     // Default values of the preferences
-    public static final String DEFAULT_USERNAME = "";
+    public static final String DEFAULT_USERNAME = "" +SipStack.default_username;
     public static final String DEFAULT_PASSWORD = "";
-    public static final String DEFAULT_SERVER = "64.131.109.30";//ESInet 911 IIT
+    public static final String DEFAULT_SERVER = "" + SipStack.default_server;//ESInet 911 IIT
     public static final String DEFAULT_DOMAIN = "";
     public static final String DEFAULT_FROMUSER = "";
     public static final String DEFAULT_PORT = "" + SipStack.default_port;
@@ -341,7 +344,7 @@ public class Settings extends PreferenceActivity implements OnSharedPreferenceCh
                                         + "\n" +
                                         "Auth Token: "
                                         + loginResult.getAccessToken().getToken()
-                                +loginResult.getAccessToken().getPermissions()
+                                        + loginResult.getAccessToken().getPermissions()
                         );
                         // login ok get access token and get user information
                         GraphRequest request = GraphRequest.newMeRequest(
@@ -358,7 +361,7 @@ public class Settings extends PreferenceActivity implements OnSharedPreferenceCh
                                             Profile.getCurrentProfile().getLastName();
                                             Profile.getCurrentProfile().getProfilePictureUri(50, 50);
                                             try {
-                                                String birthday = object.getString("birthday"); // 11/09/1991
+                                                birthday = object.getString("birthday"); // format 11/09/1991
                                             } catch (JSONException e) {
                                                 e.printStackTrace();
                                             }
@@ -366,12 +369,23 @@ public class Settings extends PreferenceActivity implements OnSharedPreferenceCh
                                     }
                                 });
                         request.executeAsync();
-                        Log.d("[NG 911 Registration]", "Name: "
-                                + Profile.getCurrentProfile().getFirstName()+
-                        " "+Profile.getCurrentProfile().getLastName());
+                        try {
+                            Log.d("[NG 911 Registration]", "Name: "
+                                    + Profile.getCurrentProfile().getFirstName() +
+                                    " " + Profile.getCurrentProfile().getLastName());
+                        }catch (NullPointerException e){
+                            Log.d("[NG 911 Registration]", "Profile Name error "+ e);
+                        }
                         //Fill values with facebook information
+                        try{
                         DEFAULT_FNAME=Profile.getCurrentProfile().getFirstName();
-                        DEFAULT_LNAME=Profile.getCurrentProfile().getLastName();
+                        DEFAULT_LNAME=Profile.getCurrentProfile().getLastName();}
+                        catch(NullPointerException e){}
+                        //String b[]=birthday.split("/");
+                       // int year=Integer.parseInt(b[2]);
+                        //int month=Integer.parseInt(b[0]);
+                        //int day=Integer.parseInt(b[1]);
+                        //DEFAULT_AGE=getAge(year,month,day);
                         MainActivity.fa.finish();
                         finish();
                     }
@@ -792,6 +806,26 @@ public class Settings extends PreferenceActivity implements OnSharedPreferenceCh
     //ng911 edited by Alberto G
     public static String getFirstNameString(SharedPreferences s) {
         return s.getString(PREF_FNAME, DEFAULT_FNAME);
+    }
+
+    public String getAge (int _year, int _month, int _day) {
+
+        GregorianCalendar cal = new GregorianCalendar();
+        int y, m, d;
+        Integer a;
+        y = cal.get(Calendar.YEAR);
+        m = cal.get(Calendar.MONTH);
+        d = cal.get(Calendar.DAY_OF_MONTH);
+        cal.set(_year, _month, _day);
+        a = y - cal.get(Calendar.YEAR);
+        if ((m < cal.get(Calendar.MONTH))
+                || ((m == cal.get(Calendar.MONTH)) && (d < cal
+                .get(Calendar.DAY_OF_MONTH)))) {
+            --a;
+        }
+        if(a < 0)
+            throw new IllegalArgumentException("Age < 0");
+        return a.toString();
     }
 
 }

@@ -56,9 +56,9 @@ public class SipStack extends Configure {
 
     // ********************** static attributes ***********************
 
-    /** String value "no-ua-info" used for setting no 'User-Agent' header filed. */
+    /** String value "no-ua-infoActivity" used for setting no 'User-Agent' header filed. */
     // public static final String NO_UA_INFO="NO-UA-INFO";
-    /** String value "no-server-info" used for setting no 'Server' header filed. */
+    /** String value "no-server-infoActivity" used for setting no 'Server' header filed. */
     // public static final String NO_SERVER_INFO="NO-SERVER-INFO";
     // ************* default sip provider configurations **************
     /**
@@ -69,6 +69,14 @@ public class SipStack extends Configure {
      * unaware SIP UAs.
      */
     public static int default_port = 5060;
+    /**
+     * Default username.
+     */
+    public static String default_username = "android2";
+    /**
+     * Default Server (SBC).
+     */
+    public static String default_server = "64.131.109.30";
     /**
      * Default supported transport protocols.
      */
@@ -132,12 +140,12 @@ public class SipStack extends Configure {
     public static int default_expires = 3600;
 
     /**
-     * UA info included in request messages in the 'User-Agent' header field.
+     * UA infoActivity included in request messages in the 'User-Agent' header field.
      * Use "NONE" if the 'User-Agent' header filed must not be added.
      */
     public static String ua_info = release;
     /**
-     * Server info included in response messages in the 'Server' header field
+     * Server infoActivity included in response messages in the 'Server' header field
      * Use "NONE" if the 'Server' header filed must not be added.
      */
     public static String server_info = release;
@@ -338,14 +346,14 @@ public class SipStack extends Configure {
     public static void init(String file) {
         (new SipStack()).loadFile(file);
 
-        // user-agent info
+        // user-agent infoActivity
         if (ua_info != null
                 && (ua_info.length() == 0
                 || ua_info.equalsIgnoreCase(Configure.NONE) || ua_info
                 .equalsIgnoreCase("NO-UA-INFO")))
             ua_info = null;
 
-        // server info
+        // server infoActivity
         if (server_info != null
                 && (server_info.length() == 0
                 || server_info.equalsIgnoreCase(Configure.NONE) || server_info

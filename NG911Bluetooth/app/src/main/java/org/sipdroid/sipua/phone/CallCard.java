@@ -75,7 +75,7 @@ public class CallCard extends FrameLayout
     private ImageView mLowerTitleIcon;
     public Chronometer mElapsedTime;
 
-    // Text colors, used with the lower title and "other call" info areas
+    // Text colors, used with the lower title and "other call" infoActivity areas
     private int mTextColorConnected;
     private int mTextColorEnded;
     private int mTextColorOnHold;
@@ -85,7 +85,7 @@ public class CallCard extends FrameLayout
     private TextView mPhoneNumber;
     private TextView mLabel;
 
-    // "Other call" info area
+    // "Other call" infoActivity area
     private TextView mOtherCallOngoingName;
     private TextView mOtherCallOngoingStatus;
     private TextView mOtherCallOnHoldName;
@@ -159,13 +159,13 @@ public class CallCard extends FrameLayout
         mTextColorEnded = getResources().getColor(R.color.incall_textEnded);
         mTextColorOnHold = getResources().getColor(R.color.incall_textOnHold);
 
-        // "Caller info" area, including photo / name / phone numbers / etc
+        // "Caller infoActivity" area, including photo / name / phone numbers / etc
         mPhoto = (ImageView) findViewById(R.id.photo);
         mName = (TextView) findViewById(R.id.name);
         mPhoneNumber = (TextView) findViewById(R.id.phoneNumber);
         mLabel = (TextView) findViewById(R.id.label);
 
-        // "Other call" info area
+        // "Other call" infoActivity area
         mOtherCallOngoingName = (TextView) findViewById(R.id.otherCallOngoingName);
         mOtherCallOngoingStatus = (TextView) findViewById(R.id.otherCallOngoingStatus);
         mOtherCallOnHoldName = (TextView) findViewById(R.id.otherCallOnHoldName);
@@ -214,7 +214,7 @@ public class CallCard extends FrameLayout
             if (DBG) log("updateForegroundCall: no active call, show holding call");
             // TODO: make sure this case agrees with the latest UI spec.
 
-            // Display the background call in the main info area of the
+            // Display the background call in the main infoActivity area of the
             // CallCard, since there is no foreground call.  Note that
             // displayMainCallStatus() will notice if the call we passed in is on
             // hold, and display the "on hold" indication.
@@ -242,7 +242,7 @@ public class CallCard extends FrameLayout
     }
 
     /**
-     * Updates the main block of caller info on the CallCard
+     * Updates the main block of caller infoActivity on the CallCard
      * (ie. the stuff in the mainCallCard block) based on the specified Call.
      */
     public void displayMainCallStatus(Phone phone, Call call) {
@@ -317,7 +317,7 @@ public class CallCard extends FrameLayout
         updateCardTitleWidgets(phone, call);
 
         {
-            // Update onscreen info for a regular call (which presumably
+            // Update onscreen infoActivity for a regular call (which presumably
             // has only one connection.)
             Connection conn = call.getEarliestConnection();
 
@@ -366,7 +366,7 @@ public class CallCard extends FrameLayout
                         Log.w(LOG_TAG, "displayMainCallStatus: runQuery was false, "
                                 + "but we didn't have a cached CallerInfo object!  o = " + o);
                         // TODO: any easy way to recover here (given that
-                        // the CallCard is probably displaying stale info
+                        // the CallCard is probably displaying stale infoActivity
                         // right now?)  Maybe force the CallCard into the
                         // "Unknown" state?
                     }
@@ -425,7 +425,7 @@ public class CallCard extends FrameLayout
         Call.State state = call.getState();
 
         // TODO: Still need clearer spec on exactly how title *and* status get
-        // set in all states.  (Then, given that info, refactor the code
+        // set in all states.  (Then, given that infoActivity, refactor the code
         // here to be more clear about exactly which widgets on the card
         // need to be set.)
 
@@ -525,7 +525,7 @@ public class CallCard extends FrameLayout
     }
 
     /**
-     * Updates the "on hold" box in the "other call" info area
+     * Updates the "on hold" box in the "other call" infoActivity area
      * (ie. the stuff in the otherCallOnHoldInfo block)
      * based on the specified Call.
      * Or, clear out the "on hold" box if the specified call
@@ -578,7 +578,7 @@ public class CallCard extends FrameLayout
     }
 
     /**
-     * Updates the "Ongoing call" box in the "other call" info area
+     * Updates the "Ongoing call" box in the "other call" infoActivity area
      * (ie. the stuff in the otherCallOngoingInfo block)
      * based on the specified Call.
      * Or, clear out the "ongoing call" box if the specified call
@@ -817,7 +817,7 @@ public class CallCard extends FrameLayout
                 // the state goes away.)
 
                 // if the photoResource field is filled-in in the Connection's
-                // caller info, then we can just use that instead of requesting
+                // caller infoActivity, then we can just use that instead of requesting
                 // for a photo load.
 
                 // look for the photoResource if it is available.
@@ -928,14 +928,14 @@ public class CallCard extends FrameLayout
     }
 
     /**
-     * Sets the background drawable of the "ongoing call" info area.
+     * Sets the background drawable of the "ongoing call" infoActivity area.
      */
     private void setOngoingInfoAreaBackgroundResource(int resid) {
         mOtherCallOngoingInfoArea.setBackgroundResource(resid);
     }
 
     /**
-     * Sets the background drawable of the "call on hold" info area.
+     * Sets the background drawable of the "call on hold" infoActivity area.
      */
     private void setOnHoldInfoAreaBackgroundResource(int resid) {
         mOtherCallOnHoldInfoArea.setBackgroundResource(resid);

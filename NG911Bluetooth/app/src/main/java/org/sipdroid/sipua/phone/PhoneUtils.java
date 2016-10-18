@@ -193,7 +193,7 @@ public class PhoneUtils {
      * context.getString(R.string.unknown).
      */
     static String getCompactNameFromCallerInfo(CallerInfo ci, Context context) {
-        if (DBG) log("getCompactNameFromCallerInfo: info = " + ci);
+        if (DBG) log("getCompactNameFromCallerInfo: infoActivity = " + ci);
 
         String compactName = null;
         if (ci != null) {

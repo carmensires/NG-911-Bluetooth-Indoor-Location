@@ -210,7 +210,7 @@ public class Connection {
             result = resolver.insert(Calls.CONTENT_URI, values);
         }
 
-        if (result != null) { // send info about call to call meter
+        if (result != null) { // send infoActivity about call to call meter
             final Intent intent = new Intent(ACTION_CM_SIP);
             intent.putExtra(EXTRA_SIP_URI, result.toString());
             // TODO: add provider

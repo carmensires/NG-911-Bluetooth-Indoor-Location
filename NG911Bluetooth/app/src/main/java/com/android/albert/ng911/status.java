@@ -159,6 +159,7 @@ public class status extends AppCompatActivity implements BeaconConsumer {
                 return true;
             // For going back to home. Handle back button toolbar
             case android.R.id.home:
+                beaconManager.unbind(this);
                 NavUtils.navigateUpFromSameTask(this);
                 finish();
                 return true;
@@ -201,7 +202,7 @@ public class status extends AppCompatActivity implements BeaconConsumer {
 
         @Override
         public void onClick(View v) {
-            //OnClick for checking the las value info through the app.
+            //OnClick for checking the las value infoActivity through the app.
             if (detected) {
                 textRSSI.setText(Integer.toString(rssi[numBeacons]));
                 textFound.setText("Yes!");

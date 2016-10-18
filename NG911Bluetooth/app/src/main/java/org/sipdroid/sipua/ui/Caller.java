@@ -35,6 +35,8 @@ import android.telephony.PhoneNumberUtils;
 import android.text.TextUtils;
 import android.util.Log;
 
+import com.android.albert.ng911.CallActivity;
+
 import org.sipdroid.media.RtpStreamReceiver;
 import org.sipdroid.sipua.UserAgent;
 
@@ -169,13 +171,22 @@ public class Caller extends BroadcastReceiver {
                         number = getNumber(context, Uri.withAppendedPath(PhoneLookup.CONTENT_FILTER_URI, number), PhoneLookup._ID);
                         if (number.equals(""))
                             number = callthru_number;
-                    } else
+                    } else {
+                        //for executing ng911 code when dialing 911 (767) in the cellphone
+                        if (number.equals("767")){
+                            //clear list of data broadcast receiving
+                            setResultData(null);
+                            Intent intent2 = new Intent(context, CallActivity.class);
+                            intent2.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                            context.startActivity(intent2);
+                        }
+                        else
                         number = callthru_number;
-
+                    }
                     if (PreferenceManager.getDefaultSharedPreferences(context).getString(Settings.PREF_PREF, Settings.DEFAULT_PREF).equals(Settings.VAL_PREF_SIPONLY))
                         force = true;
-                    if (!ask && Receiver.engine(context).call(number, force))
-                        setResultData(null);
+//                    if (!ask && Receiver.engine(context).call(number, force))
+ //                       setResultData(null);
                     else if (!ask && PreferenceManager.getDefaultSharedPreferences(context).getBoolean(Settings.PREF_CALLTHRU, Settings.DEFAULT_CALLTHRU) &&
                             (callthru_prefix = PreferenceManager.getDefaultSharedPreferences(context).getString(Settings.PREF_CALLTHRU2, Settings.DEFAULT_CALLTHRU2)).length() > 0) {
                         callthru_number = (callthru_prefix + "," + callthru_number + "#");
@@ -189,10 +200,17 @@ public class Caller extends BroadcastReceiver {
                                     Thread.sleep(200);
                                 } catch (InterruptedException e) {
                                 }
+                                //for executing ng911 code when dialing 911 (767) in the cellphone
+                                if (!n.equals("767")){
                                 Intent intent = new Intent(Intent.ACTION_CALL,
                                         Uri.fromParts("sipdroid", Uri.decode(n), null));
                                 intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
-                                context.startActivity(intent);
+                                context.startActivity(intent);}
+                                else{
+                                    Intent intent = new Intent(context, CallActivity.class);
+                                    intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                                    context.startActivity(intent);
+                                }
                             }
                         }).start();
                     }

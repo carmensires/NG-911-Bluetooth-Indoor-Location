@@ -1,13 +1,10 @@
 package com.android.albert.ng911;
 
 import android.app.Activity;
-import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
-import android.os.RemoteException;
 import android.preference.PreferenceManager;
-import android.support.v4.app.NavUtils;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.util.Log;
@@ -15,7 +12,6 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
-import android.widget.EditText;
 import android.widget.TextView;
 
 import com.facebook.Profile;
@@ -134,7 +130,7 @@ public class MainActivity extends AppCompatActivity {
                         break;
 
                     case R.id.infoButton:
-                        Intent intent3 = new Intent(v.getContext(), info.class);
+                        Intent intent3 = new Intent(v.getContext(), infoActivity.class);
                         startActivity(intent3);
                         Log.i(MAIN_ACTIVITY, "Info button pressed");
                         break;

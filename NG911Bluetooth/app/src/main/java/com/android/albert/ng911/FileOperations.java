@@ -2,6 +2,7 @@ package com.android.albert.ng911;
 
 /**
  * Created by Albert on 4/7/2016.
+ * Class for locally file storage of infoActivity
  */
 
 import android.content.Context;

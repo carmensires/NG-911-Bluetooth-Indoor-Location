@@ -5,6 +5,7 @@ import android.util.Log;
 import android.widget.Toast;
 
 import com.android.volley.AuthFailureError;
+import com.android.volley.DefaultRetryPolicy;
 import com.android.volley.NetworkError;
 import com.android.volley.NoConnectionError;
 import com.android.volley.ParseError;
@@ -21,15 +22,18 @@ import org.sipdroid.SipdroidApplication;
 
 /**
  * Created by Albert on 2/11/2016.
- * Class for doing http get to the server and capture the response.
+ * Class for doing http gets to the server and capture the response.
  */
 public class HttpTx {
     String result;
+    public static String url = "http://nead.bramsoft.com/indexupdate.php";
+    private RequestQueue queue;
 
     public void HttpGetRequest(String url, final Context context, String json,final VolleyCallback callback) throws JSONException {
 
         //get to the server
-        RequestQueue queue = Volley.newRequestQueue(context.getApplicationContext());
+        if (queue==null)
+            queue = Volley.newRequestQueue(context.getApplicationContext());
         String urlfinal = url + "?json=" + json;
         Log.i("[NG911 HTTP Get val] ", urlfinal);
         StringRequest myReq = new StringRequest(Request.Method.GET, urlfinal,
@@ -63,7 +67,7 @@ public class HttpTx {
                             WifiHelper wfhelper = new WifiHelper(context);
                             String macAddress = wfhelper.getMacAddress();
                             try {
-                                Thread.sleep(500);
+                                Thread.sleep(250);
                             } catch (InterruptedException e) {
                                 e.printStackTrace();
                             }
@@ -82,6 +86,66 @@ public class HttpTx {
                     }
                 }
         );
+        //Set maximum timeout to support NG911 Location Provider response
+        myReq.setRetryPolicy(new DefaultRetryPolicy(
+                10000,  //maximum timeout set to 10s
+                DefaultRetryPolicy.DEFAULT_MAX_RETRIES,
+                DefaultRetryPolicy.DEFAULT_BACKOFF_MULT
+        ));
+        queue.add(myReq);
+    }
+
+    public void HttpGetRequest(String json) {
+        RequestQueue queue = Volley.newRequestQueue(CallActivity.c);
+        String urlfinal = url + "?json=" + json;
+        Log.i("[NG911 HTTP Get val] ", urlfinal);
+        StringRequest myReq = new StringRequest(Request.Method.GET, urlfinal,
+                new Response.Listener<String>() {
+                    @Override
+                    public void onResponse(String response) {
+                        result = response;
+                        // Log.d("Response", response);
+                        Data d = Data.getInstance();
+                        d.setReceived(response);
+                        //FileOperations op = new FileOperations(context.getApplicationContext());
+                        //op.write("LocServerResponse", response);
+                    }
+                },
+                new Response.ErrorListener() {
+                    @Override
+                    public void onErrorResponse(VolleyError error) {
+                        Log.e("Response Error HTTP GET", error + "");
+
+                        // in case of an error, create an empty response with no location on it
+                        // and send it on the INVITE
+                        String response = "<?xml version=\"1.0\" encoding=\"ISO-8859-1\"?><presence></presence>";
+                        Data d = Data.getInstance();
+                        d.setReceived(response);
+                        // FileOperations op = new FileOperations(context.getApplicationContext());
+                        // op.write("LocServerResponse", response);
+
+                        if (error instanceof NoConnectionError) {
+                            Log.d("NoConnectionError", "NoConnectionError.......");
+                        } else if (error instanceof AuthFailureError) {
+                            Log.d("AuthFailureError", "AuthFailureError.......");
+                        } else if (error instanceof ServerError) {
+                            Log.d("ServerError", "ServerError.......");
+                        } else if (error instanceof NetworkError) {
+                            Log.d("NetworkError", "NetworkError.......");
+                        } else if (error instanceof ParseError) {
+                            Log.d("ParseError", "ParseError.......");
+                        } else if (error instanceof TimeoutError) {
+                            Log.d("TimeoutError", "TimeoutError.......");
+                        }
+                    }
+                }
+        );
+        //Set maximum timeout to support NG911 Location Provider response
+        myReq.setRetryPolicy(new DefaultRetryPolicy(
+                10000,  //maximum timeout set to 10s
+                DefaultRetryPolicy.DEFAULT_MAX_RETRIES,
+                DefaultRetryPolicy.DEFAULT_BACKOFF_MULT
+        ));
         queue.add(myReq);
     }
 }

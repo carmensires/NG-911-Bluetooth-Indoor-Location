@@ -25,7 +25,7 @@ import java.net.URL;
  * Created by Albert on 3/30/2016.
  * information activity
  */
-public class info extends AppCompatActivity {
+public class infoActivity extends AppCompatActivity {
     URL url;
     BufferedReader reader;
     StringBuilder builder;
@@ -49,7 +49,7 @@ public class info extends AppCompatActivity {
             @Override
             public void onItemClick(AdapterView arg0, View arg1, int position,
                                     long arg3) {
-                Intent i = new Intent(info.this, InfoDetail.class);
+                Intent i = new Intent(infoActivity.this, InfoDetail.class);
                 //passing position variable to the intent
                 i.putExtra("position", position);
                 startActivity(i);

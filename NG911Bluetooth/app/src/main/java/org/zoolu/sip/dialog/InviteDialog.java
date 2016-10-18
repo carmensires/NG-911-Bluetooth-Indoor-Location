@@ -25,6 +25,8 @@
 package org.zoolu.sip.dialog;
 
 import android.content.Intent;
+import android.location.Address;
+import android.location.Geocoder;
 import android.location.Location;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
@@ -34,6 +36,7 @@ import com.android.albert.ng911.HttpTx;
 import com.android.albert.ng911.Json;
 import com.android.albert.ng911.LocationHelper;
 import com.android.albert.ng911.NG911MessageFactory;
+import com.android.albert.ng911.VolleyCallback;
 import com.android.albert.ng911.WifiHelper;
 import com.android.volley.RequestQueue;
 
@@ -63,6 +66,10 @@ import org.zoolu.sip.transaction.TransactionServer;
 import org.zoolu.tools.LogLevel;
 
 import com.android.albert.ng911.CallActivity;
+
+import java.io.IOException;
+import java.util.List;
+import java.util.Locale;
 
 /**
  * Class InviteDialog can be used to manage invite dialogs. An InviteDialog can
@@ -348,20 +355,72 @@ public class InviteDialog extends Dialog implements TransactionClientListener,
         Data data = Data.getInstance();
         String response = data.getReceived();
 
-        //'response' is a String with the location info in XML format
-        Log.d("NG911 [InviteDialog]", "1.Server response:" + response);
-        //Send an INVITE with the location information
-        Log.d("NG911 [InviteDialog]", "2.Sending an INVITE request with location information");
-
-
-       Message invite = NG911MessageFactory.createInviteNG911(call_id, sip_provider,
-               request_uri, to_url, from_url, contact_url_local, sdp_local, icsi_local, response);
-
-        if (response != null) {
-            Log.d("NG911 [InviteDialog]", "NG911 INVITE successfully created");
+        if (response==null&&!CallActivity.sended){
+            Log.i("NG911 [InviteDialog]", "XML HAS NOT BEEN RECEIVED");
         }
-                        // do invite
+        //LAT LONG, City, Street Values, outdoor location
+        LocationHelper loc=new LocationHelper(CallActivity.c);
+        Geocoder geocoder = new Geocoder(CallActivity.c, Locale.getDefault());
+        List<Address> addresses = null;
+        String streetName = null,cityName=null,stateName=null,countryName = null;
+        try {
+            addresses = geocoder.getFromLocation(loc.getLocation().getLatitude(), loc.getLocation().getLongitude(), 1);
+            streetName = addresses.get(0).getAddressLine(0);
+            cityName=addresses.get(0).getAddressLine(1).split(",")[0];
+            stateName = addresses.get(0).getAddressLine(1).split("\\s+")[1];
+            countryName = addresses.get(0).getAddressLine(2);
+            Log.i("Out Location", streetName+";"+cityName+"; "+stateName+"; "+countryName+"; "+loc.getLocation().toString().substring(8));
+        } catch (IOException | NullPointerException e) {
+            e.printStackTrace();
+        }
+
+        //'response' is a String with the location infoActivity in XML format
+        Log.d("NG911 [InviteDialog]", "1.Server response:" + response);
+        if (response != null || !response.equals("")) {
+            //Send an INVITE with the location information
+            Log.d("NG911 [InviteDialog]", "2.Sending an INVITE request with location information");
+            // do invite
+            Log.d("NG911 [InviteDialog]", "NG911 INVITE successfully created");
+        }else{
+            //No Beacon around generate data based on outdoor GPS Location
+            double lat=loc.getLocation().getLatitude();
+            double longitude=loc.getLocation().getLongitude();
+            response = "<?xml version=\"1.0\" encoding=\"ISO-8859-1\"?>\n" +
+                    "<presence xmlns=\"urn:ietf:params:xml:ns:pidf\"\n" +
+                    "    xmlns:gp=\"urn:ietf:params:xml:ns:pidf:geopriv10\"\n" +
+                    "    xmlns:ca=\"urn:ietf:params:xml:ns:pidf:geopriv10:civicAddr\"\n" +
+                    "    xmlns:gml=\"http://www.opengis.net/gml\"\n" +
+                    "    entity=\"sip:caller@64.131.109.27\">\n" +
+                    "  <tuple id=\"id82848\">\n" +
+                    "   <status>\n" +
+                    "    <gp:geopriv>\n" +
+                    "     <gp:location-infoActivity>\n" +
+                    "       <ca:civicAddress>\n" +
+                    "        <ca:country>"+countryName+"</ca:country>\n" +
+                    "        <ca:A1>"+stateName+"</ca:A1>\n" +
+                    "        <ca:A2>"+cityName+"</ca:A2>\n" +
+                    "        <ca:A6>"+streetName.split("//s+")[2]+"</ca:A6>\n"+
+                    "        <ca:PRD>"+streetName.split("//s+")[1]+"</ca:PRD>\n"+
+                    "        <ca:STS>"+streetName.split("//s+")[3]+"</ca:STS>\n"+
+                    "        <ca:HNO>"+streetName.split("//s+")[0]+"</ca:HNO>\n"+
+                    "       </ca:civicAddress>\n" +
+                    "       <gml:Point srsName=\"urn:ogc:def:crs:EPSG::4326\">\n" +
+                    "        <gml:pos>"+lat+" "+longitude+"</gml:pos>\n"+
+                    "       </gml:Point>\n"+
+                    "     </gp:location-infoActivity>\n" +
+                    "     <gp:usage-rules/>\n" +
+                    "     <gp:method>Manual</gp:method>\n" +
+                    "    </gp:geopriv>\n" +
+                    "   </status>\n" +
+                    "  <contact priority=\"0.8\">sip:caller@64.131.109.27</contact>\n" +
+                    "<timestamp>2016-04-07T07:01:18.059Z</timestamp>\n" +
+                    "  </tuple>\n" +
+                    "</presence>\n";
+        }
+        Message invite = NG911MessageFactory.createInviteNG911(call_id, sip_provider,
+                request_uri, to_url, from_url, contact_url_local, sdp_local, icsi_local, response);
         invite(invite);
+        data.clear();
     }
 
     /**
@@ -372,7 +431,7 @@ public class InviteDialog extends Dialog implements TransactionClientListener,
      */
     public void invite(Message invite) {
         printLog("inside invite(invite)", LogLevel.MEDIUM);
-        Log.d("NG911 [InviteDialog]", "invite(Message invite)");
+        Log.d("NG911 [InviteDialog]", "Invite(Message invite)");
         Log.d("[NG911MessageFactory]", "Message sent:" + invite.toString());
         if (!statusIs(D_INIT))
             return;

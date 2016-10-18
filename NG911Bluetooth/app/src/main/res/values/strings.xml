@@ -60,6 +60,7 @@
     <string name="notfast">No suitable data network available</string>
 
     <string name="settings_account">SIP Account</string>
+    <string name="settings_account2">SIP Account 2</string>
     <string name="settings_line">Line</string>
     <string name="settings_username">Authorization Username</string>
     <string name="settings_password">Password</string>

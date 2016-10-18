@@ -263,7 +263,7 @@ public class ContactsAsyncHelper extends Handler {
                                                                   OnImageLoadCompleteListener listener, Object cookie, Context context,
                                                                   ImageView imageView, Uri person, int placeholderImageResource) {
 
-        // in case the source caller info is null, the URI will be null as well.
+        // in case the source caller infoActivity is null, the URI will be null as well.
         // just update using the placeholder image in this case.
         if (person == null) {
             if (DBG) Log.d(LOG_TAG, "target image is null, just display placeholder.");

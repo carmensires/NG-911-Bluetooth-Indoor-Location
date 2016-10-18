@@ -26,19 +26,19 @@
     android:layout_height="wrap_content"
     >
 
-    <!-- The CallCard displays info to the user about the currently active
+    <!-- The CallCard displays infoActivity to the user about the currently active
          phone CallActivity(s) on the device.  This vertical LinearLayout contains
          the following subviews:
 
-         (1) The "main" or "full size" CallActivity card, which displays info
+         (1) The "main" or "full size" CallActivity card, which displays infoActivity
              for the current foreground CallActivity, or the currently-ringing
              incoming CallActivity (if there is one.)
 
-         (2) The "other CallActivity" info area for the current ongoing CallActivity,
+         (2) The "other CallActivity" infoActivity area for the current ongoing CallActivity,
              visible only if an incoming CallActivity is ringing while you're
              already using a phone line.
 
-         (3) The "other CallActivity" info area for the current CallActivity on hold,
+         (3) The "other CallActivity" infoActivity area for the current CallActivity on hold,
              visible only if there's a CallActivity on hold.
     -->
 
@@ -65,14 +65,14 @@
                   android:layout_marginTop="10dip"
                   />
 
-        <!-- Placeholder to add some space between the title and "person info" area if
+        <!-- Placeholder to add some space between the title and "person infoActivity" area if
              there's enough room. -->
         <View
             android:layout_width="fill_parent"
             android:layout_height="1dip"
             android:layout_weight="1" />
 
-        <!-- "Person info": photo / name / number -->
+        <!-- "Person infoActivity": photo / name / number -->
         <include layout="@layout/call_card_person_info" />
 
         <!-- Placeholder to add some space below the name/number if there's enough room. -->
@@ -116,12 +116,12 @@
     </LinearLayout>    <!-- End of (1) The main CallActivity card -->
 
 
-    <!-- The "other CallActivity" info area. -->
+    <!-- The "other CallActivity" infoActivity area. -->
     <!-- There are two possible rows of information to display here:
-         (1) a one-liner with info about the "ongoing" (active) CallActivity,
+         (1) a one-liner with infoActivity about the "ongoing" (active) CallActivity,
              displayed only if the main body of the CallCard is showing
              an incoming CallActivity and a foreground CallActivity exists.
-         (2) a one-liner with info about the CallActivity on hold,
+         (2) a one-liner with infoActivity about the CallActivity on hold,
              if there's a CallActivity on hold.
          Note that BOTH can be visible in the rare case of an
          incoming CallActivity while both lines are in use.  -->
@@ -130,7 +130,7 @@
     <!-- Fix the CallCard's updateState method to just fully
          update EVERYTHING in the callcard based on the current phone
          state: set the overall type of the CallCard, load up the main
-         caller info area, and load up and show or hide the "other CallActivity"
+         caller infoActivity area, and load up and show or hide the "other CallActivity"
          widgets as necessary.  -->
 
     <!-- (2) Info area for the "ongoing" CallActivity -->

@@ -1,5 +1,7 @@
 package com.android.albert.ng911;
 
+import android.app.IntentService;
+import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
@@ -23,8 +25,11 @@ import org.altbeacon.beacon.MonitorNotifier;
 import org.altbeacon.beacon.RangeNotifier;
 import org.altbeacon.beacon.Region;
 import org.json.JSONException;
+
+import java.util.ArrayList;
 import java.util.Collection;
 import org.sipdroid.sipua.ui.Sipdroid;
+import org.zoolu.tools.Assert;
 
 /**
  * Created by Albert on 3/30/2016.
@@ -33,32 +38,54 @@ import org.sipdroid.sipua.ui.Sipdroid;
  * as HTTP GET to the Location Server (Where the location database will contain the location of the sensors and identifiers)
  */
 public class CallActivity extends AppCompatActivity implements BeaconConsumer {
-    public static final int MAX = 20;
+    //public static final int MAX = 500;
+    public static final String FILTERMAJOR="101";
     protected static final String CALL = "[NG911 BL]";
     BeaconManager beaconManager;
     private boolean detected = false;
-    private int[] rssi;
+    private ArrayList<Integer> rssi;
     private int numBeacons = 0;
-    private Identifier[] major, minor;
-    private Identifier[] uuid;
-    Json json;
+    private ArrayList<Identifier> major, minor;
+    private ArrayList<Identifier> uuid;
+    public static Json json;
     long firstTime;
     RequestQueue queue;
-    private boolean sended = false;
-    String url = "http://nead.bramsoft.com/index.php";//ip of the location server (will respond with XML file)
+    public static boolean sended;
+    public static String url = "http://nead.bramsoft.com/indexupdate.php";//ip of the location server (will respond with XML file)
     HttpTx httptx;
+    public static Context c;
     //LocationHelper outdoorLocation;
     BluetoothChecker bluetooth;
     //If this splash time is reduced the app won't have time to execute the http get and have the xml as response
-    private static final int SPLASH_DISPLAY_TIME = 7500;
+    private static final int SPLASH_DISPLAY_TIME = 8000;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         //  setContentView(R.layout.activity_call);
         setContentView(R.layout.activity_splash);
+        sended=false;
         new Handler().postDelayed(new Runnable() {
             public void run() {
+                if (!sended&&numBeacons>1){
+                    try {
+                        httptx.HttpGetRequest(url, getApplicationContext(), json.readMyJson(), new VolleyCallback() {
+                            @Override
+                            public void onSuccess(String result) {
+                                // Data d = Data.getInstance();
+                                // d.setReceived(result);
+                            }
+                        });
+                        //wait to get server response
+                        try {
+                            Thread.sleep(2500);
+                        } catch (InterruptedException e) {
+                            e.printStackTrace();
+                        }
+                    } catch (JSONException e) {
+                        e.printStackTrace();
+                    }
+                }
                 Intent intent = new Intent();
                 intent.setClass(CallActivity.this, Sipdroid.class);
                 CallActivity.this.startActivity(intent);
@@ -73,16 +100,17 @@ public class CallActivity extends AppCompatActivity implements BeaconConsumer {
         //Binds an Android Activity sipdroid to the BeaconService.
         beaconManager.bind(this);
         //Blutooth ibeacons available parameters
-        rssi = new int[MAX];
-        major = new Identifier[MAX];
-        minor = new Identifier[MAX];
-        uuid = new Identifier[MAX];
+        rssi = new ArrayList<>();
+        major = new ArrayList<>();
+        minor = new ArrayList<>();
+        uuid = new ArrayList<>();
         json = new Json();
         //Declaration of the volley que for receiving the http response
         queue = Volley.newRequestQueue(this);
 
         //Server outdoor location method
        // outdoorLocation=new LocationHelper(this);
+        c=getApplicationContext();
 
         //Bluetooth turn on
         bluetooth=new BluetoothChecker(getApplicationContext());
@@ -132,6 +160,8 @@ public class CallActivity extends AppCompatActivity implements BeaconConsumer {
         } catch (RemoteException e) {
         }
         try {
+            //beaconManager.startRangingBeaconsInRegion(new Region("myRangingUniqueId", Identifier.parse("2F234454-CF6D-4A0F-ADF2-F4911BA9FFA6"), Identifier.parse("1"), null));
+            //above filters for uuid and major =1
             beaconManager.startRangingBeaconsInRegion(new Region("myRangingUniqueId", null, null, null));
         } catch (RemoteException e) {
         }
@@ -162,56 +192,77 @@ public class CallActivity extends AppCompatActivity implements BeaconConsumer {
         public void didRangeBeaconsInRegion(Collection<Beacon> beacons, Region region) {
             if (beacons.size() > 0) {
                 for (Beacon beacon : beacons) {
-                    Log.i(CALL,"The beacon " + beacon.toString() + " is about " + beacon.getDistance() + " meters away.");
-                    rssi[numBeacons] = beacon.getRssi();
-                    major[numBeacons] = beacon.getId2();
-                    minor[numBeacons] = beacon.getId3();
-                    uuid[numBeacons] = beacon.getId1();
-                    numBeacons++;
-                    if(numBeacons==1){
-                        Log.i(CALL, "The beacon " + beacon.toString() + " (major: " + beacon.getId2() + ", minor: " + beacon.getId3() + ").");
-                        firstTime = System.currentTimeMillis();
-                        json = new Json(uuid.toString(), major[numBeacons-1].toString(), minor[numBeacons-1].toString(), Integer.toString(rssi[numBeacons-1]));
-                        //json object for major,minor and rssid
-                        try {
-                            json.createMyJsonIndoor();
-                            Log.i(CALL, "This is the 1st created JSON: "+json.readMyJson());
-                        } catch (JSONException e) {
-                            e.printStackTrace();
-                        }
+                    Identifier majorp = beacon.getId2();
+                    //filter our hardcoded major, we only want to see our beacons identifiers
+                    if(FILTERMAJOR.equals(majorp.toString())) {
+                        // Log.i(CALL,"The beacon " + beacon.toString() + " is about " + beacon.getDistance() + " meters away.");
+                        rssi.add(beacon.getRssi());
+                        major.add(majorp);
+                        minor.add(beacon.getId3());
+                        uuid.add(beacon.getId1());
+                        numBeacons++;
+                        if (numBeacons == 1) {
+                            Log.i(CALL, "The beacon " + beacon.toString() + " (major: " + beacon.getId2() + ", minor: " + beacon.getId3() + ").");
+                            firstTime = System.currentTimeMillis();
+                            json = new Json(uuid.toString(), major.get(numBeacons - 1).toString(), minor.get(numBeacons - 1).toString(), Integer.toString(rssi.get(numBeacons - 1)));
+                            Data d = Data.getInstance();
+                            try {
+                                d.setJson(json.readMyJson());
+                            } catch (JSONException e) {
+                                e.printStackTrace();
+                            }
+                            //json object for major,minor and rssid
+                            try {
+                                json.createMyJsonIndoor();
+                                Log.i(CALL, "This is the 1st created JSON: " + json.readMyJson());
+                            } catch (JSONException e) {
+                                e.printStackTrace();
+                            }
+                            //time less than 4.5 seconds and num of captures less than 6
+                        } else if ((System.currentTimeMillis() - firstTime < 4500) && numBeacons < 6) {
+                            try {
+                                //Update JSON with next values
+                                json.updateMyJsonIndoor(major.get(numBeacons - 1).toString(), minor.get(numBeacons - 1).toString(), Integer.toString(rssi.get(numBeacons - 1)));
+                                Data d = Data.getInstance();
+                                d.setJson(json.readMyJson());
+                                Log.i("[NG911 BL]", "JSON Object " + json.readMyJson());
+                                Log.i("[NG911 BL]", "Waiting to gather more sensor data for transmission... ");
 
-                    } else if ((System.currentTimeMillis()-firstTime<4500) && numBeacons<5) {
-                        try {
-                            //Update JSON with next values
-                            json.updateMyJsonIndoor(major[numBeacons-1].toString(), minor[numBeacons-1].toString(), Integer.toString(rssi[numBeacons-1]));
-
-                            Log.i("[NG911 BL]", "JSON Object " + json.readMyJson());
-                            Log.i("[NG911 BL]", "Waiting to gather more sensor data for transmission... ");
-
-                        } catch (JSONException e) {
-                            e.printStackTrace();
-                        }
-                    }else if (!sended){ //If haven't sended the captured beacons to the Location server then do the following
+                            } catch (JSONException e) {
+                                e.printStackTrace();
+                            }
+                        } else if (!sended) { //If haven't sended the captured beacons to the Location server then do the following
                             Log.i(CALL, "HTTP GET transmission to " + url);
                             try {
                                 //Sending Get request to the server
                                 httptx.HttpGetRequest(url, getApplicationContext(), json.readMyJson(), new VolleyCallback() {
                                     @Override
                                     public void onSuccess(String result) {
-                                       // Data d = Data.getInstance();
-                                       // d.setReceived(result);
+                                        // Data d = Data.getInstance();
+                                        // d.setReceived(result);
                                     }
                                 });
                             } catch (JSONException e) {
                                 e.printStackTrace();
                             }
                             sended = true;
-                            numBeacons=0;
-                        }else {
-                        numBeacons=0;
+                            //numBeacons=0;
+                        } else {
+                            try {
+                                try {
+                                    Thread.sleep(150);
+                                } catch (InterruptedException e) {
+                                    e.printStackTrace();
+                                }
+                                json.updateMyJsonIndoor(major.get(numBeacons - 1).toString(), minor.get(numBeacons - 1).toString(), Integer.toString(rssi.get(numBeacons - 1)));
+                            } catch (JSONException e) {
+                                e.printStackTrace();
+                            }
+                        }
                     }
                 }
             }
         }
+
     }
 }

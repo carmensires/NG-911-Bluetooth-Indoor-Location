@@ -16,7 +16,6 @@ public class BluetoothChecker {
 
     private Context context;    //application context
     private BluetoothManager bluemgr;
-    private BluetoothDevice dev;
     private BluetoothAdapter badapt;
 
     public BluetoothChecker(Context c) {

@@ -14,7 +14,7 @@
      limitations under the License.
 -->
 
-<!-- XML resource file for the "person info" area of the main
+<!-- XML resource file for the "person infoActivity" area of the main
      CallCard of the in-CallActivity UI, which includes the photo and
      name/number TextViews.
      This is the LANDSCAPE mode version of this layout. -->

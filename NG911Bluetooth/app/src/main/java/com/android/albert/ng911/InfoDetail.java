@@ -9,7 +9,7 @@ import android.widget.TextView;
 
 /**
  * Created by Albert on 2/28/2016.
- * After clicking on some of the scroll view options in the info activity we will come up to this activity
+ * After clicking on some of the scroll view options in the infoActivity activity we will come up to this activity
  * opening the information from the clicked location.
  */
 public class InfoDetail extends AppCompatActivity {

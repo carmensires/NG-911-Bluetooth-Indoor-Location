@@ -1,14 +1,18 @@
 #NG-911-Bluetooth
 This is the NG911 Bluetooth Android Application project.
+Android API 22:v 5.1.1
 
 It is an Android App created for a Bluetooht Indoor-Location project for NG9-1-1 dispatchers. 
-This app is the first module of a Indoor Location project result of the development of a beacon capturing and processing application, as well as the modification of the open-source app Sipdroid, developed by i-p-tel GmbH.
+This app is the first module of a Indoor Location project result of the development of a bluetooth LE capturing and processing application, as well as the modification of the open-source app Sipdroid, developed by i-p-tel GmbH.
 
 ##Set Up Instructions
-Username:...
+Username:android2
 Password:...
 Server or Proxy:...
 Location Server:...
+
+P.S.: For testing if the call is working we used the following free sip server:
+www-db.research.bell-labs.com (Username and password not needed)
 
 ##Structure
 ###1. Extra packages

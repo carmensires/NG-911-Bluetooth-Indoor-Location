@@ -90,18 +90,15 @@
 			<EditTextPreference
 				android:key="username1"
 				android:title="@string/settings_username"
-				android:text="android2"
 				android:singleLine="true" />
 			<EditTextPreference
 				android:key="password1"
 				android:title="@string/settings_password"
-				android:text="teamc255"
 				android:password="true"
 				android:singleLine="true" />
 			<EditTextPreference
 				android:key="server1"
 				android:title="@string/settings_server"
-				android:text="64.131.109.30"
 				android:summary="@string/settings_server2"
 				android:singleLine="true" />
 			<EditTextPreference

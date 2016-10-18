@@ -84,7 +84,7 @@
                   android:value="com.android.albert.ng911.MainActivity" />
           </activity>
           <activity
-              android:name="com.android.albert.ng911.info"
+              android:name=".infoActivity"
               android:label="@string/main_name"
               android:theme="@style/AppTheme.NoActionBar">
               <meta-data
