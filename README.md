@@ -1,11 +1,13 @@
-#NG-911-Bluetooth
+Forked project from Alberto, in order to perform changes to adapt it.
+
+# NG-911-Bluetooth
 This is the NG911 Bluetooth Android Application project.
 Android API 22:v 5.1.1
 
 It is an Android App created for a Bluetooht Indoor-Location project for NG9-1-1 dispatchers. 
 This app is the first module of a Indoor Location project result of the development of a bluetooth LE capturing and processing application, as well as the modification of the open-source app Sipdroid, developed by i-p-tel GmbH.
 
-##Set Up Instructions
+## Set Up Instructions
 Username:android2
 Password:...
 Server or Proxy:...
@@ -14,10 +16,10 @@ Location Server:...
 P.S.: For testing if the call is working we used the following free sip server:
 www-db.research.bell-labs.com (Username and password not needed)
 
-##Structure
-###1. Extra packages
+## Structure
+### 1. Extra packages
 
-####AltBeacon Library
+#### AltBeacon Library
 
  Open source ibeacon library made by Radius Networks, an Android library providing APIs to interact with beacons.
  
@@ -25,7 +27,7 @@ www-db.research.bell-labs.com (Username and password not needed)
  
  Visit the project [website] (http://altbeacon.github.io/android-beacon-library/) for how to use this library.
 
-####Volley
+#### Volley
 
 This package lets Sipdroid make HTTP requests and handle HTTP responses. This is used by Sipdroid to make a request to a location server sending its MAC address, and obtain the location information in PIDF-LO/XML format as a response. Volley is an HTTP library developed by Google and accessible to everyone. The easiest way to get it is cloning the repository using the following command:
 
@@ -33,7 +35,7 @@ git clone https://android.googlesource.com/platform/frameworks/volley
 
 Documentation about Volley can be found at the official web site for Android developers.
 
-###2. Sipdroid Modifications
+### 2. Sipdroid Modifications
 
 - org.sipdroid.sipua.ui.Caller.java: 
 This class is a broadcast Receiver which will be listening the dial pad of the cellphone. If the user dials 767, our 911 number for testing purposes, the application will start and run the Bluetooth low energy sniffing and SIP call.
