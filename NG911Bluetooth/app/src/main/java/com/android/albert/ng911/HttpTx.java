@@ -26,7 +26,8 @@ import org.sipdroid.SipdroidApplication;
  */
 public class HttpTx {
     String result;
-    public static String url = "http://nead.bramsoft.com/indexupdate.php";
+    public static String url = "http://nead.bramsoft.com/indexupdate.php"; // previous URL
+    public static String exampleUrl = "api.iitrtclab.com/indoorlocation/xml?json[]={\"major\":1000,\"minor\":539,\"rssi\":-69}&json[]={\"major\":1000,\"minor\":577,\"rssi\":-77}&json[]={\"major\":1000,\"minor\":511,\"rssi\":-82}&json[]={\"major\":1000,\"minor\":541,\"rssi\":-81}&json[]={\"major\":1000,\"minor\":539,\"rssi\":-74}&json[]={\"major\":1000,\"minor\":539,\"rssi\":-77}&json[]={\"major\":1000,\"minor\":602,\"rssi\":-81}&json[]={\"major\":1000,\"minor\":541,\"rssi\":-79}&json[]={\"major\":1000,\"minor\":539,\"rssi\":-83}&json[]={\"major\":1000,\"minor\":602,\"rssi\":-82}&algorithim=1";
     private RequestQueue queue;
 
     public void HttpGetRequest(String url, final Context context, String json,final VolleyCallback callback) throws JSONException {
@@ -36,11 +37,13 @@ public class HttpTx {
             queue = Volley.newRequestQueue(context.getApplicationContext());
         String urlfinal = url + "?json=" + json;
         Log.i("[NG911 HTTP Get val] ", urlfinal);
-        StringRequest myReq = new StringRequest(Request.Method.GET, urlfinal,
+        Log.i("carmen[EXAMPLE URL] ", exampleUrl);
+        StringRequest myReq = new StringRequest(Request.Method.GET, exampleUrl,
                 new Response.Listener<String>() {
                     @Override
                     public void onResponse(String response) {
                         result = response;
+                        Log.i("carmen[RESPONSE] ", response);
                        // Log.d("Response", response);
                         Data d = Data.getInstance();
                         d.setReceived(response);
@@ -86,6 +89,7 @@ public class HttpTx {
                     }
                 }
         );
+        Log.i("carmen[RESULT] ", result);
         //Set maximum timeout to support NG911 Location Provider response
         myReq.setRetryPolicy(new DefaultRetryPolicy(
                 10000,  //maximum timeout set to 10s
