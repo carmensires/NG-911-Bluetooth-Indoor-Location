@@ -27,7 +27,8 @@ import org.sipdroid.SipdroidApplication;
 public class HttpTx {
     String result;
     public static String url = "http://nead.bramsoft.com/indexupdate.php"; // previous URL
-    public static String exampleUrl = "api.iitrtclab.com/indoorlocation/xml?json[]={\"major\":1000,\"minor\":539,\"rssi\":-69}&json[]={\"major\":1000,\"minor\":577,\"rssi\":-77}&json[]={\"major\":1000,\"minor\":511,\"rssi\":-82}&json[]={\"major\":1000,\"minor\":541,\"rssi\":-81}&json[]={\"major\":1000,\"minor\":539,\"rssi\":-74}&json[]={\"major\":1000,\"minor\":539,\"rssi\":-77}&json[]={\"major\":1000,\"minor\":602,\"rssi\":-81}&json[]={\"major\":1000,\"minor\":541,\"rssi\":-79}&json[]={\"major\":1000,\"minor\":539,\"rssi\":-83}&json[]={\"major\":1000,\"minor\":602,\"rssi\":-82}&algorithim=1";
+    public static String exampleUrl = "http://api.iitrtclab.com/indoorlocation/xml?json[]={\"major\":1000,\"minor\":539,\"rssi\":-69}&json[]={\"major\":1000,\"minor\":577,\"rssi\":-77}&json[]={\"major\":1000,\"minor\":511,\"rssi\":-82}&json[]={\"major\":1000,\"minor\":541,\"rssi\":-81}&json[]={\"major\":1000,\"minor\":539,\"rssi\":-74}&json[]={\"major\":1000,\"minor\":539,\"rssi\":-77}&json[]={\"major\":1000,\"minor\":602,\"rssi\":-81}&json[]={\"major\":1000,\"minor\":541,\"rssi\":-79}&json[]={\"major\":1000,\"minor\":539,\"rssi\":-83}&json[]={\"major\":1000,\"minor\":602,\"rssi\":-82}&algorithim=1";
+    public static String testUrl = "http://libertyville.rice.iit.edu/scripts/4565_lab4.php";
     private RequestQueue queue;
 
     public void HttpGetRequest(String url, final Context context, String json,final VolleyCallback callback) throws JSONException {
@@ -36,14 +37,16 @@ public class HttpTx {
         if (queue==null)
             queue = Volley.newRequestQueue(context.getApplicationContext());
         String urlfinal = url + "?json=" + json;
-        Log.i("[NG911 HTTP Get val] ", urlfinal);
-        Log.i("carmen[EXAMPLE URL] ", exampleUrl);
+        //Log.i("[NG911 HTTP Get val] ", urlfinal);
+        Log.i("carmenlog[EXAMPLE URL] ", exampleUrl);
+        Log.i("carmenlog[TEST URL] ", testUrl);
         StringRequest myReq = new StringRequest(Request.Method.GET, exampleUrl,
                 new Response.Listener<String>() {
                     @Override
                     public void onResponse(String response) {
                         result = response;
-                        Log.i("carmen[RESPONSE] ", response);
+                        Log.i("carmenlog[LOG]","response listener");
+                        Log.i("carmenlog[RESPONSE] ", response);
                        // Log.d("Response", response);
                         Data d = Data.getInstance();
                         d.setReceived(response);
@@ -55,7 +58,7 @@ public class HttpTx {
                     @Override
                     public void onErrorResponse(VolleyError error) {
                         Log.e("Response Error HTTP GET", error + "");
-
+                        Log.i("carmenlog[LOG]","error listener");
                         // in case of an error, create an empty response with no location on it
                         // and send it on the INVITE
                         String response = "<?xml version=\"1.0\" encoding=\"ISO-8859-1\"?><presence></presence>";
@@ -89,7 +92,6 @@ public class HttpTx {
                     }
                 }
         );
-        Log.i("carmen[RESULT] ", result);
         //Set maximum timeout to support NG911 Location Provider response
         myReq.setRetryPolicy(new DefaultRetryPolicy(
                 10000,  //maximum timeout set to 10s
@@ -97,6 +99,8 @@ public class HttpTx {
                 DefaultRetryPolicy.DEFAULT_BACKOFF_MULT
         ));
         queue.add(myReq);
+        Log.i("carmenlog[LOG]","result");
+        Log.i("carmenlog[RESULT] ", result);
     }
 
     public void HttpGetRequest(String json) {
