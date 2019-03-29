@@ -20,6 +20,8 @@ import com.android.volley.toolbox.Volley;
 import org.json.JSONException;
 import org.sipdroid.SipdroidApplication;
 
+import java.util.concurrent.ExecutionException;
+
 /**
  * Created by Albert on 2/11/2016.
  * Class for doing http gets to the server and capture the response.
@@ -27,14 +29,14 @@ import org.sipdroid.SipdroidApplication;
 public class HttpTx {
     String result;
     public static String url = "http://nead.bramsoft.com/indexupdate.php"; // previous URL
-    public static String exampleUrl = "http://api.iitrtclab.com/indoorlocation/xml?json[]={\"major\":1000,\"minor\":539,\"rssi\":-69}&json[]={\"major\":1000,\"minor\":577,\"rssi\":-77}&json[]={\"major\":1000,\"minor\":511,\"rssi\":-82}&json[]={\"major\":1000,\"minor\":541,\"rssi\":-81}&json[]={\"major\":1000,\"minor\":539,\"rssi\":-74}&json[]={\"major\":1000,\"minor\":539,\"rssi\":-77}&json[]={\"major\":1000,\"minor\":602,\"rssi\":-81}&json[]={\"major\":1000,\"minor\":541,\"rssi\":-79}&json[]={\"major\":1000,\"minor\":539,\"rssi\":-83}&json[]={\"major\":1000,\"minor\":602,\"rssi\":-82}&algorithim=1";
+    public static String exampleUrl = "https://api.iitrtclab.com/indoorlocation/xml?json[]={\"major\":1000,\"minor\":539,\"rssi\":-69}&json[]={\"major\":1000,\"minor\":577,\"rssi\":-77}&json[]={\"major\":1000,\"minor\":511,\"rssi\":-82}&json[]={\"major\":1000,\"minor\":541,\"rssi\":-81}&json[]={\"major\":1000,\"minor\":539,\"rssi\":-74}&json[]={\"major\":1000,\"minor\":539,\"rssi\":-77}&json[]={\"major\":1000,\"minor\":602,\"rssi\":-81}&json[]={\"major\":1000,\"minor\":541,\"rssi\":-79}&json[]={\"major\":1000,\"minor\":539,\"rssi\":-83}&json[]={\"major\":1000,\"minor\":602,\"rssi\":-82}&algorithim=1";
     public static String testUrl = "http://libertyville.rice.iit.edu/scripts/4565_lab4.php";
     private RequestQueue queue;
 
     public void HttpGetRequest(String url, final Context context, String json,final VolleyCallback callback) throws JSONException {
 
         //get to the server
-        if (queue==null)
+        /*if (queue==null)
             queue = Volley.newRequestQueue(context.getApplicationContext());
         String urlfinal = url + "?json=" + json;
         //Log.i("[NG911 HTTP Get val] ", urlfinal);
@@ -100,7 +102,20 @@ public class HttpTx {
         ));
         queue.add(myReq);
         Log.i("carmenlog[LOG]","result");
-        Log.i("carmenlog[RESULT] ", result);
+        Log.i("carmenlog[RESULT] ", result);*/
+
+        try {
+            Log.d("carmenlog[INFO]","trying http get request");
+            result = new HttpGetRequestTask().execute(exampleUrl).get();
+            Log.d("carmenlog[INFO]","done http get request");
+            Log.d("carmenlog[INFO]","result"+result);
+        } catch (ExecutionException e) {
+            Log.d("carmenlog[ERROR exec]",e.toString());
+            e.printStackTrace();
+        } catch (InterruptedException e) {
+            Log.d("carmenlog[ERROR inter]",e.toString());
+            e.printStackTrace();
+        }
     }
 
     public void HttpGetRequest(String json) {
