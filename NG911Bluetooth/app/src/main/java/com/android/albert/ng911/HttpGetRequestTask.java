@@ -52,6 +52,6 @@ public class HttpGetRequestTask extends AsyncTask<String,Integer,String> {
     }
 
     protected void onPostExecute(Long result) {
-        Log.d("carmenlog[ONPOSTEXECUTE]",""+result);
+        Log.d("carmenlog[ONPOSTXECUTE]",""+result);
     }
 }

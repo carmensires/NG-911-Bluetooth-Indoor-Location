@@ -67,7 +67,7 @@ public class CallActivity extends AppCompatActivity implements BeaconConsumer {
         sended=false;
         new Handler().postDelayed(new Runnable() {
             public void run() {
-                if (!sended){ //if (!sended && numBeacons>1){ Delete the numBeacons>1 condition to make tests when there are no beacons
+                if (!sended && numBeacons>1){ //if (!sended && numBeacons>1){ Delete the numBeacons>1 condition to make tests when there are no beacons
                     try {
                         httptx.HttpGetRequest(url, getApplicationContext(), json.readMyJson(), new VolleyCallback() {
                             @Override

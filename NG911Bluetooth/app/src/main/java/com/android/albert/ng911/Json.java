@@ -49,7 +49,7 @@ public class Json {
     public void createMyJsonIndoor() throws JSONException {
         jsonOb.put("major", Integer.parseInt(Major));
         jsonOb.put("minor", Integer.parseInt(Minor));
-        jsonOb.put("rssi:", Integer.parseInt(Rssi));
+        jsonOb.put("rssi", Integer.parseInt(Rssi));
         beaconsJson.put(jsonOb);
         //main.put("location",beaconsJson);
     }
@@ -57,7 +57,7 @@ public class Json {
         JSONObject json = new JSONObject();
         json.put("major", Integer.parseInt(Major));
         json.put("minor", Integer.parseInt(Minor));
-        json.put("rssi:", Integer.parseInt(Rssi));
+        json.put("rssi", Integer.parseInt(Rssi));
         beaconsJson.put(json);
         //main.put("location",beaconsJson);//
     }
@@ -71,8 +71,15 @@ public class Json {
     }
 
     public String readMyJson()throws JSONException {
-        return beaconsJson.toString();
-        //return main.toString();
+        String jsonStr = "";
+        JSONObject json_i;
+        for(int i=0;i<beaconsJson.length();i++){
+            json_i = beaconsJson.getJSONObject(i);
+            jsonStr+="json[]="+json_i.toString()+"&";
+        }
+        jsonStr+="algorithim=1";
+        return jsonStr;
+        //return beaconsJson.toString();
     }
 
 }

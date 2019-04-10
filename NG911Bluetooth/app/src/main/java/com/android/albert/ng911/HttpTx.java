@@ -28,9 +28,9 @@ import java.util.concurrent.ExecutionException;
  */
 public class HttpTx {
     String result;
-    public static String url = "http://nead.bramsoft.com/indexupdate.php"; // previous URL
+    public static String prevUrl = "http://nead.bramsoft.com/indexupdate.php"; // previous URL
+    public static String url = "https://api.iitrtclab.com/indoorlocation/xml?";
     public static String exampleUrl = "https://api.iitrtclab.com/indoorlocation/xml?json[]={\"major\":1000,\"minor\":539,\"rssi\":-69}&json[]={\"major\":1000,\"minor\":577,\"rssi\":-77}&json[]={\"major\":1000,\"minor\":511,\"rssi\":-82}&json[]={\"major\":1000,\"minor\":541,\"rssi\":-81}&json[]={\"major\":1000,\"minor\":539,\"rssi\":-74}&json[]={\"major\":1000,\"minor\":539,\"rssi\":-77}&json[]={\"major\":1000,\"minor\":602,\"rssi\":-81}&json[]={\"major\":1000,\"minor\":541,\"rssi\":-79}&json[]={\"major\":1000,\"minor\":539,\"rssi\":-83}&json[]={\"major\":1000,\"minor\":602,\"rssi\":-82}&algorithim=1";
-    public static String testUrl = "http://libertyville.rice.iit.edu/scripts/4565_lab4.php";
     private RequestQueue queue;
 
     public void HttpGetRequest(String url, final Context context, String json,final VolleyCallback callback) throws JSONException {
