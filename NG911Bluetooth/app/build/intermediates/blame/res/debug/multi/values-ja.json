@@ -1,0 +1,4571 @@
+[
+    {
+        "outputFile": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/build/intermediates/res/merged/debug/values-ja/values-ja.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 105,
+                    "endLine": 238,
+                    "endColumn": 19,
+                    "endOffset": 8119
+                },
+                "from": {
+                    "file": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.11.0/res/values-ja/values-ja.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 198,
+                        "endLine": 240,
+                        "endColumn": 19,
+                        "endOffset": 8212
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 239,
+                    "startColumn": 4,
+                    "startOffset": 8124,
+                    "endLine": 244,
+                    "endColumn": 19,
+                    "endOffset": 8312
+                },
+                "from": {
+                    "file": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/src/main/res/values-ja/strings.xml",
+                    "position": {
+                        "startLine": 173,
+                        "startColumn": 4,
+                        "startOffset": 7140,
+                        "endLine": 178,
+                        "endColumn": 19,
+                        "endOffset": 7328
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 245,
+                    "startColumn": 4,
+                    "startOffset": 8317,
+                    "endLine": 250,
+                    "endColumn": 19,
+                    "endOffset": 8488
+                },
+                "from": {
+                    "file": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/src/main/res/values-ja/strings.xml",
+                    "position": {
+                        "startLine": 179,
+                        "startColumn": 4,
+                        "startOffset": 7333,
+                        "endLine": 184,
+                        "endColumn": 19,
+                        "endOffset": 7504
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 251,
+                    "startColumn": 4,
+                    "startOffset": 8493,
+                    "endLine": 256,
+                    "endColumn": 19,
+                    "endOffset": 8694
+                },
+                "from": {
+                    "file": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/src/main/res/values-ja/strings.xml",
+                    "position": {
+                        "startLine": 217,
+                        "startColumn": 4,
+                        "startOffset": 9246,
+                        "endLine": 222,
+                        "endColumn": 19,
+                        "endOffset": 9447
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 257,
+                    "startColumn": 4,
+                    "startOffset": 8699,
+                    "endLine": 262,
+                    "endColumn": 19,
+                    "endOffset": 8856
+                },
+                "from": {
+                    "file": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/src/main/res/values-ja/strings.xml",
+                    "position": {
+                        "startLine": 223,
+                        "startColumn": 4,
+                        "startOffset": 9452,
+                        "endLine": 228,
+                        "endColumn": 19,
+                        "endOffset": 9609
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 263,
+                    "startColumn": 4,
+                    "startOffset": 8861,
+                    "endLine": 283,
+                    "endColumn": 23,
+                    "endOffset": 9573
+                },
+                "from": {
+                    "file": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/src/main/res/values-ja/strings.xml",
+                    "position": {
+                        "startLine": 73,
+                        "startColumn": 8,
+                        "startOffset": 3402,
+                        "endLine": 93,
+                        "endColumn": 23,
+                        "endOffset": 4114
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 284,
+                    "startColumn": 4,
+                    "startOffset": 9578,
+                    "endLine": 304,
+                    "endColumn": 23,
+                    "endOffset": 10271
+                },
+                "from": {
+                    "file": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/src/main/res/values-ja/strings.xml",
+                    "position": {
+                        "startLine": 94,
+                        "startColumn": 8,
+                        "startOffset": 4123,
+                        "endLine": 114,
+                        "endColumn": 23,
+                        "endOffset": 4816
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 305,
+                    "startColumn": 4,
+                    "startOffset": 10276,
+                    "endLine": 310,
+                    "endColumn": 19,
+                    "endOffset": 10455
+                },
+                "from": {
+                    "file": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/src/main/res/values-ja/strings.xml",
+                    "position": {
+                        "startLine": 160,
+                        "startColumn": 4,
+                        "startOffset": 6743,
+                        "endLine": 165,
+                        "endColumn": 19,
+                        "endOffset": 6922
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 311,
+                    "startColumn": 4,
+                    "startOffset": 10460,
+                    "endLine": 316,
+                    "endColumn": 19,
+                    "endOffset": 10618
+                },
+                "from": {
+                    "file": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/src/main/res/values-ja/strings.xml",
+                    "position": {
+                        "startLine": 166,
+                        "startColumn": 4,
+                        "startOffset": 6927,
+                        "endLine": 171,
+                        "endColumn": 19,
+                        "endOffset": 7085
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 317,
+                    "startColumn": 4,
+                    "startOffset": 10623,
+                    "endLine": 320,
+                    "endColumn": 19,
+                    "endOffset": 10766
+                },
+                "from": {
+                    "file": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/src/main/res/values-ja/strings.xml",
+                    "position": {
+                        "startLine": 117,
+                        "startColumn": 4,
+                        "startOffset": 4870,
+                        "endLine": 120,
+                        "endColumn": 19,
+                        "endOffset": 5013
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 321,
+                    "startColumn": 4,
+                    "startOffset": 10771,
+                    "endLine": 324,
+                    "endColumn": 19,
+                    "endOffset": 10878
+                },
+                "from": {
+                    "file": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/src/main/res/values-ja/strings.xml",
+                    "position": {
+                        "startLine": 121,
+                        "startColumn": 4,
+                        "startOffset": 5018,
+                        "endLine": 124,
+                        "endColumn": 19,
+                        "endOffset": 5125
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 325,
+                    "startColumn": 4,
+                    "startOffset": 10883,
+                    "endLine": 328,
+                    "endColumn": 19,
+                    "endOffset": 11036
+                },
+                "from": {
+                    "file": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/src/main/res/values-ja/strings.xml",
+                    "position": {
+                        "startLine": 126,
+                        "startColumn": 4,
+                        "startOffset": 5178,
+                        "endLine": 129,
+                        "endColumn": 19,
+                        "endOffset": 5331
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 329,
+                    "startColumn": 4,
+                    "startOffset": 11041,
+                    "endLine": 332,
+                    "endColumn": 19,
+                    "endOffset": 11149
+                },
+                "from": {
+                    "file": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/src/main/res/values-ja/strings.xml",
+                    "position": {
+                        "startLine": 130,
+                        "startColumn": 4,
+                        "startOffset": 5336,
+                        "endLine": 133,
+                        "endColumn": 19,
+                        "endOffset": 5444
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 333,
+                    "startColumn": 4,
+                    "startOffset": 11154,
+                    "endColumn": 96,
+                    "endOffset": 11246
+                },
+                "from": {
+                    "file": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/values-ja/values-ja.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 96,
+                        "endOffset": 147
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 334,
+                    "startColumn": 4,
+                    "startOffset": 11251,
+                    "endColumn": 106,
+                    "endOffset": 11353
+                },
+                "from": {
+                    "file": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/values-ja/values-ja.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 152,
+                        "endColumn": 106,
+                        "endOffset": 254
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 335,
+                    "startColumn": 4,
+                    "startOffset": 11358,
+                    "endColumn": 120,
+                    "endOffset": 11474
+                },
+                "from": {
+                    "file": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/values-ja/values-ja.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 259,
+                        "endColumn": 120,
+                        "endOffset": 375
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 336,
+                    "startColumn": 4,
+                    "startOffset": 11479,
+                    "endColumn": 92,
+                    "endOffset": 11567
+                },
+                "from": {
+                    "file": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/values-ja/values-ja.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 380,
+                        "endColumn": 92,
+                        "endOffset": 468
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 337,
+                    "startColumn": 4,
+                    "startOffset": 11572,
+                    "endColumn": 104,
+                    "endOffset": 11672
+                },
+                "from": {
+                    "file": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/values-ja/values-ja.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 473,
+                        "endColumn": 104,
+                        "endOffset": 573
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 338,
+                    "startColumn": 4,
+                    "startOffset": 11677,
+                    "endColumn": 81,
+                    "endOffset": 11754
+                },
+                "from": {
+                    "file": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/values-ja/values-ja.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 578,
+                        "endColumn": 81,
+                        "endOffset": 655
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 339,
+                    "startColumn": 4,
+                    "startOffset": 11759,
+                    "endColumn": 97,
+                    "endOffset": 11852
+                },
+                "from": {
+                    "file": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/values-ja/values-ja.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 660,
+                        "endColumn": 97,
+                        "endOffset": 753
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 340,
+                    "startColumn": 4,
+                    "startOffset": 11857,
+                    "endColumn": 107,
+                    "endOffset": 11960
+                },
+                "from": {
+                    "file": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/values-ja/values-ja.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 758,
+                        "endColumn": 107,
+                        "endOffset": 861
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 341,
+                    "startColumn": 4,
+                    "startOffset": 11965,
+                    "endColumn": 76,
+                    "endOffset": 12037
+                },
+                "from": {
+                    "file": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/values-ja/values-ja.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 866,
+                        "endColumn": 76,
+                        "endOffset": 938
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 342,
+                    "startColumn": 4,
+                    "startOffset": 12042,
+                    "endColumn": 75,
+                    "endOffset": 12113
+                },
+                "from": {
+                    "file": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/values-ja/values-ja.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 943,
+                        "endColumn": 75,
+                        "endOffset": 1014
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 343,
+                    "startColumn": 4,
+                    "startOffset": 12118,
+                    "endColumn": 77,
+                    "endOffset": 12191
+                },
+                "from": {
+                    "file": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/values-ja/values-ja.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 1019,
+                        "endColumn": 77,
+                        "endOffset": 1092
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 344,
+                    "startColumn": 4,
+                    "startOffset": 12196,
+                    "endColumn": 101,
+                    "endOffset": 12293
+                },
+                "from": {
+                    "file": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/values-ja/values-ja.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 1097,
+                        "endColumn": 101,
+                        "endOffset": 1194
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 345,
+                    "startColumn": 4,
+                    "startOffset": 12298,
+                    "endColumn": 98,
+                    "endOffset": 12392
+                },
+                "from": {
+                    "file": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/values-ja/values-ja.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 1199,
+                        "endColumn": 98,
+                        "endOffset": 1293
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 346,
+                    "startColumn": 4,
+                    "startOffset": 12397,
+                    "endColumn": 94,
+                    "endOffset": 12487
+                },
+                "from": {
+                    "file": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/values-ja/values-ja.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 1298,
+                        "endColumn": 94,
+                        "endOffset": 1388
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 347,
+                    "startColumn": 4,
+                    "startOffset": 12492,
+                    "endColumn": 102,
+                    "endOffset": 12590
+                },
+                "from": {
+                    "file": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/values-ja/values-ja.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 1393,
+                        "endColumn": 102,
+                        "endOffset": 1491
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 348,
+                    "startColumn": 4,
+                    "startOffset": 12595,
+                    "endColumn": 94,
+                    "endOffset": 12685
+                },
+                "from": {
+                    "file": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/values-ja/values-ja.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 1496,
+                        "endColumn": 94,
+                        "endOffset": 1586
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 349,
+                    "startColumn": 4,
+                    "startOffset": 12690,
+                    "endColumn": 95,
+                    "endOffset": 12781
+                },
+                "from": {
+                    "file": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/values-ja/values-ja.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 1591,
+                        "endColumn": 95,
+                        "endOffset": 1682
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 350,
+                    "startColumn": 4,
+                    "startOffset": 12786,
+                    "endColumn": 110,
+                    "endOffset": 12892
+                },
+                "from": {
+                    "file": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/values-ja/values-ja.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 1687,
+                        "endColumn": 110,
+                        "endOffset": 1793
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 351,
+                    "startColumn": 4,
+                    "startOffset": 12897,
+                    "endColumn": 96,
+                    "endOffset": 12989
+                },
+                "from": {
+                    "file": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/values-ja/values-ja.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 1798,
+                        "endColumn": 96,
+                        "endOffset": 1890
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 352,
+                    "startColumn": 4,
+                    "startOffset": 12994,
+                    "endLine": 366,
+                    "endColumn": 273,
+                    "endOffset": 13970
+                },
+                "from": {
+                    "file": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/src/main/res/values-ja/strings.xml",
+                    "position": {
+                        "startLine": 33,
+                        "startColumn": 0,
+                        "startOffset": 1387,
+                        "endLine": 47,
+                        "endColumn": 273,
+                        "endOffset": 2363
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 367,
+                    "startColumn": 4,
+                    "startOffset": 13975,
+                    "endColumn": 45,
+                    "endOffset": 14016
+                },
+                "from": {
+                    "file": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/src/main/res/values-ja/strings.xml",
+                    "position": {
+                        "startLine": 29,
+                        "startColumn": 0,
+                        "startOffset": 1236,
+                        "endColumn": 41,
+                        "endOffset": 1277
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 368,
+                    "startColumn": 4,
+                    "startOffset": 14021,
+                    "endColumn": 49,
+                    "endOffset": 14066
+                },
+                "from": {
+                    "file": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/src/main/res/values-ja/strings.xml",
+                    "position": {
+                        "startLine": 57,
+                        "startColumn": 0,
+                        "startOffset": 2626,
+                        "endColumn": 45,
+                        "endOffset": 2671
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 369,
+                    "startColumn": 4,
+                    "startOffset": 14071,
+                    "endColumn": 53,
+                    "endOffset": 14120
+                },
+                "from": {
+                    "file": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/src/main/res/values-ja/strings.xml",
+                    "position": {
+                        "startLine": 56,
+                        "startColumn": 0,
+                        "startOffset": 2576,
+                        "endColumn": 49,
+                        "endOffset": 2625
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 370,
+                    "startColumn": 4,
+                    "startOffset": 14125,
+                    "endColumn": 54,
+                    "endOffset": 14175
+                },
+                "from": {
+                    "file": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/src/main/res/values-ja/strings.xml",
+                    "position": {
+                        "startLine": 287,
+                        "startColumn": 0,
+                        "startOffset": 12577,
+                        "endColumn": 50,
+                        "endOffset": 12627
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 371,
+                    "startColumn": 4,
+                    "startOffset": 14180,
+                    "endColumn": 52,
+                    "endOffset": 14228
+                },
+                "from": {
+                    "file": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/src/main/res/values-ja/strings.xml",
+                    "position": {
+                        "startLine": 284,
+                        "startColumn": 0,
+                        "startOffset": 12424,
+                        "endColumn": 48,
+                        "endOffset": 12472
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 372,
+                    "startColumn": 4,
+                    "startOffset": 14233,
+                    "endColumn": 70,
+                    "endOffset": 14299
+                },
+                "from": {
+                    "file": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/src/main/res/values-ja/strings.xml",
+                    "position": {
+                        "startLine": 288,
+                        "startColumn": 0,
+                        "startOffset": 12628,
+                        "endColumn": 66,
+                        "endOffset": 12694
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 373,
+                    "startColumn": 4,
+                    "startOffset": 14304,
+                    "endColumn": 54,
+                    "endOffset": 14354
+                },
+                "from": {
+                    "file": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/src/main/res/values-ja/strings.xml",
+                    "position": {
+                        "startLine": 285,
+                        "startColumn": 0,
+                        "startOffset": 12473,
+                        "endColumn": 50,
+                        "endOffset": 12523
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 374,
+                    "startColumn": 4,
+                    "startOffset": 14359,
+                    "endColumn": 56,
+                    "endOffset": 14411
+                },
+                "from": {
+                    "file": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/src/main/res/values-ja/strings.xml",
+                    "position": {
+                        "startLine": 286,
+                        "startColumn": 0,
+                        "startOffset": 12524,
+                        "endColumn": 52,
+                        "endOffset": 12576
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 375,
+                    "startColumn": 4,
+                    "startOffset": 14416,
+                    "endColumn": 50,
+                    "endOffset": 14462
+                },
+                "from": {
+                    "file": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/src/main/res/values-ja/strings.xml",
+                    "position": {
+                        "startLine": 289,
+                        "startColumn": 0,
+                        "startOffset": 12695,
+                        "endColumn": 46,
+                        "endOffset": 12741
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 376,
+                    "startColumn": 4,
+                    "startOffset": 14467,
+                    "endColumn": 42,
+                    "endOffset": 14505
+                },
+                "from": {
+                    "file": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/src/main/res/values-ja/strings.xml",
+                    "position": {
+                        "startLine": 298,
+                        "startColumn": 0,
+                        "startOffset": 12986,
+                        "endColumn": 38,
+                        "endOffset": 13024
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 377,
+                    "startColumn": 4,
+                    "startOffset": 14510,
+                    "endColumn": 50,
+                    "endOffset": 14556
+                },
+                "from": {
+                    "file": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/src/main/res/values-ja/strings.xml",
+                    "position": {
+                        "startLine": 300,
+                        "startColumn": 0,
+                        "startOffset": 13085,
+                        "endColumn": 46,
+                        "endOffset": 13131
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 378,
+                    "startColumn": 4,
+                    "startOffset": 14561,
+                    "endColumn": 49,
+                    "endOffset": 14606
+                },
+                "from": {
+                    "file": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/src/main/res/values-ja/strings.xml",
+                    "position": {
+                        "startLine": 302,
+                        "startColumn": 0,
+                        "startOffset": 13176,
+                        "endColumn": 45,
+                        "endOffset": 13221
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 379,
+                    "startColumn": 4,
+                    "startOffset": 14611,
+                    "endColumn": 47,
+                    "endOffset": 14654
+                },
+                "from": {
+                    "file": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/src/main/res/values-ja/strings.xml",
+                    "position": {
+                        "startLine": 301,
+                        "startColumn": 0,
+                        "startOffset": 13132,
+                        "endColumn": 43,
+                        "endOffset": 13175
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 380,
+                    "startColumn": 4,
+                    "startOffset": 14659,
+                    "endColumn": 63,
+                    "endOffset": 14718
+                },
+                "from": {
+                    "file": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/src/main/res/values-ja/strings.xml",
+                    "position": {
+                        "startLine": 299,
+                        "startColumn": 0,
+                        "startOffset": 13025,
+                        "endColumn": 59,
+                        "endOffset": 13084
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 381,
+                    "startColumn": 4,
+                    "startOffset": 14723,
+                    "endColumn": 58,
+                    "endOffset": 14777
+                },
+                "from": {
+                    "file": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.11.0/res/values-ja/values-ja.xml",
+                    "position": {
+                        "startLine": 243,
+                        "startColumn": 4,
+                        "startOffset": 8348,
+                        "endColumn": 58,
+                        "endOffset": 8402
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 382,
+                    "startColumn": 4,
+                    "startOffset": 14782,
+                    "endColumn": 62,
+                    "endOffset": 14840
+                },
+                "from": {
+                    "file": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.11.0/res/values-ja/values-ja.xml",
+                    "position": {
+                        "startLine": 244,
+                        "startColumn": 4,
+                        "startOffset": 8407,
+                        "endColumn": 62,
+                        "endOffset": 8465
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 383,
+                    "startColumn": 4,
+                    "startOffset": 14845,
+                    "endColumn": 60,
+                    "endOffset": 14901
+                },
+                "from": {
+                    "file": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.11.0/res/values-ja/values-ja.xml",
+                    "position": {
+                        "startLine": 245,
+                        "startColumn": 4,
+                        "startOffset": 8470,
+                        "endColumn": 60,
+                        "endOffset": 8526
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 384,
+                    "startColumn": 4,
+                    "startOffset": 14906,
+                    "endColumn": 61,
+                    "endOffset": 14963
+                },
+                "from": {
+                    "file": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.11.0/res/values-ja/values-ja.xml",
+                    "position": {
+                        "startLine": 246,
+                        "startColumn": 4,
+                        "startOffset": 8531,
+                        "endColumn": 61,
+                        "endOffset": 8588
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 385,
+                    "startColumn": 4,
+                    "startOffset": 14968,
+                    "endColumn": 61,
+                    "endOffset": 15025
+                },
+                "from": {
+                    "file": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.11.0/res/values-ja/values-ja.xml",
+                    "position": {
+                        "startLine": 247,
+                        "startColumn": 4,
+                        "startOffset": 8593,
+                        "endColumn": 61,
+                        "endOffset": 8650
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 386,
+                    "startColumn": 4,
+                    "startOffset": 15030,
+                    "endColumn": 57,
+                    "endOffset": 15083
+                },
+                "from": {
+                    "file": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.11.0/res/values-ja/values-ja.xml",
+                    "position": {
+                        "startLine": 248,
+                        "startColumn": 4,
+                        "startOffset": 8655,
+                        "endColumn": 57,
+                        "endOffset": 8708
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 387,
+                    "startColumn": 4,
+                    "startOffset": 15088,
+                    "endColumn": 55,
+                    "endOffset": 15139
+                },
+                "from": {
+                    "file": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.11.0/res/values-ja/values-ja.xml",
+                    "position": {
+                        "startLine": 249,
+                        "startColumn": 4,
+                        "startOffset": 8713,
+                        "endColumn": 55,
+                        "endOffset": 8764
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 388,
+                    "startColumn": 4,
+                    "startOffset": 15144,
+                    "endColumn": 66,
+                    "endOffset": 15206
+                },
+                "from": {
+                    "file": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.11.0/res/values-ja/values-ja.xml",
+                    "position": {
+                        "startLine": 250,
+                        "startColumn": 4,
+                        "startOffset": 8769,
+                        "endColumn": 66,
+                        "endOffset": 8831
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 389,
+                    "startColumn": 4,
+                    "startOffset": 15211,
+                    "endColumn": 68,
+                    "endOffset": 15275
+                },
+                "from": {
+                    "file": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.11.0/res/values-ja/values-ja.xml",
+                    "position": {
+                        "startLine": 251,
+                        "startColumn": 4,
+                        "startOffset": 8836,
+                        "endColumn": 68,
+                        "endOffset": 8900
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 390,
+                    "startColumn": 4,
+                    "startOffset": 15280,
+                    "endColumn": 57,
+                    "endOffset": 15333
+                },
+                "from": {
+                    "file": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.11.0/res/values-ja/values-ja.xml",
+                    "position": {
+                        "startLine": 252,
+                        "startColumn": 4,
+                        "startOffset": 8905,
+                        "endColumn": 57,
+                        "endOffset": 8958
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 391,
+                    "startColumn": 4,
+                    "startOffset": 15338,
+                    "endColumn": 81,
+                    "endOffset": 15415
+                },
+                "from": {
+                    "file": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.11.0/res/values-ja/values-ja.xml",
+                    "position": {
+                        "startLine": 253,
+                        "startColumn": 4,
+                        "startOffset": 8963,
+                        "endColumn": 81,
+                        "endOffset": 9040
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 392,
+                    "startColumn": 4,
+                    "startOffset": 15420,
+                    "endColumn": 144,
+                    "endOffset": 15560
+                },
+                "from": {
+                    "file": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.11.0/res/values-ja/values-ja.xml",
+                    "position": {
+                        "startLine": 254,
+                        "startColumn": 4,
+                        "startOffset": 9045,
+                        "endColumn": 144,
+                        "endOffset": 9185
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 393,
+                    "startColumn": 4,
+                    "startOffset": 15565,
+                    "endColumn": 58,
+                    "endOffset": 15619
+                },
+                "from": {
+                    "file": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.11.0/res/values-ja/values-ja.xml",
+                    "position": {
+                        "startLine": 255,
+                        "startColumn": 4,
+                        "startOffset": 9190,
+                        "endColumn": 58,
+                        "endOffset": 9244
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 394,
+                    "startColumn": 4,
+                    "startOffset": 15624,
+                    "endColumn": 67,
+                    "endOffset": 15687
+                },
+                "from": {
+                    "file": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.11.0/res/values-ja/values-ja.xml",
+                    "position": {
+                        "startLine": 256,
+                        "startColumn": 4,
+                        "startOffset": 9249,
+                        "endColumn": 67,
+                        "endOffset": 9312
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 395,
+                    "startColumn": 4,
+                    "startOffset": 15692,
+                    "endColumn": 59,
+                    "endOffset": 15747
+                },
+                "from": {
+                    "file": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.11.0/res/values-ja/values-ja.xml",
+                    "position": {
+                        "startLine": 257,
+                        "startColumn": 4,
+                        "startOffset": 9317,
+                        "endColumn": 59,
+                        "endOffset": 9372
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 396,
+                    "startColumn": 4,
+                    "startOffset": 15752,
+                    "endColumn": 61,
+                    "endOffset": 15809
+                },
+                "from": {
+                    "file": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.11.0/res/values-ja/values-ja.xml",
+                    "position": {
+                        "startLine": 258,
+                        "startColumn": 4,
+                        "startOffset": 9377,
+                        "endColumn": 61,
+                        "endOffset": 9434
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 397,
+                    "startColumn": 4,
+                    "startOffset": 15814,
+                    "endLine": 399,
+                    "endColumn": 13,
+                    "endOffset": 16030
+                },
+                "from": {
+                    "file": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.11.0/res/values-ja/values-ja.xml",
+                    "position": {
+                        "startLine": 259,
+                        "startColumn": 4,
+                        "startOffset": 9439,
+                        "endLine": 261,
+                        "endColumn": 13,
+                        "endOffset": 9673
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 400,
+                    "startColumn": 4,
+                    "startOffset": 16035,
+                    "endLine": 402,
+                    "endColumn": 13,
+                    "endOffset": 16311
+                },
+                "from": {
+                    "file": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.11.0/res/values-ja/values-ja.xml",
+                    "position": {
+                        "startLine": 262,
+                        "startColumn": 4,
+                        "startOffset": 9678,
+                        "endLine": 264,
+                        "endColumn": 13,
+                        "endOffset": 9978
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 403,
+                    "startColumn": 4,
+                    "startOffset": 16316,
+                    "endLine": 405,
+                    "endColumn": 13,
+                    "endOffset": 16632
+                },
+                "from": {
+                    "file": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.11.0/res/values-ja/values-ja.xml",
+                    "position": {
+                        "startLine": 265,
+                        "startColumn": 4,
+                        "startOffset": 9983,
+                        "endLine": 267,
+                        "endColumn": 13,
+                        "endOffset": 10329
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 406,
+                    "startColumn": 4,
+                    "startOffset": 16637,
+                    "endColumn": 73,
+                    "endOffset": 16706
+                },
+                "from": {
+                    "file": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.11.0/res/values-ja/values-ja.xml",
+                    "position": {
+                        "startLine": 268,
+                        "startColumn": 4,
+                        "startOffset": 10334,
+                        "endColumn": 73,
+                        "endOffset": 10403
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 407,
+                    "startColumn": 4,
+                    "startOffset": 16711,
+                    "endColumn": 79,
+                    "endOffset": 16786
+                },
+                "from": {
+                    "file": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.11.0/res/values-ja/values-ja.xml",
+                    "position": {
+                        "startLine": 269,
+                        "startColumn": 4,
+                        "startOffset": 10408,
+                        "endColumn": 79,
+                        "endOffset": 10483
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 408,
+                    "startColumn": 4,
+                    "startOffset": 16791,
+                    "endColumn": 81,
+                    "endOffset": 16868
+                },
+                "from": {
+                    "file": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.11.0/res/values-ja/values-ja.xml",
+                    "position": {
+                        "startLine": 270,
+                        "startColumn": 4,
+                        "startOffset": 10488,
+                        "endColumn": 81,
+                        "endOffset": 10565
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 409,
+                    "startColumn": 4,
+                    "startOffset": 16873,
+                    "endColumn": 71,
+                    "endOffset": 16940
+                },
+                "from": {
+                    "file": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.11.0/res/values-ja/values-ja.xml",
+                    "position": {
+                        "startLine": 271,
+                        "startColumn": 4,
+                        "startOffset": 10570,
+                        "endColumn": 71,
+                        "endOffset": 10637
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 410,
+                    "startColumn": 4,
+                    "startOffset": 16945,
+                    "endColumn": 77,
+                    "endOffset": 17018
+                },
+                "from": {
+                    "file": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.11.0/res/values-ja/values-ja.xml",
+                    "position": {
+                        "startLine": 272,
+                        "startColumn": 4,
+                        "startOffset": 10642,
+                        "endColumn": 77,
+                        "endOffset": 10715
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 411,
+                    "startColumn": 4,
+                    "startOffset": 17023,
+                    "endLine": 413,
+                    "endColumn": 13,
+                    "endOffset": 17226
+                },
+                "from": {
+                    "file": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.11.0/res/values-ja/values-ja.xml",
+                    "position": {
+                        "startLine": 273,
+                        "startColumn": 4,
+                        "startOffset": 10720,
+                        "endLine": 275,
+                        "endColumn": 13,
+                        "endOffset": 10929
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 414,
+                    "startColumn": 4,
+                    "startOffset": 17231,
+                    "endColumn": 71,
+                    "endOffset": 17298
+                },
+                "from": {
+                    "file": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.11.0/res/values-ja/values-ja.xml",
+                    "position": {
+                        "startLine": 276,
+                        "startColumn": 4,
+                        "startOffset": 10934,
+                        "endColumn": 71,
+                        "endOffset": 11001
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 415,
+                    "startColumn": 4,
+                    "startOffset": 17303,
+                    "endColumn": 69,
+                    "endOffset": 17368
+                },
+                "from": {
+                    "file": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.11.0/res/values-ja/values-ja.xml",
+                    "position": {
+                        "startLine": 277,
+                        "startColumn": 4,
+                        "startOffset": 11006,
+                        "endColumn": 69,
+                        "endOffset": 11071
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 416,
+                    "startColumn": 4,
+                    "startOffset": 17373,
+                    "endColumn": 99,
+                    "endOffset": 17468
+                },
+                "from": {
+                    "file": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.11.0/res/values-ja/values-ja.xml",
+                    "position": {
+                        "startLine": 278,
+                        "startColumn": 4,
+                        "startOffset": 11076,
+                        "endColumn": 99,
+                        "endOffset": 11171
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 417,
+                    "startColumn": 4,
+                    "startOffset": 17473,
+                    "endColumn": 66,
+                    "endOffset": 17535
+                },
+                "from": {
+                    "file": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.11.0/res/values-ja/values-ja.xml",
+                    "position": {
+                        "startLine": 279,
+                        "startColumn": 4,
+                        "startOffset": 11176,
+                        "endColumn": 66,
+                        "endOffset": 11238
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 418,
+                    "startColumn": 4,
+                    "startOffset": 17540,
+                    "endColumn": 96,
+                    "endOffset": 17632
+                },
+                "from": {
+                    "file": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.11.0/res/values-ja/values-ja.xml",
+                    "position": {
+                        "startLine": 280,
+                        "startColumn": 4,
+                        "startOffset": 11243,
+                        "endColumn": 96,
+                        "endOffset": 11335
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 419,
+                    "startColumn": 4,
+                    "startOffset": 17637,
+                    "endColumn": 75,
+                    "endOffset": 17708
+                },
+                "from": {
+                    "file": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.11.0/res/values-ja/values-ja.xml",
+                    "position": {
+                        "startLine": 281,
+                        "startColumn": 4,
+                        "startOffset": 11340,
+                        "endColumn": 75,
+                        "endOffset": 11411
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 420,
+                    "startColumn": 4,
+                    "startOffset": 17713,
+                    "endColumn": 80,
+                    "endOffset": 17789
+                },
+                "from": {
+                    "file": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.11.0/res/values-ja/values-ja.xml",
+                    "position": {
+                        "startLine": 282,
+                        "startColumn": 4,
+                        "startOffset": 11416,
+                        "endColumn": 80,
+                        "endOffset": 11492
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 421,
+                    "startColumn": 4,
+                    "startOffset": 17794,
+                    "endLine": 423,
+                    "endColumn": 13,
+                    "endOffset": 18032
+                },
+                "from": {
+                    "file": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.11.0/res/values-ja/values-ja.xml",
+                    "position": {
+                        "startLine": 283,
+                        "startColumn": 4,
+                        "startOffset": 11497,
+                        "endLine": 285,
+                        "endColumn": 13,
+                        "endOffset": 11741
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 424,
+                    "startColumn": 4,
+                    "startOffset": 18037,
+                    "endColumn": 74,
+                    "endOffset": 18107
+                },
+                "from": {
+                    "file": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.11.0/res/values-ja/values-ja.xml",
+                    "position": {
+                        "startLine": 286,
+                        "startColumn": 4,
+                        "startOffset": 11746,
+                        "endColumn": 74,
+                        "endOffset": 11816
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 425,
+                    "startColumn": 4,
+                    "startOffset": 18112,
+                    "endColumn": 70,
+                    "endOffset": 18178
+                },
+                "from": {
+                    "file": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.11.0/res/values-ja/values-ja.xml",
+                    "position": {
+                        "startLine": 287,
+                        "startColumn": 4,
+                        "startOffset": 11821,
+                        "endColumn": 70,
+                        "endOffset": 11887
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 426,
+                    "startColumn": 4,
+                    "startOffset": 18183,
+                    "endColumn": 86,
+                    "endOffset": 18265
+                },
+                "from": {
+                    "file": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.11.0/res/values-ja/values-ja.xml",
+                    "position": {
+                        "startLine": 288,
+                        "startColumn": 4,
+                        "startOffset": 11892,
+                        "endColumn": 86,
+                        "endOffset": 11974
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 427,
+                    "startColumn": 4,
+                    "startOffset": 18270,
+                    "endColumn": 66,
+                    "endOffset": 18332
+                },
+                "from": {
+                    "file": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.11.0/res/values-ja/values-ja.xml",
+                    "position": {
+                        "startLine": 289,
+                        "startColumn": 4,
+                        "startOffset": 11979,
+                        "endColumn": 66,
+                        "endOffset": 12041
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 428,
+                    "startColumn": 4,
+                    "startOffset": 18337,
+                    "endColumn": 61,
+                    "endOffset": 18394
+                },
+                "from": {
+                    "file": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.11.0/res/values-ja/values-ja.xml",
+                    "position": {
+                        "startLine": 290,
+                        "startColumn": 4,
+                        "startOffset": 12046,
+                        "endColumn": 61,
+                        "endOffset": 12103
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 429,
+                    "startColumn": 4,
+                    "startOffset": 18399,
+                    "endColumn": 63,
+                    "endOffset": 18458
+                },
+                "from": {
+                    "file": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.11.0/res/values-ja/values-ja.xml",
+                    "position": {
+                        "startLine": 291,
+                        "startColumn": 4,
+                        "startOffset": 12108,
+                        "endColumn": 63,
+                        "endOffset": 12167
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 430,
+                    "startColumn": 4,
+                    "startOffset": 18463,
+                    "endColumn": 66,
+                    "endOffset": 18525
+                },
+                "from": {
+                    "file": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.11.0/res/values-ja/values-ja.xml",
+                    "position": {
+                        "startLine": 292,
+                        "startColumn": 4,
+                        "startOffset": 12172,
+                        "endColumn": 66,
+                        "endOffset": 12234
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 431,
+                    "startColumn": 4,
+                    "startOffset": 18530,
+                    "endLine": 433,
+                    "endColumn": 13,
+                    "endOffset": 18644
+                },
+                "from": {
+                    "file": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.11.0/res/values-ja/values-ja.xml",
+                    "position": {
+                        "startLine": 293,
+                        "startColumn": 4,
+                        "startOffset": 12239,
+                        "endLine": 295,
+                        "endColumn": 13,
+                        "endOffset": 12353
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 434,
+                    "startColumn": 4,
+                    "startOffset": 18649,
+                    "endColumn": 68,
+                    "endOffset": 18713
+                },
+                "from": {
+                    "file": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.11.0/res/values-ja/values-ja.xml",
+                    "position": {
+                        "startLine": 296,
+                        "startColumn": 4,
+                        "startOffset": 12358,
+                        "endColumn": 68,
+                        "endOffset": 12422
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 435,
+                    "startColumn": 4,
+                    "startOffset": 18718,
+                    "endColumn": 108,
+                    "endOffset": 18822
+                },
+                "from": {
+                    "file": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.11.0/res/values-ja/values-ja.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 108,
+                        "endOffset": 159
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 436,
+                    "startColumn": 4,
+                    "startOffset": 18827,
+                    "endColumn": 97,
+                    "endOffset": 18920
+                },
+                "from": {
+                    "file": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.11.0/res/values-ja/values-ja.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 164,
+                        "endColumn": 97,
+                        "endOffset": 257
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 437,
+                    "startColumn": 4,
+                    "startOffset": 18925,
+                    "endColumn": 103,
+                    "endOffset": 19024
+                },
+                "from": {
+                    "file": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.11.0/res/values-ja/values-ja.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 262,
+                        "endColumn": 103,
+                        "endOffset": 361
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 438,
+                    "startColumn": 4,
+                    "startOffset": 19029,
+                    "endColumn": 91,
+                    "endOffset": 19116
+                },
+                "from": {
+                    "file": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.11.0/res/values-ja/values-ja.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 366,
+                        "endColumn": 91,
+                        "endOffset": 453
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 439,
+                    "startColumn": 4,
+                    "startOffset": 19121,
+                    "endColumn": 65,
+                    "endOffset": 19182
+                },
+                "from": {
+                    "file": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.11.0/res/values-ja/values-ja.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 458,
+                        "endColumn": 65,
+                        "endOffset": 519
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 440,
+                    "startColumn": 4,
+                    "startOffset": 19187,
+                    "endColumn": 67,
+                    "endOffset": 19250
+                },
+                "from": {
+                    "file": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.11.0/res/values-ja/values-ja.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 524,
+                        "endColumn": 67,
+                        "endOffset": 587
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 441,
+                    "startColumn": 4,
+                    "startOffset": 19255,
+                    "endColumn": 57,
+                    "endOffset": 19308
+                },
+                "from": {
+                    "file": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.11.0/res/values-ja/values-ja.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 592,
+                        "endColumn": 57,
+                        "endOffset": 645
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 442,
+                    "startColumn": 4,
+                    "startOffset": 19313,
+                    "endColumn": 70,
+                    "endOffset": 19379
+                },
+                "from": {
+                    "file": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.11.0/res/values-ja/values-ja.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 650,
+                        "endColumn": 70,
+                        "endOffset": 716
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 443,
+                    "startColumn": 4,
+                    "startOffset": 19384,
+                    "endColumn": 69,
+                    "endOffset": 19449
+                },
+                "from": {
+                    "file": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.11.0/res/values-ja/values-ja.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 721,
+                        "endColumn": 69,
+                        "endOffset": 786
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 444,
+                    "startColumn": 4,
+                    "startOffset": 19454,
+                    "endColumn": 83,
+                    "endOffset": 19533
+                },
+                "from": {
+                    "file": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.11.0/res/values-ja/values-ja.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 791,
+                        "endColumn": 83,
+                        "endOffset": 870
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 445,
+                    "startColumn": 4,
+                    "startOffset": 19538,
+                    "endColumn": 71,
+                    "endOffset": 19605
+                },
+                "from": {
+                    "file": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.11.0/res/values-ja/values-ja.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 875,
+                        "endColumn": 71,
+                        "endOffset": 942
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 446,
+                    "startColumn": 4,
+                    "startOffset": 19610,
+                    "endColumn": 71,
+                    "endOffset": 19677
+                },
+                "from": {
+                    "file": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.11.0/res/values-ja/values-ja.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 947,
+                        "endColumn": 71,
+                        "endOffset": 1014
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 447,
+                    "startColumn": 4,
+                    "startOffset": 19682,
+                    "endColumn": 84,
+                    "endOffset": 19762
+                },
+                "from": {
+                    "file": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.11.0/res/values-ja/values-ja.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 1019,
+                        "endColumn": 84,
+                        "endOffset": 1099
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 448,
+                    "startColumn": 4,
+                    "startOffset": 19767,
+                    "endColumn": 94,
+                    "endOffset": 19857
+                },
+                "from": {
+                    "file": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.11.0/res/values-ja/values-ja.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 1104,
+                        "endColumn": 94,
+                        "endOffset": 1194
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 449,
+                    "startColumn": 4,
+                    "startOffset": 19862,
+                    "endColumn": 60,
+                    "endOffset": 19918
+                },
+                "from": {
+                    "file": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.11.0/res/values-ja/values-ja.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 1199,
+                        "endColumn": 60,
+                        "endOffset": 1255
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 450,
+                    "startColumn": 4,
+                    "startOffset": 19923,
+                    "endColumn": 62,
+                    "endOffset": 19981
+                },
+                "from": {
+                    "file": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.11.0/res/values-ja/values-ja.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 1260,
+                        "endColumn": 62,
+                        "endOffset": 1318
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 451,
+                    "startColumn": 4,
+                    "startOffset": 19986,
+                    "endColumn": 83,
+                    "endOffset": 20065
+                },
+                "from": {
+                    "file": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.11.0/res/values-ja/values-ja.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 1323,
+                        "endColumn": 83,
+                        "endOffset": 1402
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 452,
+                    "startColumn": 4,
+                    "startOffset": 20070,
+                    "endColumn": 196,
+                    "endOffset": 20262
+                },
+                "from": {
+                    "file": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/res/values-ja/common_strings.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 170,
+                        "endColumn": 200,
+                        "endOffset": 366
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 453,
+                    "startColumn": 4,
+                    "startOffset": 20267,
+                    "endLine": 455,
+                    "endColumn": 115,
+                    "endOffset": 20463
+                },
+                "from": {
+                    "file": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/src/main/res/values-ja/strings.xml",
+                    "position": {
+                        "startLine": 149,
+                        "startColumn": 0,
+                        "startOffset": 6108,
+                        "endLine": 151,
+                        "endColumn": 115,
+                        "endOffset": 6304
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 456,
+                    "startColumn": 4,
+                    "startOffset": 20468,
+                    "endColumn": 112,
+                    "endOffset": 20576
+                },
+                "from": {
+                    "file": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/src/main/res/values-ja/strings.xml",
+                    "position": {
+                        "startLine": 152,
+                        "startColumn": 0,
+                        "startOffset": 6305,
+                        "endColumn": 108,
+                        "endOffset": 6413
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 457,
+                    "startColumn": 4,
+                    "startOffset": 20581,
+                    "endColumn": 73,
+                    "endOffset": 20650
+                },
+                "from": {
+                    "file": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/src/main/res/values-ja/strings.xml",
+                    "position": {
+                        "startLine": 153,
+                        "startColumn": 0,
+                        "startOffset": 6414,
+                        "endColumn": 69,
+                        "endOffset": 6483
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 458,
+                    "startColumn": 4,
+                    "startOffset": 20655,
+                    "endColumn": 44,
+                    "endOffset": 20695
+                },
+                "from": {
+                    "file": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/src/main/res/values-ja/strings.xml",
+                    "position": {
+                        "startLine": 156,
+                        "startColumn": 0,
+                        "startOffset": 6546,
+                        "endColumn": 40,
+                        "endOffset": 6586
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 459,
+                    "startColumn": 4,
+                    "startOffset": 20700,
+                    "endColumn": 70,
+                    "endOffset": 20766
+                },
+                "from": {
+                    "file": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/src/main/res/values-ja/strings.xml",
+                    "position": {
+                        "startLine": 60,
+                        "startColumn": 0,
+                        "startOffset": 2770,
+                        "endColumn": 66,
+                        "endOffset": 2836
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 460,
+                    "startColumn": 4,
+                    "startOffset": 20771,
+                    "endColumn": 76,
+                    "endOffset": 20843
+                },
+                "from": {
+                    "file": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/src/main/res/values-ja/strings.xml",
+                    "position": {
+                        "startLine": 304,
+                        "startColumn": 0,
+                        "startOffset": 13223,
+                        "endColumn": 72,
+                        "endOffset": 13295
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 461,
+                    "startColumn": 4,
+                    "startOffset": 20848,
+                    "endColumn": 63,
+                    "endOffset": 20907
+                },
+                "from": {
+                    "file": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/src/main/res/values-ja/strings.xml",
+                    "position": {
+                        "startLine": 58,
+                        "startColumn": 0,
+                        "startOffset": 2672,
+                        "endColumn": 59,
+                        "endOffset": 2731
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 462,
+                    "startColumn": 4,
+                    "startOffset": 20912,
+                    "endColumn": 41,
+                    "endOffset": 20949
+                },
+                "from": {
+                    "file": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/src/main/res/values-ja/strings.xml",
+                    "position": {
+                        "startLine": 59,
+                        "startColumn": 0,
+                        "startOffset": 2732,
+                        "endColumn": 37,
+                        "endOffset": 2769
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 463,
+                    "startColumn": 4,
+                    "startOffset": 20954,
+                    "endColumn": 44,
+                    "endOffset": 20994
+                },
+                "from": {
+                    "file": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/src/main/res/values-ja/strings.xml",
+                    "position": {
+                        "startLine": 270,
+                        "startColumn": 0,
+                        "startOffset": 11920,
+                        "endColumn": 40,
+                        "endOffset": 11960
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 464,
+                    "startColumn": 4,
+                    "startOffset": 20999,
+                    "endColumn": 42,
+                    "endOffset": 21037
+                },
+                "from": {
+                    "file": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/src/main/res/values-ja/strings.xml",
+                    "position": {
+                        "startLine": 279,
+                        "startColumn": 0,
+                        "startOffset": 12281,
+                        "endColumn": 38,
+                        "endOffset": 12319
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 465,
+                    "startColumn": 4,
+                    "startOffset": 21042,
+                    "endColumn": 58,
+                    "endOffset": 21096
+                },
+                "from": {
+                    "file": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/src/main/res/values-ja/strings.xml",
+                    "position": {
+                        "startLine": 280,
+                        "startColumn": 0,
+                        "startOffset": 12320,
+                        "endColumn": 54,
+                        "endOffset": 12374
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 466,
+                    "startColumn": 4,
+                    "startOffset": 21101,
+                    "endColumn": 42,
+                    "endOffset": 21139
+                },
+                "from": {
+                    "file": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/src/main/res/values-ja/strings.xml",
+                    "position": {
+                        "startLine": 273,
+                        "startColumn": 0,
+                        "startOffset": 12043,
+                        "endColumn": 38,
+                        "endOffset": 12081
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 467,
+                    "startColumn": 4,
+                    "startOffset": 21144,
+                    "endColumn": 73,
+                    "endOffset": 21213
+                },
+                "from": {
+                    "file": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/src/main/res/values-ja/strings.xml",
+                    "position": {
+                        "startLine": 305,
+                        "startColumn": 0,
+                        "startOffset": 13296,
+                        "endColumn": 69,
+                        "endOffset": 13365
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 468,
+                    "startColumn": 4,
+                    "startOffset": 21218,
+                    "endColumn": 44,
+                    "endOffset": 21258
+                },
+                "from": {
+                    "file": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/src/main/res/values-ja/strings.xml",
+                    "position": {
+                        "startLine": 271,
+                        "startColumn": 0,
+                        "startOffset": 11961,
+                        "endColumn": 40,
+                        "endOffset": 12001
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 469,
+                    "startColumn": 4,
+                    "startOffset": 21263,
+                    "endColumn": 43,
+                    "endOffset": 21302
+                },
+                "from": {
+                    "file": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/src/main/res/values-ja/strings.xml",
+                    "position": {
+                        "startLine": 278,
+                        "startColumn": 0,
+                        "startOffset": 12241,
+                        "endColumn": 39,
+                        "endOffset": 12280
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 470,
+                    "startColumn": 4,
+                    "startOffset": 21307,
+                    "endColumn": 40,
+                    "endOffset": 21343
+                },
+                "from": {
+                    "file": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/src/main/res/values-ja/strings.xml",
+                    "position": {
+                        "startLine": 269,
+                        "startColumn": 0,
+                        "startOffset": 11883,
+                        "endColumn": 36,
+                        "endOffset": 11919
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 471,
+                    "startColumn": 4,
+                    "startOffset": 21348,
+                    "endColumn": 40,
+                    "endOffset": 21384
+                },
+                "from": {
+                    "file": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/src/main/res/values-ja/strings.xml",
+                    "position": {
+                        "startLine": 275,
+                        "startColumn": 0,
+                        "startOffset": 12119,
+                        "endColumn": 36,
+                        "endOffset": 12155
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 472,
+                    "startColumn": 4,
+                    "startOffset": 21389,
+                    "endColumn": 40,
+                    "endOffset": 21425
+                },
+                "from": {
+                    "file": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/src/main/res/values-ja/strings.xml",
+                    "position": {
+                        "startLine": 274,
+                        "startColumn": 0,
+                        "startOffset": 12082,
+                        "endColumn": 36,
+                        "endOffset": 12118
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 473,
+                    "startColumn": 4,
+                    "startOffset": 21430,
+                    "endColumn": 44,
+                    "endOffset": 21470
+                },
+                "from": {
+                    "file": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/src/main/res/values-ja/strings.xml",
+                    "position": {
+                        "startLine": 268,
+                        "startColumn": 0,
+                        "startOffset": 11842,
+                        "endColumn": 40,
+                        "endOffset": 11882
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 474,
+                    "startColumn": 4,
+                    "startOffset": 21475,
+                    "endColumn": 45,
+                    "endOffset": 21516
+                },
+                "from": {
+                    "file": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/src/main/res/values-ja/strings.xml",
+                    "position": {
+                        "startLine": 277,
+                        "startColumn": 0,
+                        "startOffset": 12199,
+                        "endColumn": 41,
+                        "endOffset": 12240
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 475,
+                    "startColumn": 4,
+                    "startOffset": 21521,
+                    "endColumn": 46,
+                    "endOffset": 21563
+                },
+                "from": {
+                    "file": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/src/main/res/values-ja/strings.xml",
+                    "position": {
+                        "startLine": 276,
+                        "startColumn": 0,
+                        "startOffset": 12156,
+                        "endColumn": 42,
+                        "endOffset": 12198
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 476,
+                    "startColumn": 4,
+                    "startOffset": 21568,
+                    "endColumn": 44,
+                    "endOffset": 21608
+                },
+                "from": {
+                    "file": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/src/main/res/values-ja/strings.xml",
+                    "position": {
+                        "startLine": 272,
+                        "startColumn": 0,
+                        "startOffset": 12002,
+                        "endColumn": 40,
+                        "endOffset": 12042
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 477,
+                    "startColumn": 4,
+                    "startOffset": 21613,
+                    "endColumn": 57,
+                    "endOffset": 21666
+                },
+                "from": {
+                    "file": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.11.0/res/values-ja/values-ja.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 1407,
+                        "endColumn": 57,
+                        "endOffset": 1460
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 478,
+                    "startColumn": 4,
+                    "startOffset": 21671,
+                    "endColumn": 34,
+                    "endOffset": 21701
+                },
+                "from": {
+                    "file": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/src/main/res/values-ja/strings.xml",
+                    "position": {
+                        "startLine": 155,
+                        "startColumn": 0,
+                        "startOffset": 6515,
+                        "endColumn": 30,
+                        "endOffset": 6545
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 479,
+                    "startColumn": 4,
+                    "startOffset": 21706,
+                    "endColumn": 53,
+                    "endOffset": 21755
+                },
+                "from": {
+                    "file": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/src/main/res/values-ja/strings.xml",
+                    "position": {
+                        "startLine": 61,
+                        "startColumn": 0,
+                        "startOffset": 2837,
+                        "endColumn": 49,
+                        "endOffset": 2886
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 480,
+                    "startColumn": 4,
+                    "startOffset": 21760,
+                    "endColumn": 38,
+                    "endOffset": 21794
+                },
+                "from": {
+                    "file": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/src/main/res/values-ja/strings.xml",
+                    "position": {
+                        "startLine": 297,
+                        "startColumn": 0,
+                        "startOffset": 12951,
+                        "endColumn": 34,
+                        "endOffset": 12985
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 481,
+                    "startColumn": 4,
+                    "startOffset": 21799,
+                    "endColumn": 41,
+                    "endOffset": 21836
+                },
+                "from": {
+                    "file": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/src/main/res/values-ja/strings.xml",
+                    "position": {
+                        "startLine": 296,
+                        "startColumn": 0,
+                        "startOffset": 12913,
+                        "endColumn": 37,
+                        "endOffset": 12950
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 482,
+                    "startColumn": 4,
+                    "startOffset": 21841,
+                    "endColumn": 48,
+                    "endOffset": 21885
+                },
+                "from": {
+                    "file": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/src/main/res/values-ja/strings.xml",
+                    "position": {
+                        "startLine": 30,
+                        "startColumn": 0,
+                        "startOffset": 1278,
+                        "endColumn": 44,
+                        "endOffset": 1322
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 483,
+                    "startColumn": 4,
+                    "startOffset": 21890,
+                    "endColumn": 38,
+                    "endOffset": 21924
+                },
+                "from": {
+                    "file": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/src/main/res/values-ja/strings.xml",
+                    "position": {
+                        "startLine": 49,
+                        "startColumn": 0,
+                        "startOffset": 2365,
+                        "endColumn": 34,
+                        "endOffset": 2399
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 484,
+                    "startColumn": 4,
+                    "startOffset": 21929,
+                    "endColumn": 44,
+                    "endOffset": 21969
+                },
+                "from": {
+                    "file": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/src/main/res/values-ja/strings.xml",
+                    "position": {
+                        "startLine": 51,
+                        "startColumn": 0,
+                        "startOffset": 2442,
+                        "endColumn": 40,
+                        "endOffset": 2482
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 485,
+                    "startColumn": 4,
+                    "startOffset": 21974,
+                    "endColumn": 47,
+                    "endOffset": 22017
+                },
+                "from": {
+                    "file": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/src/main/res/values-ja/strings.xml",
+                    "position": {
+                        "startLine": 52,
+                        "startColumn": 0,
+                        "startOffset": 2483,
+                        "endColumn": 43,
+                        "endOffset": 2526
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 486,
+                    "startColumn": 4,
+                    "startOffset": 22022,
+                    "endColumn": 45,
+                    "endOffset": 22063
+                },
+                "from": {
+                    "file": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/src/main/res/values-ja/strings.xml",
+                    "position": {
+                        "startLine": 50,
+                        "startColumn": 0,
+                        "startOffset": 2400,
+                        "endColumn": 41,
+                        "endOffset": 2441
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 487,
+                    "startColumn": 4,
+                    "startOffset": 22068,
+                    "endColumn": 45,
+                    "endOffset": 22109
+                },
+                "from": {
+                    "file": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/src/main/res/values-ja/strings.xml",
+                    "position": {
+                        "startLine": 143,
+                        "startColumn": 0,
+                        "startOffset": 5812,
+                        "endColumn": 41,
+                        "endOffset": 5853
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 488,
+                    "startColumn": 4,
+                    "startOffset": 22114,
+                    "endColumn": 47,
+                    "endOffset": 22157
+                },
+                "from": {
+                    "file": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/src/main/res/values-ja/strings.xml",
+                    "position": {
+                        "startLine": 195,
+                        "startColumn": 0,
+                        "startOffset": 8042,
+                        "endColumn": 43,
+                        "endOffset": 8085
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 489,
+                    "startColumn": 4,
+                    "startOffset": 22162,
+                    "endColumn": 74,
+                    "endOffset": 22232
+                },
+                "from": {
+                    "file": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/src/main/res/values-ja/strings.xml",
+                    "position": {
+                        "startLine": 196,
+                        "startColumn": 0,
+                        "startOffset": 8086,
+                        "endColumn": 70,
+                        "endOffset": 8156
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 490,
+                    "startColumn": 4,
+                    "startOffset": 22237,
+                    "endColumn": 53,
+                    "endOffset": 22286
+                },
+                "from": {
+                    "file": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/src/main/res/values-ja/strings.xml",
+                    "position": {
+                        "startLine": 63,
+                        "startColumn": 0,
+                        "startOffset": 2888,
+                        "endColumn": 49,
+                        "endOffset": 2937
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 491,
+                    "startColumn": 4,
+                    "startOffset": 22291,
+                    "endColumn": 58,
+                    "endOffset": 22345
+                },
+                "from": {
+                    "file": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/src/main/res/values-ja/strings.xml",
+                    "position": {
+                        "startLine": 204,
+                        "startColumn": 0,
+                        "startOffset": 8474,
+                        "endColumn": 54,
+                        "endOffset": 8528
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 492,
+                    "startColumn": 4,
+                    "startOffset": 22350,
+                    "endColumn": 64,
+                    "endOffset": 22410
+                },
+                "from": {
+                    "file": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/src/main/res/values-ja/strings.xml",
+                    "position": {
+                        "startLine": 189,
+                        "startColumn": 0,
+                        "startOffset": 7750,
+                        "endColumn": 60,
+                        "endOffset": 7810
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 493,
+                    "startColumn": 4,
+                    "startOffset": 22415,
+                    "endColumn": 72,
+                    "endOffset": 22483
+                },
+                "from": {
+                    "file": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/src/main/res/values-ja/strings.xml",
+                    "position": {
+                        "startLine": 190,
+                        "startColumn": 0,
+                        "startOffset": 7811,
+                        "endColumn": 68,
+                        "endOffset": 7879
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 494,
+                    "startColumn": 4,
+                    "startOffset": 22488,
+                    "endColumn": 58,
+                    "endOffset": 22542
+                },
+                "from": {
+                    "file": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/src/main/res/values-ja/strings.xml",
+                    "position": {
+                        "startLine": 185,
+                        "startColumn": 0,
+                        "startOffset": 7505,
+                        "endColumn": 54,
+                        "endOffset": 7559
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 495,
+                    "startColumn": 4,
+                    "startOffset": 22547,
+                    "endColumn": 69,
+                    "endOffset": 22612
+                },
+                "from": {
+                    "file": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/src/main/res/values-ja/strings.xml",
+                    "position": {
+                        "startLine": 186,
+                        "startColumn": 0,
+                        "startOffset": 7560,
+                        "endColumn": 65,
+                        "endOffset": 7625
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 496,
+                    "startColumn": 4,
+                    "startOffset": 22617,
+                    "endColumn": 61,
+                    "endOffset": 22674
+                },
+                "from": {
+                    "file": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/src/main/res/values-ja/strings.xml",
+                    "position": {
+                        "startLine": 187,
+                        "startColumn": 0,
+                        "startOffset": 7626,
+                        "endColumn": 57,
+                        "endOffset": 7683
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 497,
+                    "startColumn": 4,
+                    "startOffset": 22679,
+                    "endColumn": 69,
+                    "endOffset": 22744
+                },
+                "from": {
+                    "file": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/src/main/res/values-ja/strings.xml",
+                    "position": {
+                        "startLine": 188,
+                        "startColumn": 0,
+                        "startOffset": 7684,
+                        "endColumn": 65,
+                        "endOffset": 7749
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 498,
+                    "startColumn": 4,
+                    "startOffset": 22749,
+                    "endColumn": 54,
+                    "endOffset": 22799
+                },
+                "from": {
+                    "file": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/src/main/res/values-ja/strings.xml",
+                    "position": {
+                        "startLine": 205,
+                        "startColumn": 0,
+                        "startOffset": 8529,
+                        "endColumn": 50,
+                        "endOffset": 8579
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 499,
+                    "startColumn": 4,
+                    "startOffset": 22804,
+                    "endColumn": 65,
+                    "endOffset": 22865
+                },
+                "from": {
+                    "file": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/src/main/res/values-ja/strings.xml",
+                    "position": {
+                        "startLine": 260,
+                        "startColumn": 0,
+                        "startOffset": 11435,
+                        "endColumn": 61,
+                        "endOffset": 11496
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 500,
+                    "startColumn": 4,
+                    "startOffset": 22870,
+                    "endColumn": 62,
+                    "endOffset": 22928
+                },
+                "from": {
+                    "file": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/src/main/res/values-ja/strings.xml",
+                    "position": {
+                        "startLine": 240,
+                        "startColumn": 0,
+                        "startOffset": 10252,
+                        "endColumn": 58,
+                        "endOffset": 10310
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 501,
+                    "startColumn": 4,
+                    "startOffset": 22933,
+                    "endColumn": 84,
+                    "endOffset": 23013
+                },
+                "from": {
+                    "file": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/src/main/res/values-ja/strings.xml",
+                    "position": {
+                        "startLine": 241,
+                        "startColumn": 0,
+                        "startOffset": 10311,
+                        "endColumn": 80,
+                        "endOffset": 10391
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 502,
+                    "startColumn": 4,
+                    "startOffset": 23018,
+                    "endColumn": 62,
+                    "endOffset": 23076
+                },
+                "from": {
+                    "file": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/src/main/res/values-ja/strings.xml",
+                    "position": {
+                        "startLine": 71,
+                        "startColumn": 0,
+                        "startOffset": 3291,
+                        "endColumn": 58,
+                        "endOffset": 3349
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 503,
+                    "startColumn": 4,
+                    "startOffset": 23081,
+                    "endColumn": 52,
+                    "endOffset": 23129
+                },
+                "from": {
+                    "file": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/src/main/res/values-ja/strings.xml",
+                    "position": {
+                        "startLine": 191,
+                        "startColumn": 0,
+                        "startOffset": 7880,
+                        "endColumn": 48,
+                        "endOffset": 7928
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 504,
+                    "startColumn": 4,
+                    "startOffset": 23134,
+                    "endColumn": 63,
+                    "endOffset": 23193
+                },
+                "from": {
+                    "file": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/src/main/res/values-ja/strings.xml",
+                    "position": {
+                        "startLine": 192,
+                        "startColumn": 0,
+                        "startOffset": 7929,
+                        "endColumn": 59,
+                        "endOffset": 7988
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 505,
+                    "startColumn": 4,
+                    "startOffset": 23198,
+                    "endColumn": 62,
+                    "endOffset": 23256
+                },
+                "from": {
+                    "file": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/src/main/res/values-ja/strings.xml",
+                    "position": {
+                        "startLine": 242,
+                        "startColumn": 0,
+                        "startOffset": 10392,
+                        "endColumn": 58,
+                        "endOffset": 10450
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 506,
+                    "startColumn": 4,
+                    "startOffset": 23261,
+                    "endColumn": 66,
+                    "endOffset": 23323
+                },
+                "from": {
+                    "file": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/src/main/res/values-ja/strings.xml",
+                    "position": {
+                        "startLine": 243,
+                        "startColumn": 0,
+                        "startOffset": 10451,
+                        "endColumn": 62,
+                        "endOffset": 10513
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 507,
+                    "startColumn": 4,
+                    "startOffset": 23328,
+                    "endColumn": 75,
+                    "endOffset": 23399
+                },
+                "from": {
+                    "file": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/src/main/res/values-ja/strings.xml",
+                    "position": {
+                        "startLine": 146,
+                        "startColumn": 0,
+                        "startOffset": 5948,
+                        "endColumn": 71,
+                        "endOffset": 6019
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 508,
+                    "startColumn": 4,
+                    "startOffset": 23404,
+                    "endColumn": 53,
+                    "endOffset": 23453
+                },
+                "from": {
+                    "file": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/src/main/res/values-ja/strings.xml",
+                    "position": {
+                        "startLine": 172,
+                        "startColumn": 0,
+                        "startOffset": 7086,
+                        "endColumn": 49,
+                        "endOffset": 7135
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 509,
+                    "startColumn": 4,
+                    "startOffset": 23458,
+                    "endColumn": 48,
+                    "endOffset": 23502
+                },
+                "from": {
+                    "file": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/src/main/res/values-ja/strings.xml",
+                    "position": {
+                        "startLine": 68,
+                        "startColumn": 0,
+                        "startOffset": 3131,
+                        "endColumn": 44,
+                        "endOffset": 3175
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 510,
+                    "startColumn": 4,
+                    "startOffset": 23507,
+                    "endColumn": 57,
+                    "endOffset": 23560
+                },
+                "from": {
+                    "file": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/src/main/res/values-ja/strings.xml",
+                    "position": {
+                        "startLine": 69,
+                        "startColumn": 0,
+                        "startOffset": 3176,
+                        "endColumn": 53,
+                        "endOffset": 3229
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 511,
+                    "startColumn": 4,
+                    "startOffset": 23565,
+                    "endColumn": 55,
+                    "endOffset": 23616
+                },
+                "from": {
+                    "file": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/src/main/res/values-ja/strings.xml",
+                    "position": {
+                        "startLine": 213,
+                        "startColumn": 0,
+                        "startOffset": 9026,
+                        "endColumn": 51,
+                        "endOffset": 9077
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 512,
+                    "startColumn": 4,
+                    "startOffset": 23621,
+                    "endColumn": 53,
+                    "endOffset": 23670
+                },
+                "from": {
+                    "file": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/src/main/res/values-ja/strings.xml",
+                    "position": {
+                        "startLine": 144,
+                        "startColumn": 0,
+                        "startOffset": 5854,
+                        "endColumn": 49,
+                        "endOffset": 5903
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 513,
+                    "startColumn": 4,
+                    "startOffset": 23675,
+                    "endColumn": 52,
+                    "endOffset": 23723
+                },
+                "from": {
+                    "file": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/src/main/res/values-ja/strings.xml",
+                    "position": {
+                        "startLine": 209,
+                        "startColumn": 0,
+                        "startOffset": 8809,
+                        "endColumn": 48,
+                        "endOffset": 8857
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 514,
+                    "startColumn": 4,
+                    "startOffset": 23728,
+                    "endColumn": 68,
+                    "endOffset": 23792
+                },
+                "from": {
+                    "file": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/src/main/res/values-ja/strings.xml",
+                    "position": {
+                        "startLine": 235,
+                        "startColumn": 0,
+                        "startOffset": 9924,
+                        "endColumn": 64,
+                        "endOffset": 9988
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 515,
+                    "startColumn": 4,
+                    "startOffset": 23797,
+                    "endColumn": 58,
+                    "endOffset": 23851
+                },
+                "from": {
+                    "file": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/src/main/res/values-ja/strings.xml",
+                    "position": {
+                        "startLine": 215,
+                        "startColumn": 0,
+                        "startOffset": 9129,
+                        "endColumn": 54,
+                        "endOffset": 9183
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 516,
+                    "startColumn": 4,
+                    "startOffset": 23856,
+                    "endColumn": 61,
+                    "endOffset": 23913
+                },
+                "from": {
+                    "file": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/src/main/res/values-ja/strings.xml",
+                    "position": {
+                        "startLine": 216,
+                        "startColumn": 0,
+                        "startOffset": 9184,
+                        "endColumn": 57,
+                        "endOffset": 9241
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 517,
+                    "startColumn": 4,
+                    "startOffset": 23918,
+                    "endColumn": 58,
+                    "endOffset": 23972
+                },
+                "from": {
+                    "file": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/src/main/res/values-ja/strings.xml",
+                    "position": {
+                        "startLine": 233,
+                        "startColumn": 0,
+                        "startOffset": 9817,
+                        "endColumn": 54,
+                        "endOffset": 9871
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 518,
+                    "startColumn": 4,
+                    "startOffset": 23977,
+                    "endColumn": 55,
+                    "endOffset": 24028
+                },
+                "from": {
+                    "file": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/src/main/res/values-ja/strings.xml",
+                    "position": {
+                        "startLine": 234,
+                        "startColumn": 0,
+                        "startOffset": 9872,
+                        "endColumn": 51,
+                        "endOffset": 9923
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 519,
+                    "startColumn": 4,
+                    "startOffset": 24033,
+                    "endColumn": 50,
+                    "endOffset": 24079
+                },
+                "from": {
+                    "file": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/src/main/res/values-ja/strings.xml",
+                    "position": {
+                        "startLine": 261,
+                        "startColumn": 0,
+                        "startOffset": 11497,
+                        "endColumn": 46,
+                        "endOffset": 11543
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 520,
+                    "startColumn": 4,
+                    "startOffset": 24084,
+                    "endColumn": 90,
+                    "endOffset": 24170
+                },
+                "from": {
+                    "file": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/src/main/res/values-ja/strings.xml",
+                    "position": {
+                        "startLine": 262,
+                        "startColumn": 0,
+                        "startOffset": 11544,
+                        "endColumn": 86,
+                        "endOffset": 11630
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 521,
+                    "startColumn": 4,
+                    "startOffset": 24175,
+                    "endColumn": 46,
+                    "endOffset": 24217
+                },
+                "from": {
+                    "file": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/src/main/res/values-ja/strings.xml",
+                    "position": {
+                        "startLine": 64,
+                        "startColumn": 0,
+                        "startOffset": 2938,
+                        "endColumn": 42,
+                        "endOffset": 2980
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 522,
+                    "startColumn": 4,
+                    "startOffset": 24222,
+                    "endColumn": 54,
+                    "endOffset": 24272
+                },
+                "from": {
+                    "file": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/src/main/res/values-ja/strings.xml",
+                    "position": {
+                        "startLine": 214,
+                        "startColumn": 0,
+                        "startOffset": 9078,
+                        "endColumn": 50,
+                        "endOffset": 9128
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 523,
+                    "startColumn": 4,
+                    "startOffset": 24277,
+                    "endColumn": 58,
+                    "endOffset": 24331
+                },
+                "from": {
+                    "file": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/src/main/res/values-ja/strings.xml",
+                    "position": {
+                        "startLine": 138,
+                        "startColumn": 0,
+                        "startOffset": 5613,
+                        "endColumn": 54,
+                        "endOffset": 5667
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 524,
+                    "startColumn": 4,
+                    "startOffset": 24336,
+                    "endColumn": 52,
+                    "endOffset": 24384
+                },
+                "from": {
+                    "file": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/src/main/res/values-ja/strings.xml",
+                    "position": {
+                        "startLine": 139,
+                        "startColumn": 0,
+                        "startOffset": 5668,
+                        "endColumn": 48,
+                        "endOffset": 5716
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 525,
+                    "startColumn": 4,
+                    "startOffset": 24389,
+                    "endColumn": 51,
+                    "endOffset": 24436
+                },
+                "from": {
+                    "file": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/src/main/res/values-ja/strings.xml",
+                    "position": {
+                        "startLine": 201,
+                        "startColumn": 0,
+                        "startOffset": 8357,
+                        "endColumn": 47,
+                        "endOffset": 8404
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 526,
+                    "startColumn": 4,
+                    "startOffset": 24441,
+                    "endColumn": 71,
+                    "endOffset": 24508
+                },
+                "from": {
+                    "file": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/src/main/res/values-ja/strings.xml",
+                    "position": {
+                        "startLine": 202,
+                        "startColumn": 0,
+                        "startOffset": 8405,
+                        "endColumn": 67,
+                        "endOffset": 8472
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 527,
+                    "startColumn": 4,
+                    "startOffset": 24513,
+                    "endColumn": 55,
+                    "endOffset": 24564
+                },
+                "from": {
+                    "file": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/src/main/res/values-ja/strings.xml",
+                    "position": {
+                        "startLine": 194,
+                        "startColumn": 0,
+                        "startOffset": 7990,
+                        "endColumn": 51,
+                        "endOffset": 8041
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 528,
+                    "startColumn": 4,
+                    "startOffset": 24569,
+                    "endColumn": 50,
+                    "endOffset": 24615
+                },
+                "from": {
+                    "file": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/src/main/res/values-ja/strings.xml",
+                    "position": {
+                        "startLine": 199,
+                        "startColumn": 0,
+                        "startOffset": 8257,
+                        "endColumn": 46,
+                        "endOffset": 8303
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 529,
+                    "startColumn": 4,
+                    "startOffset": 24620,
+                    "endColumn": 56,
+                    "endOffset": 24672
+                },
+                "from": {
+                    "file": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/src/main/res/values-ja/strings.xml",
+                    "position": {
+                        "startLine": 200,
+                        "startColumn": 0,
+                        "startOffset": 8304,
+                        "endColumn": 52,
+                        "endOffset": 8356
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 530,
+                    "startColumn": 4,
+                    "startOffset": 24677,
+                    "endColumn": 49,
+                    "endOffset": 24722
+                },
+                "from": {
+                    "file": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/src/main/res/values-ja/strings.xml",
+                    "position": {
+                        "startLine": 141,
+                        "startColumn": 0,
+                        "startOffset": 5719,
+                        "endColumn": 45,
+                        "endOffset": 5764
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 531,
+                    "startColumn": 4,
+                    "startOffset": 24727,
+                    "endColumn": 55,
+                    "endOffset": 24778
+                },
+                "from": {
+                    "file": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/src/main/res/values-ja/strings.xml",
+                    "position": {
+                        "startLine": 265,
+                        "startColumn": 0,
+                        "startOffset": 11740,
+                        "endColumn": 51,
+                        "endOffset": 11791
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 532,
+                    "startColumn": 4,
+                    "startOffset": 24783,
+                    "endColumn": 52,
+                    "endOffset": 24831
+                },
+                "from": {
+                    "file": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/src/main/res/values-ja/strings.xml",
+                    "position": {
+                        "startLine": 266,
+                        "startColumn": 0,
+                        "startOffset": 11792,
+                        "endColumn": 48,
+                        "endOffset": 11840
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 533,
+                    "startColumn": 4,
+                    "startOffset": 24836,
+                    "endColumn": 62,
+                    "endOffset": 24894
+                },
+                "from": {
+                    "file": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/src/main/res/values-ja/strings.xml",
+                    "position": {
+                        "startLine": 231,
+                        "startColumn": 0,
+                        "startOffset": 9667,
+                        "endColumn": 58,
+                        "endOffset": 9725
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 534,
+                    "startColumn": 4,
+                    "startOffset": 24899,
+                    "endColumn": 94,
+                    "endOffset": 24989
+                },
+                "from": {
+                    "file": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/src/main/res/values-ja/strings.xml",
+                    "position": {
+                        "startLine": 232,
+                        "startColumn": 0,
+                        "startOffset": 9726,
+                        "endColumn": 90,
+                        "endOffset": 9816
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 535,
+                    "startColumn": 4,
+                    "startOffset": 24994,
+                    "endColumn": 51,
+                    "endOffset": 25041
+                },
+                "from": {
+                    "file": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/src/main/res/values-ja/strings.xml",
+                    "position": {
+                        "startLine": 66,
+                        "startColumn": 0,
+                        "startOffset": 3031,
+                        "endColumn": 47,
+                        "endOffset": 3078
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 536,
+                    "startColumn": 4,
+                    "startOffset": 25046,
+                    "endColumn": 59,
+                    "endOffset": 25101
+                },
+                "from": {
+                    "file": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/src/main/res/values-ja/strings.xml",
+                    "position": {
+                        "startLine": 230,
+                        "startColumn": 0,
+                        "startOffset": 9611,
+                        "endColumn": 55,
+                        "endOffset": 9666
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 537,
+                    "startColumn": 4,
+                    "startOffset": 25106,
+                    "endColumn": 88,
+                    "endOffset": 25190
+                },
+                "from": {
+                    "file": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/src/main/res/values-ja/strings.xml",
+                    "position": {
+                        "startLine": 207,
+                        "startColumn": 0,
+                        "startOffset": 8672,
+                        "endColumn": 84,
+                        "endOffset": 8756
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 538,
+                    "startColumn": 4,
+                    "startOffset": 25195,
+                    "endColumn": 95,
+                    "endOffset": 25286
+                },
+                "from": {
+                    "file": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/src/main/res/values-ja/strings.xml",
+                    "position": {
+                        "startLine": 206,
+                        "startColumn": 0,
+                        "startOffset": 8580,
+                        "endColumn": 91,
+                        "endOffset": 8671
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 539,
+                    "startColumn": 4,
+                    "startOffset": 25291,
+                    "endColumn": 47,
+                    "endOffset": 25334
+                },
+                "from": {
+                    "file": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/src/main/res/values-ja/strings.xml",
+                    "position": {
+                        "startLine": 72,
+                        "startColumn": 0,
+                        "startOffset": 3350,
+                        "endColumn": 43,
+                        "endOffset": 3393
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 540,
+                    "startColumn": 4,
+                    "startOffset": 25339,
+                    "endColumn": 56,
+                    "endOffset": 25391
+                },
+                "from": {
+                    "file": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/src/main/res/values-ja/strings.xml",
+                    "position": {
+                        "startLine": 237,
+                        "startColumn": 0,
+                        "startOffset": 10055,
+                        "endColumn": 52,
+                        "endOffset": 10107
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 541,
+                    "startColumn": 4,
+                    "startOffset": 25396,
+                    "endColumn": 91,
+                    "endOffset": 25483
+                },
+                "from": {
+                    "file": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/src/main/res/values-ja/strings.xml",
+                    "position": {
+                        "startLine": 238,
+                        "startColumn": 0,
+                        "startOffset": 10108,
+                        "endColumn": 87,
+                        "endOffset": 10195
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 542,
+                    "startColumn": 4,
+                    "startOffset": 25488,
+                    "endColumn": 59,
+                    "endOffset": 25543
+                },
+                "from": {
+                    "file": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/src/main/res/values-ja/strings.xml",
+                    "position": {
+                        "startLine": 239,
+                        "startColumn": 0,
+                        "startOffset": 10196,
+                        "endColumn": 55,
+                        "endOffset": 10251
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 543,
+                    "startColumn": 4,
+                    "startOffset": 25548,
+                    "endColumn": 69,
+                    "endOffset": 25613
+                },
+                "from": {
+                    "file": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/src/main/res/values-ja/strings.xml",
+                    "position": {
+                        "startLine": 236,
+                        "startColumn": 0,
+                        "startOffset": 9989,
+                        "endColumn": 65,
+                        "endOffset": 10054
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 544,
+                    "startColumn": 4,
+                    "startOffset": 25618,
+                    "endColumn": 52,
+                    "endOffset": 25666
+                },
+                "from": {
+                    "file": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/src/main/res/values-ja/strings.xml",
+                    "position": {
+                        "startLine": 158,
+                        "startColumn": 0,
+                        "startOffset": 6588,
+                        "endColumn": 48,
+                        "endOffset": 6636
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 545,
+                    "startColumn": 4,
+                    "startOffset": 25671,
+                    "endColumn": 105,
+                    "endOffset": 25772
+                },
+                "from": {
+                    "file": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/src/main/res/values-ja/strings.xml",
+                    "position": {
+                        "startLine": 159,
+                        "startColumn": 0,
+                        "startOffset": 6637,
+                        "endColumn": 101,
+                        "endOffset": 6738
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 546,
+                    "startColumn": 4,
+                    "startOffset": 25777,
+                    "endColumn": 79,
+                    "endOffset": 25852
+                },
+                "from": {
+                    "file": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/src/main/res/values-ja/strings.xml",
+                    "position": {
+                        "startLine": 257,
+                        "startColumn": 0,
+                        "startOffset": 11300,
+                        "endColumn": 75,
+                        "endOffset": 11375
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 547,
+                    "startColumn": 4,
+                    "startOffset": 25857,
+                    "endColumn": 74,
+                    "endOffset": 25927
+                },
+                "from": {
+                    "file": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/src/main/res/values-ja/strings.xml",
+                    "position": {
+                        "startLine": 256,
+                        "startColumn": 0,
+                        "startOffset": 11229,
+                        "endColumn": 70,
+                        "endOffset": 11299
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 548,
+                    "startColumn": 4,
+                    "startOffset": 25932,
+                    "endColumn": 110,
+                    "endOffset": 26038
+                },
+                "from": {
+                    "file": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/src/main/res/values-ja/strings.xml",
+                    "position": {
+                        "startLine": 253,
+                        "startColumn": 0,
+                        "startOffset": 10977,
+                        "endColumn": 110,
+                        "endOffset": 11087
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 549,
+                    "startColumn": 4,
+                    "startOffset": 26043,
+                    "endColumn": 74,
+                    "endOffset": 26113
+                },
+                "from": {
+                    "file": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/src/main/res/values-ja/strings.xml",
+                    "position": {
+                        "startLine": 252,
+                        "startColumn": 0,
+                        "startOffset": 10906,
+                        "endColumn": 70,
+                        "endOffset": 10976
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 550,
+                    "startColumn": 4,
+                    "startOffset": 26118,
+                    "endColumn": 73,
+                    "endOffset": 26187
+                },
+                "from": {
+                    "file": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/src/main/res/values-ja/strings.xml",
+                    "position": {
+                        "startLine": 251,
+                        "startColumn": 0,
+                        "startOffset": 10836,
+                        "endColumn": 69,
+                        "endOffset": 10905
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 551,
+                    "startColumn": 4,
+                    "startOffset": 26192,
+                    "endColumn": 74,
+                    "endOffset": 26262
+                },
+                "from": {
+                    "file": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/src/main/res/values-ja/strings.xml",
+                    "position": {
+                        "startLine": 254,
+                        "startColumn": 0,
+                        "startOffset": 11088,
+                        "endColumn": 70,
+                        "endOffset": 11158
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 552,
+                    "startColumn": 4,
+                    "startOffset": 26267,
+                    "endColumn": 73,
+                    "endOffset": 26336
+                },
+                "from": {
+                    "file": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/src/main/res/values-ja/strings.xml",
+                    "position": {
+                        "startLine": 255,
+                        "startColumn": 0,
+                        "startOffset": 11159,
+                        "endColumn": 69,
+                        "endOffset": 11228
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 553,
+                    "startColumn": 4,
+                    "startOffset": 26341,
+                    "endColumn": 59,
+                    "endOffset": 26396
+                },
+                "from": {
+                    "file": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/src/main/res/values-ja/strings.xml",
+                    "position": {
+                        "startLine": 250,
+                        "startColumn": 0,
+                        "startOffset": 10780,
+                        "endColumn": 55,
+                        "endOffset": 10835
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 554,
+                    "startColumn": 4,
+                    "startOffset": 26401,
+                    "endColumn": 63,
+                    "endOffset": 26460
+                },
+                "from": {
+                    "file": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/src/main/res/values-ja/strings.xml",
+                    "position": {
+                        "startLine": 249,
+                        "startColumn": 0,
+                        "startOffset": 10720,
+                        "endColumn": 59,
+                        "endOffset": 10779
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 555,
+                    "startColumn": 4,
+                    "startOffset": 26465,
+                    "endColumn": 62,
+                    "endOffset": 26523
+                },
+                "from": {
+                    "file": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/src/main/res/values-ja/strings.xml",
+                    "position": {
+                        "startLine": 248,
+                        "startColumn": 0,
+                        "startOffset": 10661,
+                        "endColumn": 58,
+                        "endOffset": 10719
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 556,
+                    "startColumn": 4,
+                    "startOffset": 26528,
+                    "endColumn": 94,
+                    "endOffset": 26618
+                },
+                "from": {
+                    "file": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/src/main/res/values-ja/strings.xml",
+                    "position": {
+                        "startLine": 247,
+                        "startColumn": 0,
+                        "startOffset": 10566,
+                        "endColumn": 94,
+                        "endOffset": 10660
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 557,
+                    "startColumn": 4,
+                    "startOffset": 26623,
+                    "endColumn": 51,
+                    "endOffset": 26670
+                },
+                "from": {
+                    "file": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/src/main/res/values-ja/strings.xml",
+                    "position": {
+                        "startLine": 116,
+                        "startColumn": 0,
+                        "startOffset": 4818,
+                        "endColumn": 47,
+                        "endOffset": 4865
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 558,
+                    "startColumn": 4,
+                    "startOffset": 26675,
+                    "endColumn": 43,
+                    "endOffset": 26714
+                },
+                "from": {
+                    "file": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/src/main/res/values-ja/strings.xml",
+                    "position": {
+                        "startLine": 197,
+                        "startColumn": 0,
+                        "startOffset": 8157,
+                        "endColumn": 39,
+                        "endOffset": 8196
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 559,
+                    "startColumn": 4,
+                    "startOffset": 26719,
+                    "endColumn": 63,
+                    "endOffset": 26778
+                },
+                "from": {
+                    "file": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/src/main/res/values-ja/strings.xml",
+                    "position": {
+                        "startLine": 198,
+                        "startColumn": 0,
+                        "startOffset": 8197,
+                        "endColumn": 59,
+                        "endOffset": 8256
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 560,
+                    "startColumn": 4,
+                    "startOffset": 26783,
+                    "endColumn": 55,
+                    "endOffset": 26834
+                },
+                "from": {
+                    "file": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/src/main/res/values-ja/strings.xml",
+                    "position": {
+                        "startLine": 208,
+                        "startColumn": 0,
+                        "startOffset": 8757,
+                        "endColumn": 51,
+                        "endOffset": 8808
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 561,
+                    "startColumn": 4,
+                    "startOffset": 26839,
+                    "endColumn": 59,
+                    "endOffset": 26894
+                },
+                "from": {
+                    "file": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/src/main/res/values-ja/strings.xml",
+                    "position": {
+                        "startLine": 263,
+                        "startColumn": 0,
+                        "startOffset": 11631,
+                        "endColumn": 55,
+                        "endOffset": 11686
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 562,
+                    "startColumn": 4,
+                    "startOffset": 26899,
+                    "endColumn": 56,
+                    "endOffset": 26951
+                },
+                "from": {
+                    "file": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/src/main/res/values-ja/strings.xml",
+                    "position": {
+                        "startLine": 264,
+                        "startColumn": 0,
+                        "startOffset": 11687,
+                        "endColumn": 52,
+                        "endOffset": 11739
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 563,
+                    "startColumn": 4,
+                    "startOffset": 26956,
+                    "endColumn": 55,
+                    "endOffset": 27007
+                },
+                "from": {
+                    "file": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/src/main/res/values-ja/strings.xml",
+                    "position": {
+                        "startLine": 67,
+                        "startColumn": 0,
+                        "startOffset": 3079,
+                        "endColumn": 51,
+                        "endOffset": 3130
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 564,
+                    "startColumn": 4,
+                    "startOffset": 27012,
+                    "endColumn": 55,
+                    "endOffset": 27063
+                },
+                "from": {
+                    "file": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/src/main/res/values-ja/strings.xml",
+                    "position": {
+                        "startLine": 210,
+                        "startColumn": 0,
+                        "startOffset": 8858,
+                        "endColumn": 51,
+                        "endOffset": 8909
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 565,
+                    "startColumn": 4,
+                    "startOffset": 27068,
+                    "endColumn": 63,
+                    "endOffset": 27127
+                },
+                "from": {
+                    "file": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/src/main/res/values-ja/strings.xml",
+                    "position": {
+                        "startLine": 211,
+                        "startColumn": 0,
+                        "startOffset": 8910,
+                        "endColumn": 59,
+                        "endOffset": 8969
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 566,
+                    "startColumn": 4,
+                    "startOffset": 27132,
+                    "endColumn": 59,
+                    "endOffset": 27187
+                },
+                "from": {
+                    "file": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/src/main/res/values-ja/strings.xml",
+                    "position": {
+                        "startLine": 212,
+                        "startColumn": 0,
+                        "startOffset": 8970,
+                        "endColumn": 55,
+                        "endOffset": 9025
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 567,
+                    "startColumn": 4,
+                    "startOffset": 27192,
+                    "endColumn": 52,
+                    "endOffset": 27240
+                },
+                "from": {
+                    "file": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/src/main/res/values-ja/strings.xml",
+                    "position": {
+                        "startLine": 134,
+                        "startColumn": 0,
+                        "startOffset": 5445,
+                        "endColumn": 48,
+                        "endOffset": 5493
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 568,
+                    "startColumn": 4,
+                    "startOffset": 27245,
+                    "endColumn": 57,
+                    "endOffset": 27298
+                },
+                "from": {
+                    "file": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/src/main/res/values-ja/strings.xml",
+                    "position": {
+                        "startLine": 135,
+                        "startColumn": 0,
+                        "startOffset": 5494,
+                        "endColumn": 53,
+                        "endOffset": 5547
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 569,
+                    "startColumn": 4,
+                    "startOffset": 27303,
+                    "endColumn": 67,
+                    "endOffset": 27366
+                },
+                "from": {
+                    "file": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/src/main/res/values-ja/strings.xml",
+                    "position": {
+                        "startLine": 136,
+                        "startColumn": 0,
+                        "startOffset": 5548,
+                        "endColumn": 63,
+                        "endOffset": 5611
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 570,
+                    "startColumn": 4,
+                    "startOffset": 27371,
+                    "endColumn": 53,
+                    "endOffset": 27420
+                },
+                "from": {
+                    "file": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/src/main/res/values-ja/strings.xml",
+                    "position": {
+                        "startLine": 245,
+                        "startColumn": 0,
+                        "startOffset": 10515,
+                        "endColumn": 49,
+                        "endOffset": 10564
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 571,
+                    "startColumn": 4,
+                    "startOffset": 27425,
+                    "endColumn": 53,
+                    "endOffset": 27474
+                },
+                "from": {
+                    "file": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/src/main/res/values-ja/strings.xml",
+                    "position": {
+                        "startLine": 65,
+                        "startColumn": 0,
+                        "startOffset": 2981,
+                        "endColumn": 49,
+                        "endOffset": 3030
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 572,
+                    "startColumn": 4,
+                    "startOffset": 27479,
+                    "endColumn": 64,
+                    "endOffset": 27539
+                },
+                "from": {
+                    "file": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/src/main/res/values-ja/strings.xml",
+                    "position": {
+                        "startLine": 70,
+                        "startColumn": 0,
+                        "startOffset": 3230,
+                        "endColumn": 60,
+                        "endOffset": 3290
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 573,
+                    "startColumn": 4,
+                    "startOffset": 27544,
+                    "endColumn": 47,
+                    "endOffset": 27587
+                },
+                "from": {
+                    "file": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/src/main/res/values-ja/strings.xml",
+                    "position": {
+                        "startLine": 145,
+                        "startColumn": 0,
+                        "startOffset": 5904,
+                        "endColumn": 43,
+                        "endOffset": 5947
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 574,
+                    "startColumn": 4,
+                    "startOffset": 27592,
+                    "endColumn": 90,
+                    "endOffset": 27678
+                },
+                "from": {
+                    "file": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/src/main/res/values-ja/strings.xml",
+                    "position": {
+                        "startLine": 147,
+                        "startColumn": 0,
+                        "startOffset": 6020,
+                        "endColumn": 86,
+                        "endOffset": 6106
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 575,
+                    "startColumn": 4,
+                    "startOffset": 27683,
+                    "endColumn": 51,
+                    "endOffset": 27730
+                },
+                "from": {
+                    "file": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/src/main/res/values-ja/strings.xml",
+                    "position": {
+                        "startLine": 125,
+                        "startColumn": 0,
+                        "startOffset": 5126,
+                        "endColumn": 47,
+                        "endOffset": 5173
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 576,
+                    "startColumn": 4,
+                    "startOffset": 27735,
+                    "endColumn": 61,
+                    "endOffset": 27792
+                },
+                "from": {
+                    "file": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/src/main/res/values-ja/strings.xml",
+                    "position": {
+                        "startLine": 259,
+                        "startColumn": 0,
+                        "startOffset": 11377,
+                        "endColumn": 57,
+                        "endOffset": 11434
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 577,
+                    "startColumn": 4,
+                    "startOffset": 27797,
+                    "endColumn": 50,
+                    "endOffset": 27843
+                },
+                "from": {
+                    "file": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/src/main/res/values-ja/strings.xml",
+                    "position": {
+                        "startLine": 142,
+                        "startColumn": 0,
+                        "startOffset": 5765,
+                        "endColumn": 46,
+                        "endOffset": 5811
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 578,
+                    "startColumn": 4,
+                    "startOffset": 27848,
+                    "endColumn": 66,
+                    "endOffset": 27910
+                },
+                "from": {
+                    "file": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/src/main/res/values-ja/strings.xml",
+                    "position": {
+                        "startLine": 31,
+                        "startColumn": 0,
+                        "startOffset": 1323,
+                        "endColumn": 62,
+                        "endOffset": 1385
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 579,
+                    "startColumn": 4,
+                    "startOffset": 27915,
+                    "endColumn": 71,
+                    "endOffset": 27982
+                },
+                "from": {
+                    "file": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/src/main/res/values-ja/strings.xml",
+                    "position": {
+                        "startLine": 293,
+                        "startColumn": 0,
+                        "startOffset": 12779,
+                        "endColumn": 67,
+                        "endOffset": 12846
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 580,
+                    "startColumn": 4,
+                    "startOffset": 27987,
+                    "endColumn": 68,
+                    "endOffset": 28051
+                },
+                "from": {
+                    "file": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/src/main/res/values-ja/strings.xml",
+                    "position": {
+                        "startLine": 294,
+                        "startColumn": 0,
+                        "startOffset": 12847,
+                        "endColumn": 64,
+                        "endOffset": 12911
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 581,
+                    "startColumn": 4,
+                    "startOffset": 28056,
+                    "endColumn": 100,
+                    "endOffset": 28152
+                },
+                "from": {
+                    "file": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/values-ja/values-ja.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 4,
+                        "startOffset": 1895,
+                        "endColumn": 100,
+                        "endOffset": 1991
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 582,
+                    "startColumn": 4,
+                    "startOffset": 28157,
+                    "endColumn": 50,
+                    "endOffset": 28203
+                },
+                "from": {
+                    "file": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/src/main/res/values-ja/strings.xml",
+                    "position": {
+                        "startLine": 282,
+                        "startColumn": 0,
+                        "startOffset": 12376,
+                        "endColumn": 46,
+                        "endOffset": 12422
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 583,
+                    "startColumn": 4,
+                    "startOffset": 28208,
+                    "endColumn": 38,
+                    "endOffset": 28242
+                },
+                "from": {
+                    "file": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/src/main/res/values-ja/strings.xml",
+                    "position": {
+                        "startLine": 291,
+                        "startColumn": 0,
+                        "startOffset": 12743,
+                        "endColumn": 34,
+                        "endOffset": 12777
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 584,
+                    "startColumn": 4,
+                    "startOffset": 28247,
+                    "endColumn": 50,
+                    "endOffset": 28293
+                },
+                "from": {
+                    "file": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/src/main/res/values-ja/strings.xml",
+                    "position": {
+                        "startLine": 54,
+                        "startColumn": 0,
+                        "startOffset": 2528,
+                        "endColumn": 46,
+                        "endOffset": 2574
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 585,
+                    "startColumn": 4,
+                    "startOffset": 28298,
+                    "endColumn": 34,
+                    "endOffset": 28328
+                },
+                "from": {
+                    "file": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/src/main/res/values-ja/strings.xml",
+                    "position": {
+                        "startLine": 154,
+                        "startColumn": 0,
+                        "startOffset": 6484,
+                        "endColumn": 30,
+                        "endOffset": 6514
+                    }
+                }
+            }
+        ]
+    }
+]

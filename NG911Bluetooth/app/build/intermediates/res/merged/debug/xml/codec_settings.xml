@@ -1,0 +1,6 @@
+<PreferenceScreen
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:key="codecs"
+	android:title="@string/codecs"
+	android:background="#000">
+</PreferenceScreen>

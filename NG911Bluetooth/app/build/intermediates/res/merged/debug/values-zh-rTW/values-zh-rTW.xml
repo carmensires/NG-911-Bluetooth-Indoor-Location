@@ -1,0 +1,581 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="com_accountkit_phone_country_codes">
+        <item>376:AD:安道爾</item>
+        <item>971:AE:阿拉伯聯合大公國</item>
+        <item>93:AF:阿富汗</item>
+        <item>1:AG:安地卡</item>
+        <item>1:AI:安吉拉</item>
+        <item>355:AL:阿爾巴尼亞</item>
+        <item>374:AM:亞美尼亞</item>
+        <item>244:AO:安哥拉</item>
+        <item>54:AR:阿根廷</item>
+        <item>1:AS:東薩摩亞</item>
+        <item>43:AT:奧地利</item>
+        <item>61:AU:澳大利亞</item>
+        <item>297:AW:阿魯巴</item>
+        <item>994:AZ:亞塞拜然</item>
+        <item>387:BA:波士尼亞與赫塞哥維納</item>
+        <item>1:BB:巴貝多</item>
+        <item>880:BD:孟加拉</item>
+        <item>32:BE:比利時</item>
+        <item>226:BF:布吉納法索</item>
+        <item>359:BG:保加利亞</item>
+        <item>973:BH:巴林</item>
+        <item>257:BI:蒲隆地</item>
+        <item>229:BJ:貝南</item>
+        <item>1:BM:百慕達</item>
+        <item>673:BN:汶萊</item>
+        <item>591:BO:玻利維亞</item>
+        <item>599:BQ:博奈爾島、聖尤斯特歇斯島和沙巴</item>
+        <item>55:BR:巴西</item>
+        <item>1:BS:巴哈馬</item>
+        <item>975:BT:不丹</item>
+        <item>267:BW:波札那</item>
+        <item>375:BY:白俄羅斯</item>
+        <item>501:BZ:貝裡斯</item>
+        <item>1:CA:加拿大</item>
+        <item>243:CD:剛果民主共和國</item>
+        <item>236:CF:中非</item>
+        <item>242:CG:剛果共和國</item>
+        <item>41:CH:瑞士</item>
+        <item>225:CI:象牙海岸</item>
+        <item>682:CK:庫克群島</item>
+        <item>56:CL:智利</item>
+        <item>237:CM:喀麥隆</item>
+        <item>86:CN:中國</item>
+        <item>57:CO:哥倫比亞</item>
+        <item>506:CR:哥斯大黎加</item>
+        <item>53:CU:古巴</item>
+        <item>238:CV:維德角</item>
+        <item>599:CW:庫拉索</item>
+        <item>357:CY:賽普勒斯</item>
+        <item>420:CZ:捷克共和國</item>
+        <item>49:DE:德國</item>
+        <item>253:DJ:吉布地</item>
+        <item>45:DK:丹麥</item>
+        <item>1:DM:多米尼克</item>
+        <item>1:DO:多明尼加共和國</item>
+        <item>213:DZ:阿爾及利亞</item>
+        <item>593:EC:厄瓜多</item>
+        <item>372:EE:愛沙尼亞</item>
+        <item>20:EG:埃及</item>
+        <item>212:EH:西撒哈拉</item>
+        <item>291:ER:厄利垂亞</item>
+        <item>34:ES:西班牙</item>
+        <item>251:ET:衣索比亞</item>
+        <item>358:FI:芬蘭</item>
+        <item>679:FJ:斐濟</item>
+        <item>500:FK:福克蘭群島</item>
+        <item>691:FM:密克羅尼西亞</item>
+        <item>298:FO:法羅群島</item>
+        <item>33:FR:法國</item>
+        <item>241:GA:加彭</item>
+        <item>44:GB:英國</item>
+        <item>1:GD:格瑞那達</item>
+        <item>995:GE:喬治亞</item>
+        <item>594:GF:法屬圭亞那</item>
+        <item>44:GG:根西島</item>
+        <item>233:GH:迦納</item>
+        <item>350:GI:直布羅陀</item>
+        <item>299:GL:格陵蘭</item>
+        <item>220:GM:甘比亞</item>
+        <item>224:GN:幾內亞</item>
+        <item>590:GP:瓜地洛普</item>
+        <item>240:GQ:赤道幾內亞</item>
+        <item>30:GR:希臘</item>
+        <item>502:GT:瓜地馬拉</item>
+        <item>1:GU:關島</item>
+        <item>245:GW:巴布亞紐幾內亞</item>
+        <item>592:GY:蓋亞那</item>
+        <item>852:HK:香港</item>
+        <item>504:HN:宏都拉斯</item>
+        <item>385:HR:克羅埃西亞</item>
+        <item>509:HT:海地</item>
+        <item>36:HU:匈牙利</item>
+        <item>62:ID:印尼</item>
+        <item>353:IE:愛爾蘭</item>
+        <item>972:IL:以色列</item>
+        <item>44:IM:曼島</item>
+        <item>91:IN:印度</item>
+        <item>246:IO:英屬印度洋領地</item>
+        <item>964:IQ:伊拉克</item>
+        <item>98:IR:伊朗</item>
+        <item>354:IS:冰島</item>
+        <item>39:IT:意大利</item>
+        <item>44:JE:澤西島</item>
+        <item>1:JM:牙買加</item>
+        <item>962:JO:約旦</item>
+        <item>81:JP:日本</item>
+        <item>254:KE:肯亞</item>
+        <item>996:KG:吉爾吉斯</item>
+        <item>855:KH:柬埔寨</item>
+        <item>686:KI:吉里巴斯</item>
+        <item>269:KM:葛摩</item>
+        <item>1:KN:聖克里斯多福及尼維斯</item>
+        <item>850:KP:北韓</item>
+        <item>82:KR:南韓</item>
+        <item>965:KW:科威特</item>
+        <item>1:KY:開曼群島</item>
+        <item>7:KZ:哈薩克</item>
+        <item>856:LA:寮國</item>
+        <item>961:LB:黎巴嫩</item>
+        <item>1:LC:聖露西亞</item>
+        <item>423:LI:列支敦斯登</item>
+        <item>94:LK:斯里蘭卡</item>
+        <item>231:LR:賴比瑞亞</item>
+        <item>266:LS:賴索托</item>
+        <item>370:LT:立陶宛</item>
+        <item>352:LU:盧森堡</item>
+        <item>371:LV:拉脫維亞</item>
+        <item>218:LY:利比亞</item>
+        <item>212:MA:摩洛哥</item>
+        <item>377:MC:摩納哥</item>
+        <item>373:MD:摩爾多瓦</item>
+        <item>382:ME:蒙特內哥羅</item>
+        <item>261:MG:馬達加斯加</item>
+        <item>692:MH:馬紹爾群島</item>
+        <item>389:MK:馬其頓</item>
+        <item>223:ML:馬利</item>
+        <item>95:MM:緬甸</item>
+        <item>976:MN:蒙古</item>
+        <item>853:MO:澳門</item>
+        <item>1:MP:北馬利安納群島</item>
+        <item>596:MQ:馬丁尼克島</item>
+        <item>222:MR:茅利塔尼亞</item>
+        <item>1:MS:蒙哲臘</item>
+        <item>356:MT:馬爾他</item>
+        <item>230:MU:模里西斯</item>
+        <item>960:MV:馬爾地夫</item>
+        <item>265:MW:馬拉威</item>
+        <item>52:MX:墨西哥</item>
+        <item>60:MY:馬來西亞</item>
+        <item>258:MZ:莫三比克</item>
+        <item>264:NA:納米比亞</item>
+        <item>687:NC:新喀里多尼亞</item>
+        <item>227:NE:尼日</item>
+        <item>672:NF:諾福克島</item>
+        <item>234:NG:奈及利亞</item>
+        <item>505:NI:尼加拉瓜</item>
+        <item>31:NL:荷蘭</item>
+        <item>47:NO:挪威</item>
+        <item>977:NP:尼泊爾</item>
+        <item>674:NR:諾魯</item>
+        <item>683:NU:紐埃</item>
+        <item>64:NZ:紐西蘭</item>
+        <item>968:OM:阿曼</item>
+        <item>507:PA:巴拿馬</item>
+        <item>51:PE:秘魯</item>
+        <item>689:PF:法屬玻里尼西亞</item>
+        <item>675:PG:巴布亞紐幾內亞</item>
+        <item>63:PH:菲律賓</item>
+        <item>92:PK:巴基斯坦</item>
+        <item>48:PL:波蘭</item>
+        <item>508:PM:聖皮埃爾島及密克隆島</item>
+        <item>1:PR:波多黎各</item>
+        <item>970:PS:巴勒斯坦</item>
+        <item>351:PT:葡萄牙</item>
+        <item>680:PW:帛琉</item>
+        <item>595:PY:巴拉圭</item>
+        <item>974:QA:卡達</item>
+        <item>262:RE:留尼旺島</item>
+        <item>40:RO:羅馬尼亞</item>
+        <item>381:RS:塞爾維亞</item>
+        <item>7:RU:俄羅斯</item>
+        <item>250:RW:盧安達</item>
+        <item>966:SA:沙烏地阿拉伯</item>
+        <item>677:SB:索羅門群島</item>
+        <item>248:SC:塞席爾</item>
+        <item>249:SD:蘇丹</item>
+        <item>46:SE:瑞典</item>
+        <item>65:SG:新加坡</item>
+        <item>290:SH:聖赫倫那島</item>
+        <item>386:SI:斯洛維尼亞</item>
+        <item>421:SK:斯洛伐克</item>
+        <item>232:SL:獅子山</item>
+        <item>378:SM:聖馬利諾</item>
+        <item>221:SN:塞內加爾</item>
+        <item>252:SO:索馬利亞</item>
+        <item>597:SR:蘇利南</item>
+        <item>211:SS:南蘇丹</item>
+        <item>239:ST:聖多美普林西比</item>
+        <item>503:SV:薩爾瓦多</item>
+        <item>1:SX:聖馬丁島 （Sint Maarten）</item>
+        <item>963:SY:敍利亞</item>
+        <item>268:SZ:史瓦濟蘭</item>
+        <item>1:TC:特克斯和凱科斯群島</item>
+        <item>235:TD:查德</item>
+        <item>228:TG:多哥</item>
+        <item>66:TH:泰國</item>
+        <item>992:TJ:塔吉克</item>
+        <item>690:TK:托克勞</item>
+        <item>670:TL:東帝汶</item>
+        <item>993:TM:土庫曼</item>
+        <item>216:TN:突尼西亞</item>
+        <item>676:TO:東加王國</item>
+        <item>90:TR:土耳其</item>
+        <item>1:TT:千里達</item>
+        <item>688:TV:吐瓦魯</item>
+        <item>886:TW:台灣</item>
+        <item>255:TZ:坦尚尼亞</item>
+        <item>380:UA:烏克蘭</item>
+        <item>256:UG:烏干達</item>
+        <item>1:US:美國</item>
+        <item>598:UY:烏拉圭</item>
+        <item>998:UZ:烏茲別克</item>
+        <item>1:VC:聖文森</item>
+        <item>58:VE:委內瑞拉</item>
+        <item>1:VG:英屬維京群島</item>
+        <item>1:VI:美屬維爾京群島</item>
+        <item>84:VN:越南</item>
+        <item>678:VU:萬那杜</item>
+        <item>681:WF:瓦利斯和富圖納群島</item>
+        <item>685:WS:薩摩亞</item>
+        <item>967:YE:葉門</item>
+        <item>262:YT:馬約特</item>
+        <item>27:ZA:南非</item>
+        <item>260:ZM:尚比亞</item>
+        <item>263:ZW:辛巴威</item>
+    </string-array>
+    <string-array name="compression_display_values">
+        <item>僅當使用WLAN時</item>
+        <item>僅當使用WLAN/3G時</item>
+        <item>總是嘗試使用</item>
+        <item>從不使用</item>
+    </string-array>
+    <string-array name="compression_values">
+        <item>wlan</item>
+        <item>wlanor3g</item>
+        <item>always</item>
+        <item>never</item>
+    </string-array>
+    <string-array name="eargain_display_values">
+        <item>低 (無迴音)</item>
+        <item>中</item>
+        <item>高 (可能會出現迴音)</item>
+        <item>極高</item>
+    </string-array>
+    <string-array name="eargain_values">
+        <item>0.1</item>
+        <item>0.25</item>
+        <item>0.5</item>
+        <item>1.0</item>
+    </string-array>
+    <string-array name="port_display_values">
+		<item>53</item>
+		<item>69</item>
+		<item>80</item>
+		<item>135</item>
+		<item>161</item>
+		<item>443</item>
+		<item>500</item>
+		<item>1433</item>
+		<item>1701</item>
+		<item>1812</item>
+		<item>3389</item>
+		<item>4500</item>
+		<item>5060 (標准)</item>
+		<item>5061</item>
+		<item>5900</item>
+		<item>16999</item>
+		<item>26999</item>
+		<item>36999</item>
+		<item>自定義</item>
+	</string-array>
+    <string-array name="port_values">
+		<item>53</item>
+		<item>69</item>
+		<item>80</item>
+		<item>135</item>
+		<item>161</item>
+		<item>443</item>
+		<item>500</item>
+		<item>1433</item>
+		<item>1701</item>
+		<item>1812</item>
+		<item>3389</item>
+		<item>4500</item>
+		<item>5060</item>
+		<item>5061</item>
+		<item>5900</item>
+		<item>16999</item>
+		<item>26999</item>
+		<item>36999</item>
+		<item>0</item>
+	</string-array>
+    <string-array name="pref_display_values">
+        <item>僅使用Sipdroid</item>
+        <item>當可用時使用Sipdroid</item>
+        <item>總是使用電話</item>
+        <item>Always ask</item>
+    </string-array>
+    <string-array name="pref_values">
+        <item>SIPONLY</item>
+        <item>SIP</item>
+        <item>PSTN</item>
+        <item>ASK</item>
+    </string-array>
+    <string-array name="protocol_display_values">
+        <item>UDP (3G網路下待機時間短)</item>
+        <item>TCP (3G網路下待機時間長)</item>
+    </string-array>
+    <string-array name="protocol_values">
+        <item>udp</item>
+        <item>tcp</item>
+    </string-array>
+    <string-array name="vquality_display_values">
+        <item>高 (352x288 @ 360kbit)</item>
+        <item>低 (176x144 @ 192kbit)</item>
+    </string-array>
+    <string-array name="vquality_values">
+        <item>high</item>
+        <item>low</item>
+    </string-array>
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"瀏覽首頁"</string>
+    <string msgid="1397052879051804371" name="abc_action_bar_home_description_format">"%1$s：%2$s"</string>
+    <string msgid="6623331958280229229" name="abc_action_bar_home_subtitle_description_format">"%1$s - %2$s：%3$s"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"向上瀏覽"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"更多選項"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"完成"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"查看全部"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"選擇應用程式"</string>
+    <string msgid="121134116657445385" name="abc_capital_off">"關閉"</string>
+    <string msgid="3405795526292276155" name="abc_capital_on">"開啟"</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"搜尋…"</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"清除查詢"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"搜尋查詢"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"搜尋"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"提交查詢"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"語音搜尋"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"選擇分享對象"</string>
+    <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"與「%s」分享"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"收合"</string>
+    <string name="about">Sipdroid是Android系統下的開源SIP客戶端。
+\n
+\n請瀏覽 http://sipdroid.org 以獲得更多信息。
+\n
+\n版本 ${VERSION}
+
+\n此為測試版本。
+
+\n
+\nCopyright (C) 2009 The Sipdroid Open Source Project (http://sipdroid.org)
+\nCopyright (C) 2008 Hughes Systique Corporation, USA (http://hsc.com)
+\nCopyright (C) 2006 The Android Open Source Project (http://android.com)
+\nCopyright (C) 2005 Luca Veltri - University of Parma - Italy (http://mjsip.org)
+\n
+\nThis program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 3 of the License, or (at your option) any later version.
+\n
+\nThis program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details (http://www.gnu.org/licenses).</string>
+    <string name="app_name">Sipdroid</string>
+    <string name="auto_disabled">自動應答關閉</string>
+    <string name="auto_enabled">自動應答/揚聲器</string>
+    <string name="card_title_call_ended">通話結束</string>
+    <string name="card_title_dialing">撥號中</string>
+    <string name="card_title_ended_no_codec">錯誤：音頻編解碼器不兼容</string>
+    <string name="card_title_in_progress">通話中</string>
+    <string name="card_title_incoming_call">來電</string>
+    <string name="card_title_on_hold">通話保持中</string>
+    <string name="codecs">音頻解編碼器</string>
+    <string name="codecs_move">移動解編碼器</string>
+    <string name="codecs_move_down">下移</string>
+    <string name="codecs_move_up">上移</string>
+    <string name="codecs_summary">設定要使用的音頻解編碼器及其優先順序</string>
+    <string name="com_accountkit_button_begin">開始</string>
+    <string name="com_accountkit_button_cancel">取消</string>
+    <string name="com_accountkit_button_confirm">確認</string>
+    <string name="com_accountkit_button_continue">繼續</string>
+    <string name="com_accountkit_button_log_in">登入</string>
+    <string name="com_accountkit_button_next">繼續</string>
+    <string name="com_accountkit_button_ok">確定</string>
+    <string name="com_accountkit_button_resend">發送新驗證碼</string>
+    <string name="com_accountkit_button_resend_sms">重發簡訊</string>
+    <string name="com_accountkit_button_send">發送</string>
+    <string name="com_accountkit_button_send_code_in_fb">透過 Facebook 傳送驗證碼</string>
+    <string name="com_accountkit_button_send_code_in_fb_disclosure">在 Facebook 中點按「傳送代碼」，以傳送通知到與您電話號碼連結的 Facebook 帳號。</string>
+    <string name="com_accountkit_button_start">開始</string>
+    <string name="com_accountkit_button_start_over">再試一次</string>
+    <string name="com_accountkit_button_submit">提交</string>
+    <string name="com_accountkit_check_email">開啟電子郵件</string>
+    <string name="com_accountkit_confirmation_code_agreement">
+        如接受 Facebook 的&lt;a href="%2$s">使用條款&lt;/a>、&lt;a href="%3$s">資料政策&lt;/a>和 &lt;a href="%4$s">Cookie 的使用&lt;/a>，請點按 %1$s。
+    </string>
+    <string name="com_accountkit_confirmation_code_agreement_app_privacy_policy">
+        如接受 Facebook 的&lt;a href="%2$s">使用條款&lt;/a>、&lt;a href="%3$s">資料政策&lt;/a>、&lt;a href="%4$s">Cookie 的使用&lt;/a>和 %6$s 的&lt;a href="%5$s">隱私政策&lt;/a>，請點按 %1$s。
+    </string>
+    <string name="com_accountkit_confirmation_code_agreement_app_privacy_policy_and_terms">
+        如接受 Facebook 的&lt;a href="%2$s">使用條款&lt;/a>、&lt;a href="%3$s">資料政策&lt;/a>、&lt;a href="%4$s">Cookie 的使用&lt;/a>和 %7$s 的&lt;a href="%5$s">隱私政策&lt;/a>及&lt;a href="%6$s">服務條款&lt;/a>，請點按 %1$s。
+    </string>
+    <string name="com_accountkit_confirmation_code_text">重新傳送代碼</string>
+    <string name="com_accountkit_confirmation_code_title">輸入代碼</string>
+    <string name="com_accountkit_email_invalid">電子郵件地址有誤。請再試一次。</string>
+    <string name="com_accountkit_email_loading_title">正在傳送電子郵件……</string>
+    <string name="com_accountkit_email_login_retry_title">確認電子郵件</string>
+    <string name="com_accountkit_email_login_text">
+        點按 %1$s 即可收到由 Facebook Account Kit 發出的確認函。%2$s 以此協助您登入，不過您不需要 Facebook 帳號。&lt;a href="%3$s">瞭解詳情。&lt;/a>
+    </string>
+    <string name="com_accountkit_email_login_title">輸入電子郵件地址</string>
+    <string name="com_accountkit_email_not_received">重寄電子郵件</string>
+    <string name="com_accountkit_email_verify_title">開啟我們發送的電子郵件並確認地址</string>
+    <string name="com_accountkit_error_title">抱歉，有些地方出錯了。</string>
+    <string name="com_accountkit_facebook_code_entry_title">輸入 Facebook 代碼</string>
+    <string name="com_accountkit_phone_loading_title">正在發送確認碼…</string>
+    <string name="com_accountkit_phone_login_retry_title">確認手機電話號碼</string>
+    <string name="com_accountkit_phone_login_text">
+        點按 %1$s 即可收到由 Facebook Account Kit 發出的確認簡訊。%2$s 以此協助您登入，不過您不需要 Facebook 帳號。您可能需要支付簡訊及數據傳輸費用。&lt;a href="%3$s">瞭解詳情。&lt;/a>
+    </string>
+    <string name="com_accountkit_phone_login_title">輸入手機電話號碼</string>
+    <string name="com_accountkit_resend_email_text">發送新電子郵件</string>
+    <string name="com_accountkit_resend_title">非常抱歉！請嘗試以下選項以繼續。</string>
+    <string name="com_accountkit_return_title">正在將您帶回 %1$s…</string>
+    <string name="com_accountkit_sent_title">已傳送！</string>
+    <string name="com_accountkit_success_title">完成！</string>
+    <string name="com_accountkit_toolbar_title">登入 %1$s</string>
+    <string name="com_accountkit_verify_confirmation_code_title">
+        無法驗證代碼。請再試一次：
+    </string>
+    <string name="com_accountkit_verify_title">正在驗證確認碼…</string>
+    <string name="com_facebook_device_auth_instructions">使用您的智慧型手機或電腦前往 %@，然後輸入此代碼：</string>
+    <string name="com_facebook_image_download_unknown_error">下載圖像時發生非預期的錯誤。</string>
+    <string name="com_facebook_internet_permission_error_message">WebView 登入需要「網際網路」授權</string>
+    <string name="com_facebook_internet_permission_error_title">AndroidManifest 錯誤</string>
+    <string name="com_facebook_like_button_liked">說讚</string>
+    <string name="com_facebook_like_button_not_liked">讚</string>
+    <string name="com_facebook_loading">正在載入…</string>
+    <string name="com_facebook_loginview_cancel_action">取消</string>
+    <string name="com_facebook_loginview_log_in_button">登入</string>
+    <string name="com_facebook_loginview_log_in_button_long">使用 Facebook 登入</string>
+    <string name="com_facebook_loginview_log_out_action">登出</string>
+    <string name="com_facebook_loginview_log_out_button">登出</string>
+    <string name="com_facebook_loginview_logged_in_as">使用下列身分登入：%1$s</string>
+    <string name="com_facebook_loginview_logged_in_using_facebook">已使用 Facebook 登入</string>
+    <string name="com_facebook_send_button_text">傳送</string>
+    <string name="com_facebook_share_button_text">分享</string>
+    <string name="com_facebook_tooltip_default">新消息！您已成功登入，請選擇要與應用程式分享的資訊。</string>
+    <string msgid="7170719956698345984" name="common_google_play_services_unknown_issue">"「<ns1:g id="APP_NAME">%1$s</ns1:g>」無法存取 Google Play 服務。如果問題無法解決，請與開發人員聯絡，向對方尋求協助。"</string>
+    <string name="dialog_default">Sipdroid現在不是默認的電話程序，是否要將其設定為默認？
+\n
+\n如果你選擇了 \'否\'，你仍然可以在撥號時在電話號碼後加上字元\'+\'，或長按聯系人選擇 \'發送簡訊\'以強制使用Sipdroid撥號。</string>
+    <string name="dialog_message">是否查看Sipdroid 1.5的視頻介紹？</string>
+    <string name="dontask">不再提示</string>
+    <string name="empty">請輸入一個類似於name@domain.com的SIP位址</string>
+    <string name="help_speakerphone">按住音量鍵以強制通話</string>
+    <string name="hint">SIP位址</string>
+    <string name="hint2">電話號碼</string>
+    <string name="menu_about">關於</string>
+    <string name="menu_bluetooth">藍牙(實驗功能)</string>
+    <string name="menu_call">呼叫</string>
+    <string name="menu_dtmf">發送DTMF</string>
+    <string name="menu_endCall">掛斷</string>
+    <string name="menu_exit">退出</string>
+    <string name="menu_hold">保持</string>
+    <string name="menu_mute">靜音</string>
+    <string name="menu_settings">設定</string>
+    <string name="menu_speaker">揚聲器</string>
+    <string name="menu_transfer">轉移</string>
+    <string name="menu_video">發送視頻</string>
+    <string name="messenger_send_button_text">傳送</string>
+    <string name="no">否</string>
+    <string name="notfast">無適用的網路</string>
+    <string name="onHold">已保持</string>
+    <string name="ongoing">當前通話</string>
+    <string name="pstn_name">電話</string>
+    <string name="reg">正在登入...</string>
+    <string name="regfailed">登入失敗</string>
+    <string name="regok">登入成功</string>
+    <string name="settings_3g">使用3G網路</string>
+    <string name="settings_MWI">語音留言</string>
+    <string name="settings_MWI2">自動檢查是否有未讀的語音留言</string>
+    <string name="settings_account">SIP賬戶設定</string>
+    <string name="settings_advanced_options">高級設定</string>
+    <string name="settings_auto_headset">耳機插入時自動應答</string>
+    <string name="settings_auto_headset2">當耳機插入時開啟自動應答</string>
+    <string name="settings_auto_on">開啟自動應答</string>
+    <string name="settings_auto_on2">振動提醒，僅用於非鎖定狀態下</string>
+    <string name="settings_auto_ondemand">快速切換自動應答</string>
+    <string name="settings_auto_ondemand2">在狀態欄顯示切換按鈕</string>
+    <string name="settings_av_options">音頻/視頻設定</string>
+    <string name="settings_bluetooth">需要Android 2.2或更高</string>
+    <string name="settings_callback">觸發回撥</string>
+    <string name="settings_callback2">如沒有合適的網路時</string>
+    <string name="settings_callerid2">如與認證用戶名一致請留空</string>
+    <string name="settings_callthru">觸發Callthru</string>
+    <string name="settings_callthru2">Callthru前綴</string>
+    <string name="settings_check">請確認你的運營商是否允許VoIP電話</string>
+    <string name="settings_compression">語音壓縮</string>
+    <string name="settings_domain">域</string>
+    <string name="settings_domain2">如與伺服器相同請留空</string>
+    <string name="settings_eargain">聽筒音量</string>
+    <string name="settings_edge">使用EDGE網路</string>
+    <string name="settings_excludepat">排除的正則表達式</string>
+    <string name="settings_hdvoice">PBXes支持高清语音</string>
+    <string name="settings_heargain">耳機音量</string>
+    <string name="settings_hmicgain">耳機麥克風音量</string>
+    <string name="settings_improve">音質優化</string>
+    <string name="settings_improve2">需要收費帳號</string>
+    <string name="settings_keepon">螢幕常亮</string>
+    <string name="settings_keepon2">一些設備需要選擇此項以保持Wi-Fi連接</string>
+    <string name="settings_micgain">麥克風音量</string>
+    <string name="settings_mmtel">使用MMTel技术</string>
+    <string name="settings_mmtel_qvalue">Q值</string>
+    <string name="settings_nodata">無數據</string>
+    <string name="settings_nodata2">使用單音調指示數據包丟失</string>
+    <string name="settings_notifications">通知設定</string>
+    <string name="settings_notify">未接電話</string>
+    <string name="settings_notify2">使用藍色LED燈提醒</string>
+    <string name="settings_options">通話設定</string>
+    <string name="settings_ownwifi">Wi-Fi電力控制</string>
+    <string name="settings_ownwifi2">節約電力</string>
+    <string name="settings_par">多個撥出電話</string>
+    <string name="settings_par2">允許同時撥打多個電話</string>
+    <string name="settings_password">密碼</string>
+    <string name="settings_pbxes_options">PBXes設定</string>
+    <string name="settings_policy_default">重設Wi-Fi休眠設定為系統默認</string>
+    <string name="settings_policy_never">改變系統休眠策略以保持Wi-Fi的開啟狀態</string>
+    <string name="settings_port">埠</string>
+    <string name="settings_pos">更新地理位置</string>
+    <string name="settings_pos2">地址可被通報至PBXes的聯系人(需要PBXes.com的Premium賬戶)</string>
+    <string name="settings_pos3">正在更新地理位置</string>
+    <string name="settings_posurl">地理位置及回撥URL位址</string>
+    <string name="settings_pref">Sipdroid優先順序</string>
+    <string name="settings_pref2">在撥號時在電話號碼後加上字元\'+\'，或長按聯系人選擇 \'發送簡訊\'以強制使用Sipdroid撥號。</string>
+    <string name="settings_profile_delete_confirmation">成功刪除用戶配置。</string>
+    <string name="settings_profile_delete_error">刪除用戶配置失敗！</string>
+    <string name="settings_profile_dialog_delete_text">確認要刪除用戶<ns1:g id="profile">%s</ns1:g>的配置嗎?</string>
+    <string name="settings_profile_dialog_delete_title">刪除用戶配置</string>
+    <string name="settings_profile_dialog_profiles_title">用戶配置</string>
+    <string name="settings_profile_export_error">匯出用戶配置失敗！</string>
+    <string name="settings_profile_import_error">匯入用戶配置失敗！</string>
+    <string name="settings_profile_menu_delete">刪除</string>
+    <string name="settings_profile_menu_import">匯入</string>
+    <string name="settings_profile_title">Sipdroid設定(<ns1:g id="profile">%s</ns1:g>)</string>
+    <string name="settings_protocol">協議</string>
+    <string name="settings_reg">登入</string>
+    <string name="settings_reg2">允許選擇SIP帳戶</string>
+    <string name="settings_search">查找和替換</string>
+    <string name="settings_selectwifi">選擇Wi-Fi熱點</string>
+    <string name="settings_selectwifi2">根據信號選擇熱點</string>
+    <string name="settings_server">伺服器</string>
+    <string name="settings_sipringtone">SIP鈴聲</string>
+    <string name="settings_sipringtone2">設定SIP撥入電話的鈴聲</string>
+    <string name="settings_sipringtone_dialog">鈴聲</string>
+    <string name="settings_stun">使用STUN伺服器</string>
+    <string name="settings_stun_server">STUN伺服器地址</string>
+    <string name="settings_stun_server_port">STUN伺服器埠</string>
+    <string name="settings_title">Sipdroid設定</string>
+    <string name="settings_username">認證用戶名</string>
+    <string name="settings_username1">用戶名/Caller ID</string>
+    <string name="settings_vpn">使用VPN</string>
+    <string name="settings_vpn2">PBXes提供免費VPN服務，請進入www.pbxes.com並點擊HELP獲取相關信息。</string>
+    <string name="settings_vquality">視頻質量</string>
+    <string name="settings_wireless_options">Wi-Fi設定</string>
+    <string name="settings_wlan">使用Wi-Fi網路</string>
+    <string name="sip_name">Sipdroid，當可用時</string>
+    <string name="slide_hint_down_to_end_call">向下滑動以結束通話</string>
+    <string name="slide_hint_up_to_answer">向上滑動以接通來電</string>
+    <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="transfer_title">將通話轉移至</string>
+    <string name="unknown">未知</string>
+    <string name="voicemail">語音留言：</string>
+    <string name="yes">是</string>
+</resources>

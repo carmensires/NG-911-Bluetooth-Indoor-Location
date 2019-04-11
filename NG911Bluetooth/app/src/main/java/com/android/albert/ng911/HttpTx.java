@@ -104,9 +104,11 @@ public class HttpTx {
         Log.i("carmenlog[LOG]","result");
         Log.i("carmenlog[RESULT] ", result);*/
 
+        String urlfinal = url+json;
+
         try {
             Log.d("carmenlog[INFO]","trying http get request");
-            result = new HttpGetRequestTask().execute(exampleUrl).get();
+            result = new HttpGetRequestTask().execute(urlfinal).get();
             Log.d("carmenlog[INFO]","done http get request");
             Log.d("carmenlog[INFO]","result"+result);
         } catch (ExecutionException e) {
@@ -119,7 +121,7 @@ public class HttpTx {
     }
 
     public void HttpGetRequest(String json) {
-        RequestQueue queue = Volley.newRequestQueue(CallActivity.c);
+        /*RequestQueue queue = Volley.newRequestQueue(CallActivity.c);
         String urlfinal = url + "?json=" + json;
         Log.i("[NG911 HTTP Get val] ", urlfinal);
         StringRequest myReq = new StringRequest(Request.Method.GET, urlfinal,
@@ -169,6 +171,21 @@ public class HttpTx {
                 DefaultRetryPolicy.DEFAULT_MAX_RETRIES,
                 DefaultRetryPolicy.DEFAULT_BACKOFF_MULT
         ));
-        queue.add(myReq);
+        queue.add(myReq);*/
+        String urlfinal = url+json;
+
+        try {
+            Log.d("carmenlog[INFO]","trying http get request");
+            result = new HttpGetRequestTask().execute(urlfinal).get();
+            Log.d("carmenlog[INFO]","done http get request");
+            Log.d("carmenlog[INFO]","result"+result);
+        } catch (ExecutionException e) {
+            Log.d("carmenlog[ERROR exec]",e.toString());
+            e.printStackTrace();
+        } catch (InterruptedException e) {
+            Log.d("carmenlog[ERROR inter]",e.toString());
+            e.printStackTrace();
+        }
+
     }
 }

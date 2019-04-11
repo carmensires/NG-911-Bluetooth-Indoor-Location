@@ -1,0 +1,587 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="com_accountkit_phone_country_codes">
+        <item>376:AD:アンドラ</item>
+        <item>971:AE:アラブ首長国連邦</item>
+        <item>93:AF:アフガニスタン</item>
+        <item>1:AG:アンティグア</item>
+        <item>1:AI:アンギラ</item>
+        <item>355:AL:アルバニア</item>
+        <item>374:AM:アルメニア</item>
+        <item>244:AO:アンゴラ</item>
+        <item>54:AR:アルゼンチン</item>
+        <item>1:AS:米国領サモア</item>
+        <item>43:AT:オーストリア</item>
+        <item>61:AU:オーストラリア</item>
+        <item>297:AW:アルーバ</item>
+        <item>994:AZ:アゼルバイジャン</item>
+        <item>387:BA:ボスニア・ヘルツェゴビナ</item>
+        <item>1:BB:バルバドス</item>
+        <item>880:BD:バングラデシュ</item>
+        <item>32:BE:ベルギー</item>
+        <item>226:BF:ブルキナファソ</item>
+        <item>359:BG:ブルガリア</item>
+        <item>973:BH:バーレーン</item>
+        <item>257:BI:ブルンジ</item>
+        <item>229:BJ:ベニン</item>
+        <item>1:BM:バミューダ諸島</item>
+        <item>673:BN:ブルネイ</item>
+        <item>591:BO:ボリビア</item>
+        <item>599:BQ:ボネール島、シントユースタティウス島、サバ島</item>
+        <item>55:BR:ブラジル</item>
+        <item>1:BS:バハマ</item>
+        <item>975:BT:ブータン</item>
+        <item>267:BW:ボツワナ</item>
+        <item>375:BY:ベラルーシ</item>
+        <item>501:BZ:ベリーズ</item>
+        <item>1:CA:カナダ</item>
+        <item>243:CD:コンゴ民主共和国</item>
+        <item>236:CF:中央アフリカ共和国</item>
+        <item>242:CG:コンゴ共和国</item>
+        <item>41:CH:スイス</item>
+        <item>225:CI:コートジボワール</item>
+        <item>682:CK:クック諸島</item>
+        <item>56:CL:チリ</item>
+        <item>237:CM:カメルーン</item>
+        <item>86:CN:中国</item>
+        <item>57:CO:コロンビア</item>
+        <item>506:CR:コスタリカ</item>
+        <item>53:CU:キューバ</item>
+        <item>238:CV:カーボベルデ</item>
+        <item>599:CW:キュラソー島</item>
+        <item>357:CY:キプロス</item>
+        <item>420:CZ:チェコ共和国</item>
+        <item>49:DE:ドイツ</item>
+        <item>253:DJ:ジブチ</item>
+        <item>45:DK:デンマーク</item>
+        <item>1:DM:ドミニカ</item>
+        <item>1:DO:ドミニカ共和国</item>
+        <item>213:DZ:アルジェリア</item>
+        <item>593:EC:エクアドル</item>
+        <item>372:EE:エストニア</item>
+        <item>20:EG:エジプト</item>
+        <item>212:EH:西サハラ</item>
+        <item>291:ER:エリトリア</item>
+        <item>34:ES:スペイン</item>
+        <item>251:ET:エチオピア</item>
+        <item>358:FI:フィンランド</item>
+        <item>679:FJ:フィジー</item>
+        <item>500:FK:フォークランド諸島</item>
+        <item>691:FM:ミクロネシア連邦</item>
+        <item>298:FO:フェロー諸島</item>
+        <item>33:FR:フランス</item>
+        <item>241:GA:ガボン</item>
+        <item>44:GB:イギリス</item>
+        <item>1:GD:グレナダ</item>
+        <item>995:GE:グルジア</item>
+        <item>594:GF:仏領ギアナ</item>
+        <item>44:GG:ガーンジー島</item>
+        <item>233:GH:ガーナ</item>
+        <item>350:GI:ジブラルタル</item>
+        <item>299:GL:グリーンランド</item>
+        <item>220:GM:ガンビア</item>
+        <item>224:GN:ギニア共和国</item>
+        <item>590:GP:グアドループ</item>
+        <item>240:GQ:赤道ギニア</item>
+        <item>30:GR:ギリシャ</item>
+        <item>502:GT:グアテマラ</item>
+        <item>1:GU:グアム</item>
+        <item>245:GW:ギニアビサウ</item>
+        <item>592:GY:ガイアナ</item>
+        <item>852:HK:香港</item>
+        <item>504:HN:ホンジュラス</item>
+        <item>385:HR:クロアチア</item>
+        <item>509:HT:ハイチ</item>
+        <item>36:HU:ハンガリー</item>
+        <item>62:ID:インドネシア</item>
+        <item>353:IE:アイルランド</item>
+        <item>972:IL:イスラエル</item>
+        <item>44:IM:マン島</item>
+        <item>91:IN:インド</item>
+        <item>246:IO:英領インド洋地域</item>
+        <item>964:IQ:イラク</item>
+        <item>98:IR:イラン</item>
+        <item>354:IS:アイスランド</item>
+        <item>39:IT:イタリア</item>
+        <item>44:JE:ジャージー島</item>
+        <item>1:JM:ジャマイカ</item>
+        <item>962:JO:ヨルダン</item>
+        <item>81:JP:日本</item>
+        <item>254:KE:ケニア</item>
+        <item>996:KG:キルギス</item>
+        <item>855:KH:カンボジア</item>
+        <item>686:KI:キリバス</item>
+        <item>269:KM:コモロ</item>
+        <item>1:KN:セントクリストファー・ネイビス</item>
+        <item>850:KP:北朝鮮</item>
+        <item>82:KR:韓国</item>
+        <item>965:KW:クウェート</item>
+        <item>1:KY:ケイマン諸島</item>
+        <item>7:KZ:カザフスタン</item>
+        <item>856:LA:ラオス</item>
+        <item>961:LB:レバノン</item>
+        <item>1:LC:セントルシア</item>
+        <item>423:LI:リヒテンシュタイン</item>
+        <item>94:LK:スリランカ</item>
+        <item>231:LR:リベリア</item>
+        <item>266:LS:レソト</item>
+        <item>370:LT:リトアニア</item>
+        <item>352:LU:ルクセンブルク</item>
+        <item>371:LV:ラトビア</item>
+        <item>218:LY:リビア</item>
+        <item>212:MA:モロッコ</item>
+        <item>377:MC:モナコ</item>
+        <item>373:MD:モルドバ</item>
+        <item>382:ME:モンテネグロ</item>
+        <item>261:MG:マダガスカル</item>
+        <item>692:MH:マーシャル諸島</item>
+        <item>389:MK:マケドニア</item>
+        <item>223:ML:マリ</item>
+        <item>95:MM:ミャンマー</item>
+        <item>976:MN:モンゴル</item>
+        <item>853:MO:マカオ</item>
+        <item>1:MP:北マリアナ諸島</item>
+        <item>596:MQ:マルティニーク</item>
+        <item>222:MR:モーリタニア</item>
+        <item>1:MS:モントセラト</item>
+        <item>356:MT:マルタ</item>
+        <item>230:MU:モーリシャス</item>
+        <item>960:MV:モルディブ</item>
+        <item>265:MW:マラウイ</item>
+        <item>52:MX:メキシコ</item>
+        <item>60:MY:マレーシア</item>
+        <item>258:MZ:モザンビーク</item>
+        <item>264:NA:ナミビア</item>
+        <item>687:NC:ニューカレドニア</item>
+        <item>227:NE:ニジェール</item>
+        <item>672:NF:ノーフォーク島</item>
+        <item>234:NG:ナイジェリア</item>
+        <item>505:NI:ニカラグア</item>
+        <item>31:NL:オランダ</item>
+        <item>47:NO:ノルウェー</item>
+        <item>977:NP:ネパール</item>
+        <item>674:NR:ナウル</item>
+        <item>683:NU:ニウエ</item>
+        <item>64:NZ:ニュージーランド</item>
+        <item>968:OM:オマーン</item>
+        <item>507:PA:パナマ</item>
+        <item>51:PE:ペルー</item>
+        <item>689:PF:仏領ポリネシア</item>
+        <item>675:PG:パプアニューギニア</item>
+        <item>63:PH:フィリピン</item>
+        <item>92:PK:パキスタン</item>
+        <item>48:PL:ポーランド</item>
+        <item>508:PM:サンピエール・ミクロン</item>
+        <item>1:PR:プエルトリコ</item>
+        <item>970:PS:パレスチナ</item>
+        <item>351:PT:ポルトガル</item>
+        <item>680:PW:パラオ</item>
+        <item>595:PY:パラグアイ</item>
+        <item>974:QA:カタール</item>
+        <item>262:RE:レユニオン</item>
+        <item>40:RO:ルーマニア</item>
+        <item>381:RS:セルビア</item>
+        <item>7:RU:ロシア</item>
+        <item>250:RW:ルワンダ</item>
+        <item>966:SA:サウジアラビア</item>
+        <item>677:SB:ソロモン諸島</item>
+        <item>248:SC:セイシェル</item>
+        <item>249:SD:スーダン</item>
+        <item>46:SE:スウェーデン</item>
+        <item>65:SG:シンガポール</item>
+        <item>290:SH:セントヘレナ</item>
+        <item>386:SI:スロベニア</item>
+        <item>421:SK:スロバキア</item>
+        <item>232:SL:シエラレオネ</item>
+        <item>378:SM:サンマリノ</item>
+        <item>221:SN:セネガル</item>
+        <item>252:SO:ソマリア</item>
+        <item>597:SR:スリナム</item>
+        <item>211:SS:南スーダン</item>
+        <item>239:ST:サントメ・プリンシペ</item>
+        <item>503:SV:エルサルバドル</item>
+        <item>1:SX:シント ・ マールテン島</item>
+        <item>963:SY:シリア</item>
+        <item>268:SZ:スワジランド</item>
+        <item>1:TC:タークス・カイコス諸島</item>
+        <item>235:TD:チャド</item>
+        <item>228:TG:トーゴ</item>
+        <item>66:TH:タイ</item>
+        <item>992:TJ:タジキスタン</item>
+        <item>690:TK:トケラウ</item>
+        <item>670:TL:東ティモール</item>
+        <item>993:TM:トルクメニスタン</item>
+        <item>216:TN:チュニジア</item>
+        <item>676:TO:トンガ</item>
+        <item>90:TR:トルコ</item>
+        <item>1:TT:トリニダード・トバゴ</item>
+        <item>688:TV:ツバル</item>
+        <item>886:TW:台湾</item>
+        <item>255:TZ:タンザニア</item>
+        <item>380:UA:ウクライナ</item>
+        <item>256:UG:ウガンダ</item>
+        <item>1:US:米国</item>
+        <item>598:UY:ウルグアイ</item>
+        <item>998:UZ:ウズベキスタン</item>
+        <item>1:VC:セントビンセントおよびグレナディーン諸島</item>
+        <item>58:VE:ベネズエラ</item>
+        <item>1:VG:イギリス領ヴァージン諸島</item>
+        <item>1:VI:バージン諸島</item>
+        <item>84:VN:ベトナム</item>
+        <item>678:VU:バヌアツ</item>
+        <item>681:WF:ウォリス・フツナ</item>
+        <item>685:WS:サモア</item>
+        <item>967:YE:イエメン</item>
+        <item>262:YT:マヨット</item>
+        <item>27:ZA:南アフリカ</item>
+        <item>260:ZM:ザンビア</item>
+        <item>263:ZW:ジンバブエ</item>
+    </string-array>
+    <string-array name="compression_display_values">
+        <item>WLAN使用時のみ</item>
+        <item>WLANと3G使用時</item>
+        <item>常に使用を試みる</item>
+        <item>使用しない</item>
+    </string-array>
+    <string-array name="compression_values">
+        <item>wlan</item>
+        <item>wlanor3g</item>
+        <item>always</item>
+        <item>never</item>
+    </string-array>
+    <string-array name="eargain_display_values">
+        <item>低い (エコー無し)</item>
+        <item>普通</item>
+        <item>高い (may cause echo to remote party)</item>
+        <item>最大</item>
+    </string-array>
+    <string-array name="eargain_values">
+        <item>0.1</item>
+        <item>0.25</item>
+        <item>0.5</item>
+        <item>1.0</item>
+    </string-array>
+    <string-array name="port_display_values">
+                <item>53</item>
+                <item>69</item>
+                <item>80</item>
+                <item>135</item>
+                <item>161</item>
+                <item>443</item>
+                <item>500</item>
+                <item>1433</item>
+                <item>1701</item>
+                <item>1812</item>
+                <item>3389</item>
+                <item>4500</item>
+                <item>5060 (標準値)</item>
+                <item>5061</item>
+                <item>5900</item>
+                <item>16999</item>
+                <item>26999</item>
+                <item>36999</item>
+                <item>custom</item>
+        </string-array>
+    <string-array name="port_values">
+                <item>53</item>
+                <item>69</item>
+                <item>80</item>
+                <item>135</item>
+                <item>161</item>
+                <item>443</item>
+                <item>500</item>
+                <item>1433</item>
+                <item>1701</item>
+                <item>1812</item>
+                <item>3389</item>
+                <item>4500</item>
+                <item>5060</item>
+                <item>5061</item>
+                <item>5900</item>
+                <item>16999</item>
+                <item>26999</item>
+                <item>36999</item>
+                <item>0</item>
+        </string-array>
+    <string-array name="pref_display_values">
+        <item>Sipdroidのみ</item>
+        <item>Sipdroidが有効な場合</item>
+        <item>電話</item>
+        <item>常に確認</item>
+    </string-array>
+    <string-array name="pref_values">
+        <item>SIPONLY</item>
+        <item>SIP</item>
+        <item>PSTN</item>
+        <item>ASK</item>
+    </string-array>
+    <string-array name="protocol_display_values">
+        <item>UDP (3Gでの待受時間が短め)</item>
+        <item>TCP (3Gでの待受時間が長め)</item>
+    </string-array>
+    <string-array name="protocol_values">
+        <item>udp</item>
+        <item>tcp</item>
+    </string-array>
+    <string-array name="vquality_display_values">
+        <item>高い (352x288 @ 360kbit)</item>
+        <item>低い (176x144 @ 192kbit)</item>
+    </string-array>
+    <string-array name="vquality_values">
+        <item>high</item>
+        <item>low</item>
+    </string-array>
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"ホームへ移動"</string>
+    <string msgid="1397052879051804371" name="abc_action_bar_home_description_format">"%1$s、%2$s"</string>
+    <string msgid="6623331958280229229" name="abc_action_bar_home_subtitle_description_format">"%1$s、%2$s、%3$s"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"上へ移動"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"その他のオプション"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"完了"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"すべて表示"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"アプリの選択"</string>
+    <string msgid="121134116657445385" name="abc_capital_off">"OFF"</string>
+    <string msgid="3405795526292276155" name="abc_capital_on">"ON"</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"検索…"</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"検索キーワードを削除"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"検索キーワード"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"検索"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"検索キーワードを送信"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"音声検索"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"共有"</string>
+    <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"%sと共有"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"折りたたむ"</string>
+    <string name="about">SipdroidはオープンソースのAndroid用SIPクライアントです。
+\n
+\n詳細情報は http://sipdroid.org を参照ください。
+\n
+\nバージョン ${VERSION}
+\nこのソフトウェアは 実験用として 提供しています。
+\n
+\nCopyright (C) 2009 The Sipdroid Open Source Project (http://sipdroid.org)
+\nCopyright (C) 2008 Hughes Systique Corporation, USA (http://hsc.com)
+\nCopyright (C) 2006 The Android Open Source Project (http://android.com)
+\nCopyright (C) 2005 Luca Veltri - University of Parma - Italy (http://mjsip.org)
+\n
+\nThis program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 3 of the License, or (at your option) any later version.
+\n
+\nThis program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details (http://www.gnu.org/licenses).</string>
+    <string name="app_name">Sipdroid</string>
+    <string name="auto_disabled">自動応答 オフ</string>
+    <string name="auto_enabled">自動応答/スピーカフォン</string>
+    <string name="card_title_call_ended">通話終了</string>
+    <string name="card_title_dialing">ダイヤル中</string>
+    <string name="card_title_ended_no_codec">エラー: コーデックが非互換です</string>
+    <string name="card_title_in_progress">通話中</string>
+    <string name="card_title_incoming_call">着信中</string>
+    <string name="card_title_on_hold">保留中</string>
+    <string name="codecs">音声コーデック</string>
+    <string name="codecs_move">このコーデックを移動</string>
+    <string name="codecs_move_down">下に移動</string>
+    <string name="codecs_move_up">上に移動</string>
+    <string name="codecs_summary">音声通話に使用するコーデックを選択します</string>
+    <string name="com_accountkit_button_begin">開始</string>
+    <string name="com_accountkit_button_cancel">キャンセル</string>
+    <string name="com_accountkit_button_confirm">確認</string>
+    <string name="com_accountkit_button_continue">続行</string>
+    <string name="com_accountkit_button_log_in">ログイン</string>
+    <string name="com_accountkit_button_next">次へ</string>
+    <string name="com_accountkit_button_ok">OK</string>
+    <string name="com_accountkit_button_resend">新しいコードの送信</string>
+    <string name="com_accountkit_button_resend_sms">SMSを再送信</string>
+    <string name="com_accountkit_button_send">送信</string>
+    <string name="com_accountkit_button_send_code_in_fb">Facebookにコードを送信</string>
+    <string name="com_accountkit_button_send_code_in_fb_disclosure">Facebookにコードを送信をタップすると、入力した電話番号に関連付けられているFacebookアカウントにお知らせが送信されます。</string>
+    <string name="com_accountkit_button_start">開始</string>
+    <string name="com_accountkit_button_start_over">もう一度試す</string>
+    <string name="com_accountkit_button_submit">送信</string>
+    <string name="com_accountkit_check_email">メールを開く</string>
+    <string name="com_accountkit_confirmation_code_agreement">
+        Facebookの&lt;a href="%2$s">利用規約&lt;/a>、&lt;a href="%3$s">データに関するポリシー&lt;/a>、&lt;a href="%4$s">Cookieの使用&lt;/a>に同意する場合は[%1$s]をタップしてください。
+    </string>
+    <string name="com_accountkit_confirmation_code_agreement_app_privacy_policy">
+        Facebookの&lt;a href="%2$s">利用規約&lt;/a>、&lt;a href="%3$s">データに関するポリシー&lt;/a>、&lt;a href="%4$s">Cookieの使用&lt;/a>、%6$sの&lt;a href="%5$s">プライバシーポリシー&lt;/a>に同意する場合は[%1$s]をタップしてください。
+    </string>
+    <string name="com_accountkit_confirmation_code_agreement_app_privacy_policy_and_terms">
+        Facebookの&lt;a href="%2$s">利用規約&lt;/a>、&lt;a href="%3$s">データに関するポリシー&lt;/a>、&lt;a href="%4$s">Cookieの使用&lt;/a>、%7$sの&lt;a href="%5$s">プライバシーポリシー&lt;/a>と&lt;a href="%6$s">利用規約&lt;/a>に同意する場合は[%1$s]をタップしてください。
+    </string>
+    <string name="com_accountkit_confirmation_code_text">コードを再送信</string>
+    <string name="com_accountkit_confirmation_code_title">コードを入力してください</string>
+    <string name="com_accountkit_email_invalid">メールに誤りがあります。もう一度お試しください。</string>
+    <string name="com_accountkit_email_loading_title">メールを送信中…</string>
+    <string name="com_accountkit_email_login_retry_title">メールアドレスを確認</string>
+    <string name="com_accountkit_email_login_text">
+        %1$sをタップすると、FacebookのAccount Kitから確認メールが送信されます。%2$sにサインインする際にこのメールを使用しますが、Facebookアカウントは不要です。詳しくは&lt;a href="%3$s">こちら&lt;/a>をご覧ください。
+    </string>
+    <string name="com_accountkit_email_login_title">メールアドレスを入力</string>
+    <string name="com_accountkit_email_not_received">メールを再送信</string>
+    <string name="com_accountkit_email_verify_title">Facebookから届いたメールを開き、メールアドレスを確認してください。</string>
+    <string name="com_accountkit_error_title">エラーが発生しました。</string>
+    <string name="com_accountkit_facebook_code_entry_title">Facebookから送信されたコードを入力してください</string>
+    <string name="com_accountkit_phone_loading_title">コードを送信しています…</string>
+    <string name="com_accountkit_phone_login_retry_title">電話番号を認証してください</string>
+    <string name="com_accountkit_phone_login_text">
+        %1$sをタップすると、FacebookのAccount KitからSMSによる確認メッセージが送信されます。%2$sにサインインする際にこのメッセージを使用しますが、Facebookアカウントは不要です。メッセージとデータの通信料がかかることがあります。詳しくは&lt;a href="%3$s">こちら&lt;/a>をご覧ください。
+    </string>
+    <string name="com_accountkit_phone_login_title">電話番号を入力してください</string>
+    <string name="com_accountkit_resend_email_text">新しいメールを送信</string>
+    <string name="com_accountkit_resend_title">申し訳ありません。続行するには、以下の方法を試してください。</string>
+    <string name="com_accountkit_return_title">%1$sに戻ります…</string>
+    <string name="com_accountkit_sent_title">送信されました</string>
+    <string name="com_accountkit_success_title">完了しました</string>
+    <string name="com_accountkit_toolbar_title">%1$sにログイン</string>
+    <string name="com_accountkit_verify_confirmation_code_title">
+        コードを確認できませんでした。\nもう一度実行してください。
+    </string>
+    <string name="com_accountkit_verify_title">コードを認証しています…</string>
+    <string name="com_facebook_device_auth_instructions">スマートフォンまたはコンピュータから%@にアクセスし、次のコードを入力してください。</string>
+    <string name="com_facebook_image_download_unknown_error">画像のダウンロード中に予期しないエラーが発生しました。</string>
+    <string name="com_facebook_internet_permission_error_message">WebViewログインにはINTERNET権限が必要です</string>
+    <string name="com_facebook_internet_permission_error_title">AndroidManifestエラー</string>
+    <string name="com_facebook_like_button_liked">いいね！済み</string>
+    <string name="com_facebook_like_button_not_liked">いいね！</string>
+    <string name="com_facebook_loading">読み込み中...</string>
+    <string name="com_facebook_loginview_cancel_action">キャンセル</string>
+    <string name="com_facebook_loginview_log_in_button">ログイン</string>
+    <string name="com_facebook_loginview_log_in_button_long">Facebookでログイン</string>
+    <string name="com_facebook_loginview_log_out_action">ログアウト</string>
+    <string name="com_facebook_loginview_log_out_button">ログアウト</string>
+    <string name="com_facebook_loginview_logged_in_as">次のユーザーとしてログイン中: %1$s</string>
+    <string name="com_facebook_loginview_logged_in_using_facebook">Facebookを使用してログイン中</string>
+    <string name="com_facebook_send_button_text">送信</string>
+    <string name="com_facebook_share_button_text">シェア</string>
+    <string name="com_facebook_tooltip_default">新機能！アプリと共有する情報をコントロールできます。</string>
+    <string msgid="7170719956698345984" name="common_google_play_services_unknown_issue">"「<ns1:g id="APP_NAME">%1$s</ns1:g>」でGoogle Play開発者サービスに問題が発生しています。問題が解決しない場合は、デベロッパーにお問い合わせください。"</string>
+    <string name="dialog_default">Sipdroidは標準の電話アプリに設定されていません. 標準の電話アプリとして設定しますか?
+\n
+\n\'いいえ\' を選択した場合, 他の電話アプリからSipdroid経由で電話するには電話番号の前に \'+\' をつけるか、Contactsから \'text to\' でSipdroidを選んでください.</string>
+    <string name="dialog_message">Would you like to see a message from Pascal introducing Sipdroid 1.5?</string>
+    <string name="dialog_port">安定性向上のためSIPポートを5060から5061に変更しますか？</string>
+    <string name="dontask">再度確認しません</string>
+    <string name="empty">相手先呼び出しIDは name@domain.com と指定してください</string>
+    <string name="help_speakerphone">強制的に通話するにはボリュームボタンを押しつつづけてください</string>
+    <string name="hint">相手先呼び出しID(Called Party Address</string>
+    <string name="hint2">相手先電話番号</string>
+    <string name="menu_about">About</string>
+    <string name="menu_answer">応答</string>
+    <string name="menu_bluetooth">Bluetooth (実験的)</string>
+    <string name="menu_call">ダイヤル</string>
+    <string name="menu_create">New PBX linked to my Google Voice</string>
+    <string name="menu_dtmf">DTMF送信</string>
+    <string name="menu_endCall">終話</string>
+    <string name="menu_exit">終了</string>
+    <string name="menu_hold">保留</string>
+    <string name="menu_mute">消音</string>
+    <string name="menu_settings">設定</string>
+    <string name="menu_speaker">スピーカ</string>
+    <string name="menu_transfer">転送電話</string>
+    <string name="menu_video">ビデオ送信</string>
+    <string name="messenger_send_button_text">送信</string>
+    <string name="no">いいえ</string>
+    <string name="notfast">利用可能なネットワークがありません</string>
+    <string name="onHold">保留中</string>
+    <string name="ongoing">現在の通話</string>
+    <string name="pstn_name">Phone Call</string>
+    <string name="reg">登録中...</string>
+    <string name="regclick">クリックで選択</string>
+    <string name="regfailed">登録に失敗しました</string>
+    <string name="regpref">Preferred</string>
+    <string name="settings_3g">3Gを使用</string>
+    <string name="settings_MWI">ボイスメール</string>
+    <string name="settings_MWI2">Subscribe to SIP message waiting</string>
+    <string name="settings_account">SIPアカウント</string>
+    <string name="settings_advanced_options">拡張設定</string>
+    <string name="settings_auto_headset">ヘッドセット接続時に自動応答</string>
+    <string name="settings_auto_headset2">ヘッドセットが接続されている場合に自動応答</string>
+    <string name="settings_auto_on">他のアプリ利用時に自動応答</string>
+    <string name="settings_auto_on2">画面オン状態では短いバイブで通知を出し自動応答</string>
+    <string name="settings_auto_ondemand">要求に応じて自動応答</string>
+    <string name="settings_auto_ondemand2">ステータスバーのスイッチで切り替え</string>
+    <string name="settings_av_options">音声/ビデオ</string>
+    <string name="settings_bluetooth">Android 2.2以上で使用可能</string>
+    <string name="settings_callback">Trigger Callback</string>
+    <string name="settings_callback2">If no suitable data network available</string>
+    <string name="settings_callerid2">認証用ユーザ名と同じ場合は空欄</string>
+    <string name="settings_callrecord">通話録音</string>
+    <string name="settings_callrecord2">SDカードに全ての通話を録音</string>
+    <string name="settings_callthru">Trigger Callthru</string>
+    <string name="settings_callthru2">Prefix for Callthru</string>
+    <string name="settings_check">携帯電話会社がVoIPを許可している場合のみ有効にしてください。</string>
+    <string name="settings_compression">音声圧縮</string>
+    <string name="settings_domain">ドメイン</string>
+    <string name="settings_domain2">サーバ名と同じ場合は空欄</string>
+    <string name="settings_eargain">スピーカ出力の増幅率</string>
+    <string name="settings_edge">EDGE(海外)を使用</string>
+    <string name="settings_excludepat">除外条件</string>
+    <string name="settings_hdvoice">PBXes supports HD Voice</string>
+    <string name="settings_heargain">ヘッドセット出力の増幅率</string>
+    <string name="settings_hmicgain">ヘッドセットマイク入力の増幅率</string>
+    <string name="settings_improve">Improve Audio</string>
+    <string name="settings_improve2">要:有料アカウント</string>
+    <string name="settings_keepon">常に画面ON</string>
+    <string name="settings_keepon2">いくつかのデバイスでは設定の如何に関わらず、画面OFFになるとWi-Fiがおかしくなります</string>
+    <string name="settings_line">Line</string>
+    <string name="settings_micgain">マイク入力の増幅率</string>
+    <string name="settings_mmtel">MMTel flavorを使用</string>
+    <string name="settings_mmtel_qvalue">Q値</string>
+    <string name="settings_nodata">データ無し通知</string>
+    <string name="settings_nodata2">音声パケットに可聴音が含まれていない場合に通知します</string>
+    <string name="settings_notifications">通知設定</string>
+    <string name="settings_notify">不在着信通知</string>
+    <string name="settings_notify2">青いLEDで通知します</string>
+    <string name="settings_options">通話設定</string>
+    <string name="settings_ownwifi">Wi-Fi出力を制御</string>
+    <string name="settings_ownwifi2">バッテリ節約</string>
+    <string name="settings_par">Simultaneous Outbound</string>
+    <string name="settings_par2">Dials all of one person\'s phone numbers in parallel</string>
+    <string name="settings_password">パスワード</string>
+    <string name="settings_pbxes_options">PBXesの機能</string>
+    <string name="settings_policy_default">Reset Wi-Fi sleep policy to default.</string>
+    <string name="settings_policy_never">Changed system sleep policy to keep Wi-Fi on.</string>
+    <string name="settings_port">ポート番号</string>
+    <string name="settings_pos">Update Location</string>
+    <string name="settings_pos2">Can be announced to PBXes contacts (要:プレミアムアカウント)</string>
+    <string name="settings_pos3">Updating location</string>
+    <string name="settings_posurl">URL for Location/Callback</string>
+    <string name="settings_pref">電話発信時の利用選択</string>
+    <string name="settings_pref2">自動的に\'+\'を付加して電話をかけれるようにしたり、Contactsから\'text to\'経由で使えるようにします.</string>
+    <string name="settings_profile_delete_confirmation">プロファイルを削除しました.</string>
+    <string name="settings_profile_delete_error">プロファイルの削除ができません!</string>
+    <string name="settings_profile_dialog_delete_text">プロファイル <ns1:g id="profile">%s</ns1:g> を削除しますか?</string>
+    <string name="settings_profile_dialog_delete_title">プロファイルの削除</string>
+    <string name="settings_profile_dialog_profiles_title">プロファイル</string>
+    <string name="settings_profile_export_error">設定のエクスポートができません!</string>
+    <string name="settings_profile_import_error">設定のインポートができません!</string>
+    <string name="settings_profile_menu_delete">削除</string>
+    <string name="settings_profile_menu_export">エクスポート</string>
+    <string name="settings_profile_menu_import">インポート</string>
+    <string name="settings_profile_title">Sipdroid設定 (<ns1:g id="profile">%s</ns1:g>)</string>
+    <string name="settings_protocol">プロトコル</string>
+    <string name="settings_reg">登録</string>
+    <string name="settings_reg2">使用するSIPアカウントの選択を許可します</string>
+    <string name="settings_search">検索 &amp; 置換</string>
+    <string name="settings_selectwifi">Wi-Fi APを選択</string>
+    <string name="settings_selectwifi2">電波強度で判断</string>
+    <string name="settings_server">サーバ or プロキシ</string>
+    <string name="settings_sipringtone">SIP着信音</string>
+    <string name="settings_sipringtone2">SIP着信時の着信音を設定</string>
+    <string name="settings_sipringtone_dialog">着信音</string>
+    <string name="settings_stun">STUNサーバを使用</string>
+    <string name="settings_stun_server">STUNサーバ名</string>
+    <string name="settings_stun_server_port">STUNサーバ ポート番号</string>
+    <string name="settings_title">Sipdroid設定</string>
+    <string name="settings_username">認証用ユーザ名</string>
+    <string name="settings_username1">ユーザ名 or Caller ID</string>
+    <string name="settings_vpn">VPNを使用</string>
+    <string name="settings_vpn2">PBXesでは無料のVPNサービスを提供しています。詳しくは PBXes >> HELP にて!</string>
+    <string name="settings_vquality">ビデオ品質</string>
+    <string name="settings_wireless_options">ワイヤレス設定</string>
+    <string name="settings_wlan">無線LANを使用</string>
+    <string name="sip_name">Sipdroid Call, when available</string>
+    <string name="slide_hint_down_to_end_call">下にスライドすると終話します.</string>
+    <string name="slide_hint_up_to_answer">上にスライドすると電話に出ます.</string>
+    <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="transfer_title">転送電話 to</string>
+    <string name="unknown">不明</string>
+    <string name="voicemail">メッセージを待っています</string>
+    <string name="yes">はい</string>
+</resources>

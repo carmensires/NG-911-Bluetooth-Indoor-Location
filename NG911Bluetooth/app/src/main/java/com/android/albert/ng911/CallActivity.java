@@ -51,7 +51,8 @@ public class CallActivity extends AppCompatActivity implements BeaconConsumer {
     long firstTime;
     RequestQueue queue;
     public static boolean sended;
-    public static String url = "http://nead.bramsoft.com/indexupdate.php";//ip of the location server (will respond with XML file)
+    public static String prevUrl = "http://nead.bramsoft.com/indexupdate.php"; // previous URL
+    public static String url = "https://api.iitrtclab.com/indoorlocation/xml?";
     HttpTx httptx;
     public static Context c;
     //LocationHelper outdoorLocation;
@@ -67,7 +68,7 @@ public class CallActivity extends AppCompatActivity implements BeaconConsumer {
         sended=false;
         new Handler().postDelayed(new Runnable() {
             public void run() {
-                if (!sended && numBeacons>1){ //if (!sended && numBeacons>1){ Delete the numBeacons>1 condition to make tests when there are no beacons
+                if (!sended){ //if (!sended && numBeacons>1){ Delete the numBeacons>1 condition to make tests when there are no beacons
                     try {
                         httptx.HttpGetRequest(url, getApplicationContext(), json.readMyJson(), new VolleyCallback() {
                             @Override
