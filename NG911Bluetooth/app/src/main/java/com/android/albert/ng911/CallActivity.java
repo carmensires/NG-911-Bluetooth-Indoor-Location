@@ -191,7 +191,9 @@ public class CallActivity extends AppCompatActivity implements BeaconConsumer {
     private class CustomRangeNotifier implements RangeNotifier {
         @Override
         public void didRangeBeaconsInRegion(Collection<Beacon> beacons, Region region) {
+            Log.d("carmenlog[BEACONS]","call activity did range beacons in region");
             if (beacons.size() > 0) {
+                Log.d("carmenlog[BEACONS]","Beacons size>0");
                 for (Beacon beacon : beacons) {
                     Identifier majorp = beacon.getId2();
                     //filter our hardcoded major, we only want to see our beacons identifiers
@@ -202,6 +204,7 @@ public class CallActivity extends AppCompatActivity implements BeaconConsumer {
                         minor.add(beacon.getId3());
                         uuid.add(beacon.getId1());
                         numBeacons++;
+                        Log.d("carmenlog[BEACONS]","RSSI: "+beacon.getRssi()+", major: "+majorp+"minor: "+beacon.getId3());
                         if (numBeacons == 1) {
                             Log.i(CALL, "The beacon " + beacon.toString() + " (major: " + beacon.getId2() + ", minor: " + beacon.getId3() + ").");
                             firstTime = System.currentTimeMillis();
