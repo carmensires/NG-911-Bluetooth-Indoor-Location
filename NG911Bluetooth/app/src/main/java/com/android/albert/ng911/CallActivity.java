@@ -68,7 +68,7 @@ public class CallActivity extends AppCompatActivity implements BeaconConsumer {
         sended=false;
         new Handler().postDelayed(new Runnable() {
             public void run() {
-                if (!sended){ //if (!sended && numBeacons>1){ Delete the numBeacons>1 condition to make tests when there are no beacons
+                if (!sended && numBeacons>1){ //if (!sended && numBeacons>1){ Delete the numBeacons>1 condition to make tests when there are no beacons
                     try {
                         httptx.HttpGetRequest(url, getApplicationContext(), json.readMyJson(), new VolleyCallback() {
                             @Override
@@ -192,6 +192,8 @@ public class CallActivity extends AppCompatActivity implements BeaconConsumer {
         @Override
         public void didRangeBeaconsInRegion(Collection<Beacon> beacons, Region region) {
             Log.d("carmenlog[BEACONS]","call activity did range beacons in region");
+            Log.d("carmenlog[BEACONS]","beacons: "+beacons.toString());
+            Log.d("carmenlog[BEACONS]","region: "+region.toString());
             if (beacons.size() > 0) {
                 Log.d("carmenlog[BEACONS]","Beacons size>0");
                 for (Beacon beacon : beacons) {

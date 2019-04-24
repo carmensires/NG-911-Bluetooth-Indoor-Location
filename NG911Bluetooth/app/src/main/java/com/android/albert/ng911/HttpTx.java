@@ -107,15 +107,15 @@ public class HttpTx {
         String urlfinal = url+json;
 
         try {
-            Log.d("carmenlog[INFO]","trying http get request");
+            Log.d("carmenlog[HTTP]","trying http get request");
             result = new HttpGetRequestTask().execute(urlfinal).get();
-            Log.d("carmenlog[INFO]","done http get request");
-            Log.d("carmenlog[INFO]","result"+result);
+            Log.d("carmenlog[HTTP]","done http get request");
+            Log.d("carmenlog[HTTP]","result: "+result);
         } catch (ExecutionException e) {
-            Log.d("carmenlog[ERROR exec]",e.toString());
+            Log.d("carmenlog[ERR exec]",e.toString());
             e.printStackTrace();
         } catch (InterruptedException e) {
-            Log.d("carmenlog[ERROR inter]",e.toString());
+            Log.d("carmenlog[ERR inter]",e.toString());
             e.printStackTrace();
         }
     }
