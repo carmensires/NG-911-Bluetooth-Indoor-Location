@@ -91,6 +91,7 @@ public class Sipdroid extends Activity implements OnDismissListener {
     public void onStart() {//Modified by Alberto
         super.onStart();
         Receiver.engine(this).registerMore();
+        Log.i("carmenlog[SIPDROID]","starting sipdroid");
         ContentResolver content = getContentResolver();
         Cursor cursor = content.query(Calls.CONTENT_URI,
                 PROJECTION, Calls.NUMBER + " like ?", new String[]{"%@%"}, Calls.DEFAULT_SORT_ORDER);

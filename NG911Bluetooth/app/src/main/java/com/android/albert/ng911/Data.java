@@ -1,5 +1,8 @@
 package com.android.albert.ng911;
 
+
+import android.util.Log;
+
 /**
  * Created by Albert on 4/8/2016.
  * Class for interacting with data
@@ -24,6 +27,7 @@ public class Data {
     public void setReceived(String a)
     {
         this.captured = a;
+        Log.i("carmenlog[DATA]","received: "+a);
     }
 
     public String getJson()

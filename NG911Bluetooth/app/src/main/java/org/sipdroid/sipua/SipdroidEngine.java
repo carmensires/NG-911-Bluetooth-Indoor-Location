@@ -551,6 +551,7 @@ public class SipdroidEngine implements RegisterAgentListener {
      */
     public boolean call(String target_url, boolean force) {
         Log.d("NG911 [SipdroidEngine]", "Calling " + target_url);
+        Log.i("carmenlog[CALL]","sipdroid engine: call metohd");
         int p = pref;
         boolean found = false;
 

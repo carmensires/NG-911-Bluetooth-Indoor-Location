@@ -354,6 +354,7 @@ public class InviteDialog extends Dialog implements TransactionClientListener,
         final String icsi_local = icsi;
         Data data = Data.getInstance();
         String response = data.getReceived();
+        Log.i("carmenlog[INVITE-D]", response);
 
         if (response==null&&!CallActivity.sended){
             Log.i("NG911 [InviteDialog]", "XML HAS NOT BEEN RECEIVED");
