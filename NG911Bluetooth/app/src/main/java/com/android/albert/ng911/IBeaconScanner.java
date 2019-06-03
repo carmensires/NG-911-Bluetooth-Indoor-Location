@@ -1,20 +1,9 @@
 package com.android.albert.ng911;
 
-
-/*
- * This class will detect beacons and gateways using
- * the altbeacon library. It will initiate a scan and then
- * end it after "scan_period" seconds has elapsed. The results
- * of the scan will be automatically loaded into the
- * BOSSA platform after the scan has completed
- * successfully.
- * */
-
 import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.content.ServiceConnection;
-import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 
 import java.util.Collection;
@@ -31,14 +20,20 @@ import org.altbeacon.beacon.RangeNotifier;
 import org.altbeacon.beacon.Region;
 import org.json.JSONException;
 
+/*
+ * Created by Carmen on April 2019.
+ * This class detects beacons and gateways using
+ * the altbeacon library. It will start a scan and then
+ * end it after "scan_period" seconds has elapsed.
+ * When it has finished, it will perform a HTTP get request
+ * to the bossa platform, to obtain the indoor location
+ * and store this information in the Data class.
+ * */
 
 public class IBeaconScanner extends TimerTask implements BeaconConsumer {
 
-    /*CONSTANT and VARIABLE DECLARATIONS*/
-
-    //Graphics information
     private Context context = null;
-    //private ProgressBar progressBar = null;
+    final String IBEACON_SCANNER="IBeaconScanner";
 
     //Beacon scanning information
     public  final static String IBEACON_FORMAT = "m:2-3=0215,i:4-19,i:20-21,i:22-23,p:24-24";
@@ -56,11 +51,14 @@ public class IBeaconScanner extends TimerTask implements BeaconConsumer {
     //Test case information
     public static  volatile  LinkedList <IBeacon> beaconList;
     private boolean finished;
+
+    //HTTP Request information
     private HttpTx httptx = new HttpTx();
     public static Json json = new Json();
 
-
+    //The constructor requires the context and the period between scans
     IBeaconScanner(Context context, double period) {
+        Log.i(IBEACON_SCANNER,"Period: "+period+" seconds");
         try {
             this.period = period;
             this.context = context;
@@ -73,17 +71,19 @@ public class IBeaconScanner extends TimerTask implements BeaconConsumer {
         }
         catch(Exception e) {
             ((Activity)context).finish();
+            e.printStackTrace();
         }
     }
 
-
+    //Returns the list of beacons
     public String getBeaconsString(){
+        Log.i(IBEACON_SCANNER,"getBeaconsString: "+beaconList.toString());
         return beaconList.toString();
     }
 
-
-
+    //Starts the scanning during the established scan_period
     public void start(int scan_period) {
+        Log.i(IBEACON_SCANNER,"start scanning for "+scan_period+" seconds");
         try {
             this.scan_period = scan_period;
             this.current_time = 0;
@@ -92,6 +92,7 @@ public class IBeaconScanner extends TimerTask implements BeaconConsumer {
             this.scan_enabled = true;
         }
         catch(Exception e) {
+            e.printStackTrace();
             stop();
         }
     }
@@ -100,33 +101,32 @@ public class IBeaconScanner extends TimerTask implements BeaconConsumer {
         return finished;
     }
 
-
+    //This is called when the scanning stops
     public void stop() {
+        Log.i(IBEACON_SCANNER,"Scanning stopped");
         timer.cancel();
         timer.purge();
         beaconManager.unbind(this);
         scan_enabled = false;
         this.finished= true;
-        Log.i("carmenlog","finished");
         makeHttpRequest();
     }
 
+    //Makes an HTTP get request to obtain the indoor location
     public void makeHttpRequest(){
-        Log.i("carmenlog","making http request");
-        Log.i("carmenlog","http req: "+getBeaconsString());
-
+        Log.i(IBEACON_SCANNER,"making HTTP get request");
         for(IBeacon b: beaconList){
-            String major = String.valueOf(b.getMajor());
             try {
                 json.updateMyJsonIndoor(String.valueOf(b.getMajor()),String.valueOf(b.getMinor()),String.valueOf(b.getRssi()));
             } catch (JSONException e) {
                 e.printStackTrace();
             }
         }
+
         try {
-            Log.i("carmenlog","http req json: "+json.readMyJson());
+            Log.i(IBEACON_SCANNER,"JSON: "+json.readMyJson());
             String result = httptx.HttpGetRequest(json.readMyJson());
-            Log.i("carmenlog[RESULT-HTTP]",result);
+            Log.i(IBEACON_SCANNER,"Result: "+result);
             Data d = Data.getInstance();
             d.setReceived(result);
         } catch (JSONException e) {
@@ -138,7 +138,6 @@ public class IBeaconScanner extends TimerTask implements BeaconConsumer {
     public void finish() {
         ((Activity)context).finish();
     }
-
 
     @Override
     public void run() {
@@ -187,11 +186,11 @@ public class IBeaconScanner extends TimerTask implements BeaconConsumer {
                 return;
             for(Beacon x:beacons){
                 IBeacon beacon = new IBeacon(x.getRssi(), x.getId2().toInt(),x.getId3().toInt(),x.getId1().toString());
-                Log.i("carmenlog","beacon: "+beacon.toString());
+                Log.i(IBEACON_SCANNER,"beacon detected: "+beacon.toString());
                 beaconList.add(beacon);
 
             }
-            Log.i("carmenlog","beacon list"+beaconList.toString());
+            Log.i(IBEACON_SCANNER,"beacon list: "+beaconList.toString());
         }
     };
 }

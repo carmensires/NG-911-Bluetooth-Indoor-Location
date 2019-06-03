@@ -8,7 +8,15 @@ import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
 import java.net.URL;
 
+/*
+ * Created by Carmen on March 2019.
+ * This class is used to perform the HTTP Get Request.
+ * It is called from HttpTx.java
+ * */
+
 public class HttpGetRequestTask extends AsyncTask<String,Integer,String> {
+
+    final String HTTP_GET_REQUEST_TASK="HttpGetRequestTask";
 
     @Override
     protected String doInBackground(String... params) {
@@ -16,7 +24,7 @@ public class HttpGetRequestTask extends AsyncTask<String,Integer,String> {
         try {
             URL url = new URL(my_url);
             HttpURLConnection httpURLConnection = (HttpURLConnection) url.openConnection();
-            // setting the  Request Method Type
+            // setting the Request Method Type
             httpURLConnection.setRequestMethod("GET");
             try{
                 httpURLConnection.connect();
@@ -29,10 +37,10 @@ public class HttpGetRequestTask extends AsyncTask<String,Integer,String> {
                 //httpURLConnection.setChunkedStreamingMode(0);
 
                 // to log the response code of the request
-                Log.d("carmenlog[CODE]", "MyHttpRequestTask doInBackground : " +httpURLConnection.getResponseCode());
+                Log.d(HTTP_GET_REQUEST_TASK, "Code: " +httpURLConnection.getResponseCode());
                 // to log the response message from your server after you have tried the request.
-                Log.d("carmenlog[MESSAGE]", "MyHttpRequestTask doInBackground : " +httpURLConnection.getResponseMessage());
-                Log.d("carmenlog[CONTENT]",content);
+                Log.d(HTTP_GET_REQUEST_TASK, "Message: " +httpURLConnection.getResponseMessage());
+                Log.d(HTTP_GET_REQUEST_TASK,"Content: "+content);
                 return content;
 
             }catch (Exception e){
@@ -52,6 +60,6 @@ public class HttpGetRequestTask extends AsyncTask<String,Integer,String> {
     }
 
     protected void onPostExecute(Long result) {
-        Log.d("carmenlog[ONPOSTXECUTE]",""+result);
+        Log.d(HTTP_GET_REQUEST_TASK,"Result: "+result);
     }
 }

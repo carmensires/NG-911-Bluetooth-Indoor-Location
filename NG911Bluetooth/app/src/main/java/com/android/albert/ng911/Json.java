@@ -8,8 +8,9 @@ import org.json.JSONObject;
 
 /**
  * Created by Albert on 1/30/2016.
+ * Modified by Carmen on April 2019
  * Creation of the JSON format for the location server
- * [{"major":"xx","minor":"xx","rss":"xx"},{"major":"xy","minor":"xy","rss":"xy”}]
+ * Example: json[]={"major":1000,"minor":575,"rssi":-91}
  */
 public class Json {
     /**
@@ -59,7 +60,6 @@ public class Json {
         json.put("minor", Integer.parseInt(Minor));
         json.put("rssi", Integer.parseInt(Rssi));
         beaconsJson.put(json);
-        //main.put("location",beaconsJson);//
     }
 
     public void createMyJsonOutdoor(Context c) throws JSONException {
@@ -67,7 +67,6 @@ public class Json {
         jsonObOutdoor.put("Lat", location.getLocation().getLatitude());
         jsonObOutdoor.put("Long", location.getLocation().getLongitude());
         beaconsJson.put(jsonObOutdoor);
-        //main.put("location",beaconsJson);
     }
 
     public String readMyJson()throws JSONException {
@@ -78,8 +77,10 @@ public class Json {
             jsonStr+="json[]="+json_i.toString()+"&";
         }
         jsonStr+="algorithim=1";
-        return jsonStr;
-        //return beaconsJson.toString();
-    }
 
+        //To perform tests while not in SB, use this example URL
+        String jsonStrExample = "json[]={\"major\":1000,\"minor\":575,\"rssi\":-91}&json[]={\"major\":1000,\"minor\":539,\"rssi\":-84}&json[]={\"major\":1000,\"minor\":515,\"rssi\":-91}&json[]={\"major\":1000,\"minor\":575,\"rssi\":-94}&json[]={\"major\":1000,\"minor\":515,\"rssi\":-91}&json[]={\"major\":1000,\"minor\":515,\"rssi\":-92}&json[]={\"major\":1000,\"minor\":552,\"rssi\":-85}&algorithim=1";
+        return jsonStrExample;
+        //return jsonStr;
+    }
 }

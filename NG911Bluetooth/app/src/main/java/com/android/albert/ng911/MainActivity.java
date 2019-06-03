@@ -23,10 +23,11 @@ import com.facebook.Profile;
 
 /**
  * Created by Albert on 1/24/2016.
+ * Modified by Carmen on April 2019
  * Main activity with the 3 buttons and the settings option. Turns on the Bluetooth for having the app ready to make an emergency call.
  */
 public class MainActivity extends AppCompatActivity {
-    final String MAIN_ACTIVITY="[NG 911] MainAct";
+    final String MAIN_ACTIVITY="[NG 911] MainActivity";
     public static final int MAX = 50;
     BluetoothChecker bluetooth;
     TextView textFname;
@@ -66,7 +67,7 @@ public class MainActivity extends AppCompatActivity {
                 strFName=Profile.getCurrentProfile().getFirstName();
         }catch(Exception e){System.out.println(e);}
         nameView.setText(strFName);
-        PermissionsCheck();
+        permissionsCheck();
     }
 
     @Override
@@ -102,7 +103,7 @@ public class MainActivity extends AppCompatActivity {
         return super.onOptionsItemSelected(item);
     }
 
-    private void PermissionsCheck() {
+    private void permissionsCheck() {
         if (!getPackageManager().hasSystemFeature(PackageManager.FEATURE_BLUETOOTH_LE)) {
             finish();
         }

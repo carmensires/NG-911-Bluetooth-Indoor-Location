@@ -2,6 +2,11 @@ package com.android.albert.ng911;
 
 import java.util.LinkedList;
 
+/*
+ * Created by Carmen on April 2019.
+ * This class describes a beacon. It uses the altbeacon library
+ * */
+
 public class IBeacon {
     private int major, minor;
     private String uuid;

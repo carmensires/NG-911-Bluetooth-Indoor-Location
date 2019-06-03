@@ -15,16 +15,16 @@ ADDED from /Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-
 		INJECTED from /Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/src/main/AndroidManifest.xml
 uses-permission#android.permission.BLUETOOTH
 ADDED from /Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/src/main/AndroidManifest.xml:5:5-68
-MERGED from [org.altbeacon:android-beacon-library:2.16.1] /Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/build/intermediates/exploded-aar/org.altbeacon/android-beacon-library/2.16.1/AndroidManifest.xml:11:5-13:36
+MERGED from [org.altbeacon:android-beacon-library:2.16.2] /Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/build/intermediates/exploded-aar/org.altbeacon/android-beacon-library/2.16.2/AndroidManifest.xml:11:5-13:36
 	android:required
-		ADDED from [org.altbeacon:android-beacon-library:2.16.1] /Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/build/intermediates/exploded-aar/org.altbeacon/android-beacon-library/2.16.1/AndroidManifest.xml:13:9-33
+		ADDED from [org.altbeacon:android-beacon-library:2.16.2] /Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/build/intermediates/exploded-aar/org.altbeacon/android-beacon-library/2.16.2/AndroidManifest.xml:13:9-33
 	android:name
 		ADDED from /Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/src/main/AndroidManifest.xml:5:22-65
 uses-permission#android.permission.BLUETOOTH_ADMIN
 ADDED from /Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/src/main/AndroidManifest.xml:6:5-74
-MERGED from [org.altbeacon:android-beacon-library:2.16.1] /Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/build/intermediates/exploded-aar/org.altbeacon/android-beacon-library/2.16.1/AndroidManifest.xml:14:5-16:36
+MERGED from [org.altbeacon:android-beacon-library:2.16.2] /Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/build/intermediates/exploded-aar/org.altbeacon/android-beacon-library/2.16.2/AndroidManifest.xml:14:5-16:36
 	android:required
-		ADDED from [org.altbeacon:android-beacon-library:2.16.1] /Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/build/intermediates/exploded-aar/org.altbeacon/android-beacon-library/2.16.1/AndroidManifest.xml:16:9-33
+		ADDED from [org.altbeacon:android-beacon-library:2.16.2] /Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/build/intermediates/exploded-aar/org.altbeacon/android-beacon-library/2.16.2/AndroidManifest.xml:16:9-33
 	android:name
 		ADDED from /Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/src/main/AndroidManifest.xml:6:22-71
 uses-permission#android.permission.CALL_PHONE
@@ -38,7 +38,7 @@ MERGED from [com.google.android.gms:play-services-ads:8.4.0] /Users/carmensires/
 		ADDED from /Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/src/main/AndroidManifest.xml:8:22-64
 uses-permission#android.permission.ACCESS_COARSE_LOCATION
 ADDED from /Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/src/main/AndroidManifest.xml:9:5-81
-MERGED from [org.altbeacon:android-beacon-library:2.16.1] /Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/build/intermediates/exploded-aar/org.altbeacon/android-beacon-library/2.16.1/AndroidManifest.xml:18:5-81
+MERGED from [org.altbeacon:android-beacon-library:2.16.2] /Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/build/intermediates/exploded-aar/org.altbeacon/android-beacon-library/2.16.2/AndroidManifest.xml:18:5-81
 	android:name
 		ADDED from /Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/src/main/AndroidManifest.xml:9:22-78
 uses-permission#android.permission.ACCESS_FINE_LOCATION
@@ -87,7 +87,7 @@ ADDED from /Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-
 		ADDED from /Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/src/main/AndroidManifest.xml:20:22-73
 uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
 ADDED from /Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/src/main/AndroidManifest.xml:21:5-97
-MERGED from [org.altbeacon:android-beacon-library:2.16.1] /Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/build/intermediates/exploded-aar/org.altbeacon/android-beacon-library/2.16.1/AndroidManifest.xml:17:5-81
+MERGED from [org.altbeacon:android-beacon-library:2.16.2] /Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/build/intermediates/exploded-aar/org.altbeacon/android-beacon-library/2.16.2/AndroidManifest.xml:17:5-81
 	android:name
 		ADDED from /Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/src/main/AndroidManifest.xml:21:22-78
 uses-permission#android.permission.READ_CONTACTS
@@ -163,7 +163,7 @@ MERGED from [com.android.support:support-vector-drawable:23.2.1] /Users/carmensi
 MERGED from [com.android.support:support-v4:23.2.1] /Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:support-v4:23.2.1] /Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/AndroidManifest.xml:22:5-20
 MERGED from [NG911Bluetooth:volley:unspecified] /Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/build/intermediates/exploded-aar/NG911Bluetooth/volley/unspecified/AndroidManifest.xml:9:5-20
-MERGED from [org.altbeacon:android-beacon-library:2.16.1] /Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/build/intermediates/exploded-aar/org.altbeacon/android-beacon-library/2.16.1/AndroidManifest.xml:20:5-56:19
+MERGED from [org.altbeacon:android-beacon-library:2.16.2] /Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/build/intermediates/exploded-aar/org.altbeacon/android-beacon-library/2.16.2/AndroidManifest.xml:20:5-56:19
 MERGED from [com.android.support:support-v4:23.2.1] /Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/AndroidManifest.xml:22:5-20
 MERGED from [com.facebook.android:facebook-android-sdk:4.11.0] /Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.11.0/AndroidManifest.xml:28:5-20
 MERGED from [com.android.support:support-v4:23.2.1] /Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/AndroidManifest.xml:22:5-20
@@ -521,7 +521,7 @@ MERGED from [com.android.support:support-v4:23.2.1] /Users/carmensires/AndroidSt
 MERGED from [com.android.support:recyclerview-v7:23.2.1] /Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.2.1/AndroidManifest.xml:20:5-43
 MERGED from [com.android.support:support-v4:23.2.1] /Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/AndroidManifest.xml:20:5-43
 MERGED from [NG911Bluetooth:volley:unspecified] /Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/build/intermediates/exploded-aar/NG911Bluetooth/volley/unspecified/AndroidManifest.xml:7:5-43
-MERGED from [org.altbeacon:android-beacon-library:2.16.1] /Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/build/intermediates/exploded-aar/org.altbeacon/android-beacon-library/2.16.1/AndroidManifest.xml:7:5-9:41
+MERGED from [org.altbeacon:android-beacon-library:2.16.2] /Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/build/intermediates/exploded-aar/org.altbeacon/android-beacon-library/2.16.2/AndroidManifest.xml:7:5-9:41
 MERGED from [com.android.support:support-v4:23.2.1] /Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/AndroidManifest.xml:20:5-43
 MERGED from [com.facebook.android:facebook-android-sdk:4.11.0] /Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.11.0/AndroidManifest.xml:24:5-26:41
 MERGED from [com.android.support:support-v4:23.2.1] /Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/AndroidManifest.xml:20:5-43
@@ -570,69 +570,69 @@ MERGED from [com.android.support:support-v4:23.2.1] /Users/carmensires/AndroidSt
 		INJECTED from /Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/src/main/AndroidManifest.xml
 receiver#org.altbeacon.beacon.startup.StartupBroadcastReceiver
-ADDED from [org.altbeacon:android-beacon-library:2.16.1] /Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/build/intermediates/exploded-aar/org.altbeacon/android-beacon-library/2.16.1/AndroidManifest.xml:21:9-27:20
+ADDED from [org.altbeacon:android-beacon-library:2.16.2] /Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/build/intermediates/exploded-aar/org.altbeacon/android-beacon-library/2.16.2/AndroidManifest.xml:21:9-27:20
 	android:name
-		ADDED from [org.altbeacon:android-beacon-library:2.16.1] /Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/build/intermediates/exploded-aar/org.altbeacon/android-beacon-library/2.16.1/AndroidManifest.xml:21:19-87
+		ADDED from [org.altbeacon:android-beacon-library:2.16.2] /Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/build/intermediates/exploded-aar/org.altbeacon/android-beacon-library/2.16.2/AndroidManifest.xml:21:19-87
 intent-filter#android.intent.action.ACTION_POWER_CONNECTED+android.intent.action.ACTION_POWER_DISCONNECTED+android.intent.action.BOOT_COMPLETED
-ADDED from [org.altbeacon:android-beacon-library:2.16.1] /Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/build/intermediates/exploded-aar/org.altbeacon/android-beacon-library/2.16.1/AndroidManifest.xml:22:13-26:29
+ADDED from [org.altbeacon:android-beacon-library:2.16.2] /Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/build/intermediates/exploded-aar/org.altbeacon/android-beacon-library/2.16.2/AndroidManifest.xml:22:13-26:29
 action#android.intent.action.ACTION_POWER_CONNECTED
-ADDED from [org.altbeacon:android-beacon-library:2.16.1] /Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/build/intermediates/exploded-aar/org.altbeacon/android-beacon-library/2.16.1/AndroidManifest.xml:24:17-87
+ADDED from [org.altbeacon:android-beacon-library:2.16.2] /Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/build/intermediates/exploded-aar/org.altbeacon/android-beacon-library/2.16.2/AndroidManifest.xml:24:17-87
 	android:name
-		ADDED from [org.altbeacon:android-beacon-library:2.16.1] /Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/build/intermediates/exploded-aar/org.altbeacon/android-beacon-library/2.16.1/AndroidManifest.xml:24:25-84
+		ADDED from [org.altbeacon:android-beacon-library:2.16.2] /Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/build/intermediates/exploded-aar/org.altbeacon/android-beacon-library/2.16.2/AndroidManifest.xml:24:25-84
 action#android.intent.action.ACTION_POWER_DISCONNECTED
-ADDED from [org.altbeacon:android-beacon-library:2.16.1] /Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/build/intermediates/exploded-aar/org.altbeacon/android-beacon-library/2.16.1/AndroidManifest.xml:25:17-90
+ADDED from [org.altbeacon:android-beacon-library:2.16.2] /Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/build/intermediates/exploded-aar/org.altbeacon/android-beacon-library/2.16.2/AndroidManifest.xml:25:17-90
 	android:name
-		ADDED from [org.altbeacon:android-beacon-library:2.16.1] /Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/build/intermediates/exploded-aar/org.altbeacon/android-beacon-library/2.16.1/AndroidManifest.xml:25:25-87
+		ADDED from [org.altbeacon:android-beacon-library:2.16.2] /Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/build/intermediates/exploded-aar/org.altbeacon/android-beacon-library/2.16.2/AndroidManifest.xml:25:25-87
 service#org.altbeacon.beacon.service.BeaconService
-ADDED from [org.altbeacon:android-beacon-library:2.16.1] /Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/build/intermediates/exploded-aar/org.altbeacon/android-beacon-library/2.16.1/AndroidManifest.xml:29:9-34:38
+ADDED from [org.altbeacon:android-beacon-library:2.16.2] /Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/build/intermediates/exploded-aar/org.altbeacon/android-beacon-library/2.16.2/AndroidManifest.xml:29:9-34:38
 	android:enabled
-		ADDED from [org.altbeacon:android-beacon-library:2.16.1] /Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/build/intermediates/exploded-aar/org.altbeacon/android-beacon-library/2.16.1/AndroidManifest.xml:31:13-35
+		ADDED from [org.altbeacon:android-beacon-library:2.16.2] /Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/build/intermediates/exploded-aar/org.altbeacon/android-beacon-library/2.16.2/AndroidManifest.xml:31:13-35
 	android:label
-		ADDED from [org.altbeacon:android-beacon-library:2.16.1] /Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/build/intermediates/exploded-aar/org.altbeacon/android-beacon-library/2.16.1/AndroidManifest.xml:34:13-35
+		ADDED from [org.altbeacon:android-beacon-library:2.16.2] /Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/build/intermediates/exploded-aar/org.altbeacon/android-beacon-library/2.16.2/AndroidManifest.xml:34:13-35
 	android:exported
-		ADDED from [org.altbeacon:android-beacon-library:2.16.1] /Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/build/intermediates/exploded-aar/org.altbeacon/android-beacon-library/2.16.1/AndroidManifest.xml:32:13-37
+		ADDED from [org.altbeacon:android-beacon-library:2.16.2] /Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/build/intermediates/exploded-aar/org.altbeacon/android-beacon-library/2.16.2/AndroidManifest.xml:32:13-37
 	android:isolatedProcess
-		ADDED from [org.altbeacon:android-beacon-library:2.16.1] /Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/build/intermediates/exploded-aar/org.altbeacon/android-beacon-library/2.16.1/AndroidManifest.xml:33:13-44
+		ADDED from [org.altbeacon:android-beacon-library:2.16.2] /Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/build/intermediates/exploded-aar/org.altbeacon/android-beacon-library/2.16.2/AndroidManifest.xml:33:13-44
 	android:name
-		ADDED from [org.altbeacon:android-beacon-library:2.16.1] /Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/build/intermediates/exploded-aar/org.altbeacon/android-beacon-library/2.16.1/AndroidManifest.xml:30:13-70
+		ADDED from [org.altbeacon:android-beacon-library:2.16.2] /Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/build/intermediates/exploded-aar/org.altbeacon/android-beacon-library/2.16.2/AndroidManifest.xml:30:13-70
 service#org.altbeacon.beacon.BeaconIntentProcessor
-ADDED from [org.altbeacon:android-beacon-library:2.16.1] /Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/build/intermediates/exploded-aar/org.altbeacon/android-beacon-library/2.16.1/AndroidManifest.xml:35:9-38:40
+ADDED from [org.altbeacon:android-beacon-library:2.16.2] /Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/build/intermediates/exploded-aar/org.altbeacon/android-beacon-library/2.16.2/AndroidManifest.xml:35:9-38:40
 	android:enabled
-		ADDED from [org.altbeacon:android-beacon-library:2.16.1] /Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/build/intermediates/exploded-aar/org.altbeacon/android-beacon-library/2.16.1/AndroidManifest.xml:37:13-35
+		ADDED from [org.altbeacon:android-beacon-library:2.16.2] /Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/build/intermediates/exploded-aar/org.altbeacon/android-beacon-library/2.16.2/AndroidManifest.xml:37:13-35
 	android:exported
-		ADDED from [org.altbeacon:android-beacon-library:2.16.1] /Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/build/intermediates/exploded-aar/org.altbeacon/android-beacon-library/2.16.1/AndroidManifest.xml:38:13-37
+		ADDED from [org.altbeacon:android-beacon-library:2.16.2] /Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/build/intermediates/exploded-aar/org.altbeacon/android-beacon-library/2.16.2/AndroidManifest.xml:38:13-37
 	android:name
-		ADDED from [org.altbeacon:android-beacon-library:2.16.1] /Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/build/intermediates/exploded-aar/org.altbeacon/android-beacon-library/2.16.1/AndroidManifest.xml:36:13-70
+		ADDED from [org.altbeacon:android-beacon-library:2.16.2] /Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/build/intermediates/exploded-aar/org.altbeacon/android-beacon-library/2.16.2/AndroidManifest.xml:36:13-70
 service#org.altbeacon.beacon.service.ScanJob
-ADDED from [org.altbeacon:android-beacon-library:2.16.1] /Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/build/intermediates/exploded-aar/org.altbeacon/android-beacon-library/2.16.1/AndroidManifest.xml:39:9-48:19
+ADDED from [org.altbeacon:android-beacon-library:2.16.2] /Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/build/intermediates/exploded-aar/org.altbeacon/android-beacon-library/2.16.2/AndroidManifest.xml:39:9-48:19
 	android:permission
-		ADDED from [org.altbeacon:android-beacon-library:2.16.1] /Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/build/intermediates/exploded-aar/org.altbeacon/android-beacon-library/2.16.1/AndroidManifest.xml:41:13-69
+		ADDED from [org.altbeacon:android-beacon-library:2.16.2] /Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/build/intermediates/exploded-aar/org.altbeacon/android-beacon-library/2.16.2/AndroidManifest.xml:41:13-69
 	android:name
-		ADDED from [org.altbeacon:android-beacon-library:2.16.1] /Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/build/intermediates/exploded-aar/org.altbeacon/android-beacon-library/2.16.1/AndroidManifest.xml:40:13-64
+		ADDED from [org.altbeacon:android-beacon-library:2.16.2] /Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/build/intermediates/exploded-aar/org.altbeacon/android-beacon-library/2.16.2/AndroidManifest.xml:40:13-64
 meta-data#immediateScanJobId
-ADDED from [org.altbeacon:android-beacon-library:2.16.1] /Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/build/intermediates/exploded-aar/org.altbeacon/android-beacon-library/2.16.1/AndroidManifest.xml:42:13-44:45
+ADDED from [org.altbeacon:android-beacon-library:2.16.2] /Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/build/intermediates/exploded-aar/org.altbeacon/android-beacon-library/2.16.2/AndroidManifest.xml:42:13-44:45
 	android:value
-		ADDED from [org.altbeacon:android-beacon-library:2.16.1] /Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/build/intermediates/exploded-aar/org.altbeacon/android-beacon-library/2.16.1/AndroidManifest.xml:44:17-42
+		ADDED from [org.altbeacon:android-beacon-library:2.16.2] /Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/build/intermediates/exploded-aar/org.altbeacon/android-beacon-library/2.16.2/AndroidManifest.xml:44:17-42
 	android:name
-		ADDED from [org.altbeacon:android-beacon-library:2.16.1] /Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/build/intermediates/exploded-aar/org.altbeacon/android-beacon-library/2.16.1/AndroidManifest.xml:43:17-50
+		ADDED from [org.altbeacon:android-beacon-library:2.16.2] /Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/build/intermediates/exploded-aar/org.altbeacon/android-beacon-library/2.16.2/AndroidManifest.xml:43:17-50
 meta-data#periodicScanJobId
-ADDED from [org.altbeacon:android-beacon-library:2.16.1] /Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/build/intermediates/exploded-aar/org.altbeacon/android-beacon-library/2.16.1/AndroidManifest.xml:45:13-47:45
+ADDED from [org.altbeacon:android-beacon-library:2.16.2] /Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/build/intermediates/exploded-aar/org.altbeacon/android-beacon-library/2.16.2/AndroidManifest.xml:45:13-47:45
 	android:value
-		ADDED from [org.altbeacon:android-beacon-library:2.16.1] /Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/build/intermediates/exploded-aar/org.altbeacon/android-beacon-library/2.16.1/AndroidManifest.xml:47:17-42
+		ADDED from [org.altbeacon:android-beacon-library:2.16.2] /Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/build/intermediates/exploded-aar/org.altbeacon/android-beacon-library/2.16.2/AndroidManifest.xml:47:17-42
 	android:name
-		ADDED from [org.altbeacon:android-beacon-library:2.16.1] /Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/build/intermediates/exploded-aar/org.altbeacon/android-beacon-library/2.16.1/AndroidManifest.xml:46:17-49
+		ADDED from [org.altbeacon:android-beacon-library:2.16.2] /Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/build/intermediates/exploded-aar/org.altbeacon/android-beacon-library/2.16.2/AndroidManifest.xml:46:17-49
 service#org.altbeacon.bluetooth.BluetoothTestJob
-ADDED from [org.altbeacon:android-beacon-library:2.16.1] /Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/build/intermediates/exploded-aar/org.altbeacon/android-beacon-library/2.16.1/AndroidManifest.xml:49:9-55:19
+ADDED from [org.altbeacon:android-beacon-library:2.16.2] /Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/build/intermediates/exploded-aar/org.altbeacon/android-beacon-library/2.16.2/AndroidManifest.xml:49:9-55:19
 	android:permission
-		ADDED from [org.altbeacon:android-beacon-library:2.16.1] /Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/build/intermediates/exploded-aar/org.altbeacon/android-beacon-library/2.16.1/AndroidManifest.xml:51:13-69
+		ADDED from [org.altbeacon:android-beacon-library:2.16.2] /Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/build/intermediates/exploded-aar/org.altbeacon/android-beacon-library/2.16.2/AndroidManifest.xml:51:13-69
 	android:name
-		ADDED from [org.altbeacon:android-beacon-library:2.16.1] /Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/build/intermediates/exploded-aar/org.altbeacon/android-beacon-library/2.16.1/AndroidManifest.xml:50:13-68
+		ADDED from [org.altbeacon:android-beacon-library:2.16.2] /Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/build/intermediates/exploded-aar/org.altbeacon/android-beacon-library/2.16.2/AndroidManifest.xml:50:13-68
 meta-data#jobId
-ADDED from [org.altbeacon:android-beacon-library:2.16.1] /Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/build/intermediates/exploded-aar/org.altbeacon/android-beacon-library/2.16.1/AndroidManifest.xml:52:13-54:46
+ADDED from [org.altbeacon:android-beacon-library:2.16.2] /Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/build/intermediates/exploded-aar/org.altbeacon/android-beacon-library/2.16.2/AndroidManifest.xml:52:13-54:46
 	android:value
-		ADDED from [org.altbeacon:android-beacon-library:2.16.1] /Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/build/intermediates/exploded-aar/org.altbeacon/android-beacon-library/2.16.1/AndroidManifest.xml:54:17-43
+		ADDED from [org.altbeacon:android-beacon-library:2.16.2] /Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/build/intermediates/exploded-aar/org.altbeacon/android-beacon-library/2.16.2/AndroidManifest.xml:54:17-43
 	android:name
-		ADDED from [org.altbeacon:android-beacon-library:2.16.1] /Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/build/intermediates/exploded-aar/org.altbeacon/android-beacon-library/2.16.1/AndroidManifest.xml:53:17-37
+		ADDED from [org.altbeacon:android-beacon-library:2.16.2] /Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/build/intermediates/exploded-aar/org.altbeacon/android-beacon-library/2.16.2/AndroidManifest.xml:53:17-37
 activity#com.google.android.gms.ads.AdActivity
 ADDED from [com.google.android.gms:play-services-ads:8.4.0] /Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/8.4.0/AndroidManifest.xml:26:9-29:64
 	android:configChanges
