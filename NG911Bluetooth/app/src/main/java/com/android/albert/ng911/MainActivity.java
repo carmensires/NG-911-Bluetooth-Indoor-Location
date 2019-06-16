@@ -132,6 +132,16 @@ public class MainActivity extends AppCompatActivity {
                     new String[]{Manifest.permission.INTERNET},
                     5);
         }
+        if (ContextCompat.checkSelfPermission(this, Manifest.permission.READ_CALL_LOG) != PackageManager.PERMISSION_GRANTED) {
+            ActivityCompat.requestPermissions(this,
+                    new String[]{Manifest.permission.READ_CALL_LOG},
+                    6);
+        }
+        if (ContextCompat.checkSelfPermission(this, Manifest.permission.WRITE_CALL_LOG) != PackageManager.PERMISSION_GRANTED) {
+            ActivityCompat.requestPermissions(this,
+                    new String[]{Manifest.permission.WRITE_CALL_LOG},
+                    7);
+        }
     }
 
 
