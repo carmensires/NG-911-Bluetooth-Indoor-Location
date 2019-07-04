@@ -1,19 +1,19 @@
 /*
  * Copyright (C) 2009 The Sipdroid Open Source Project
  * Copyright (C) 2008 Hughes Systique Corporation, USA (http://www.hsc.com)
- * 
+ *
  * This file is part of Sipdroid (http://www.sipdroid.org)
- * 
+ *
  * Sipdroid is free software; you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
  * the Free Software Foundation; either version 3 of the License, or
  * (at your option) any later version.
- * 
+ *
  * This source code is distributed in the hope that it will be useful,
  * but WITHOUT ANY WARRANTY; without even the implied warranty of
  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
  * GNU General Public License for more details.
- * 
+ *
  * You should have received a copy of the GNU General Public License
  * along with this source code; if not, write to the Free Software
  * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
@@ -82,6 +82,7 @@ public class Sipdroid extends Activity implements OnDismissListener {
     public static final int CONFIGURE_MENU_ITEM = FIRST_MENU_ID + 1;
     public static final int ABOUT_MENU_ITEM = FIRST_MENU_ID + 2;
     public static final int EXIT_MENU_ITEM = FIRST_MENU_ID + 3;
+    public static final String SIPDROID = "SIPDROID";
 
     private static AlertDialog m_AlertDlg;
     AutoCompleteTextView sip_uri_box, sip_uri_box2;
@@ -91,8 +92,19 @@ public class Sipdroid extends Activity implements OnDismissListener {
     public void onStart() {//Modified by Alberto
         super.onStart();
         Receiver.engine(this).registerMore();
-        Log.i("carmenlog[SIPDROID]","starting sipdroid");
+        Log.i("AAAA " + SIPDROID, "onStart");
         ContentResolver content = getContentResolver();
+        Log.i("AAAA " + SIPDROID, "onStart. content: " + content);
+        if (ActivityCompat.checkSelfPermission(this, Manifest.permission.READ_CALL_LOG) != PackageManager.PERMISSION_GRANTED) {
+            // TODO: Consider calling
+            //    ActivityCompat#requestPermissions
+            // here to request the missing permissions, and then overriding
+            //   public void onRequestPermissionsResult(int requestCode, String[] permissions,
+            //                                          int[] grantResults)
+            // to handle the case where the user grants the permission. See the documentation
+            // for ActivityCompat#requestPermissions for more details.
+            return;
+        }
         Cursor cursor = content.query(Calls.CONTENT_URI,
                 PROJECTION, Calls.NUMBER + " like ?", new String[]{"%@%"}, Calls.DEFAULT_SORT_ORDER);
         CallsAdapter adapter = new CallsAdapter(this, cursor);
@@ -123,10 +135,13 @@ public class Sipdroid extends Activity implements OnDismissListener {
                 moveToPosition(i);
                 String phoneNumber = super.getString(1);
                 String cachedName = super.getString(2);
+                Log.i("AAAA " + SIPDROID, "Calls cursor. phoneNumber: " + phoneNumber);
+                Log.i("AAAA " + SIPDROID, "Calls cursor. cachedName: " + cachedName);
                 if (cachedName != null && cachedName.trim().length() > 0)
                     phoneNumber += " <" + cachedName + ">";
                 if (list.contains(phoneNumber)) continue;
                 list.add(phoneNumber);
+                Log.i("AAAA " + SIPDROID, "Calls cursor. added phone number: " + phoneNumber);
             }
             moveToFirst();
         }
@@ -137,9 +152,11 @@ public class Sipdroid extends Activity implements OnDismissListener {
         public CallsAdapter(Context context, Cursor c) {
             super(context, c);
             mContent = context.getContentResolver();
+            Log.i("AAAA " + SIPDROID, "CallsAdapter");
         }
 
         public View newView(Context context, Cursor cursor, ViewGroup parent) {
+            Log.i("AAAA " + SIPDROID, "CallsAdapter. newView");
             final LayoutInflater inflater = LayoutInflater.from(context);
             final TextView view = (TextView) inflater.inflate(
                     android.R.layout.simple_dropdown_item_1line, parent, false);
@@ -150,6 +167,7 @@ public class Sipdroid extends Activity implements OnDismissListener {
 
         @Override
         public void bindView(View view, Context context, Cursor cursor) {
+            Log.i("AAAA " + SIPDROID, "CallsAdapter. bindView");
             String phoneNumber = cursor.getString(1);
             ((TextView) view).setText(phoneNumber);
         }
@@ -159,6 +177,7 @@ public class Sipdroid extends Activity implements OnDismissListener {
             String phoneNumber = cursor.getString(1);
             if (phoneNumber.contains(" <"))
                 phoneNumber = phoneNumber.substring(0, phoneNumber.indexOf(" <"));
+            Log.i("AAAA " + SIPDROID, "CallsAdapter. convertToString "+phoneNumber);
             return phoneNumber;
         }
 
@@ -196,7 +215,7 @@ public class Sipdroid extends Activity implements OnDismissListener {
     @Override
     public void onCreate(Bundle icicle) {
         super.onCreate(icicle);
-
+        Log.i("AAAA " + SIPDROID, "onCreate");
         requestWindowFeature(Window.FEATURE_NO_TITLE);
         setContentView(R.layout.sipdroid);
         sip_uri_box = (AutoCompleteTextView) findViewById(R.id.txt_callee);
@@ -268,6 +287,7 @@ public class Sipdroid extends Activity implements OnDismissListener {
             boolean ask = false;
             for (int i = 0; i < SipdroidEngine.LINES; i++) {
                 String j = (i != 0 ? "" + i : "");
+                Log.i("AAAA " + SIPDROID, "onCreate. Sipdroid engine line : " + i);
                 if (PreferenceManager.getDefaultSharedPreferences(this).getString(Settings.PREF_SERVER + j, Settings.DEFAULT_SERVER).equals(Settings.DEFAULT_SERVER)
                         && PreferenceManager.getDefaultSharedPreferences(this).getString(Settings.PREF_USERNAME + j, Settings.DEFAULT_USERNAME).length() != 0 &&
                         PreferenceManager.getDefaultSharedPreferences(this).getString(Settings.PREF_PORT + j, Settings.DEFAULT_PORT).equals(Settings.DEFAULT_PORT))
@@ -331,10 +351,12 @@ public class Sipdroid extends Activity implements OnDismissListener {
     }
 
     public static boolean on(Context context) {
+        Log.i("AAAA " + SIPDROID, "on");
         return PreferenceManager.getDefaultSharedPreferences(context).getBoolean(Settings.PREF_ON, Settings.DEFAULT_ON);
     }
 
     public static void on(Context context, boolean on) {
+        Log.i("AAAA " + SIPDROID, "on");
         Editor edit = PreferenceManager.getDefaultSharedPreferences(context).edit();
         edit.putBoolean(Settings.PREF_ON, on);
         edit.commit();
@@ -344,6 +366,7 @@ public class Sipdroid extends Activity implements OnDismissListener {
     @Override
     public void onResume() {
         super.onResume();
+        Log.i("AAAA " + SIPDROID, "onResume");
         if (Receiver.call_state != UserAgent.UA_STATE_IDLE) Receiver.moveTop();
         String text;
         text = Integer.parseInt(Build.VERSION.SDK) >= 5 ? CreateAccount.isPossible(this) : null;
@@ -361,6 +384,7 @@ public class Sipdroid extends Activity implements OnDismissListener {
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
+        Log.i("AAAA " + SIPDROID, "onCreateOptionsMenu");
         boolean result = super.onCreateOptionsMenu(menu);
 
         MenuItem m = menu.add(0, ABOUT_MENU_ITEM, 0, R.string.menu_about);
@@ -374,24 +398,30 @@ public class Sipdroid extends Activity implements OnDismissListener {
     }
 
     void call_menu(AutoCompleteTextView view) {
+        Log.i("AAAA " + SIPDROID, "call_menu");
         String target = view.getText().toString();
+        Log.i("AAAA " + SIPDROID, "call_menu. target: " + target);
         if (m_AlertDlg != null) {
+            Log.i("AAAA " + SIPDROID, "call_menu. alert dialog not null");
             m_AlertDlg.cancel();
         }
-        if (target.length() == 0)
+        if (target.length() == 0) {
+            Log.i("AAAA " + SIPDROID, "call_menu. target length is 0");
             m_AlertDlg = new AlertDialog.Builder(this)
                     .setMessage(R.string.empty)
                     .setTitle(R.string.app_name)
                     .setIcon(R.drawable.icon22)
                     .setCancelable(true)
                     .show();
-        else if (!Receiver.engine(this).call(target, true))
+        } else if (!Receiver.engine(this).call(target, true)) {
+            Log.i("AAAA " + SIPDROID, "call_menu. No suitable data network available");
             m_AlertDlg = new AlertDialog.Builder(this)
                     .setMessage(R.string.notfast)
                     .setTitle(R.string.app_name)
                     .setIcon(R.drawable.icon22)
                     .setCancelable(true)
                     .show();
+        }
     }
 
     @Override
@@ -462,6 +492,7 @@ public class Sipdroid extends Activity implements OnDismissListener {
 
     @Override
     public void onDismiss(DialogInterface dialog) {
+        Log.i("AAAA " + SIPDROID, "onDismiss");
         onResume();
     }
 }

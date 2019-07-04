@@ -58,7 +58,7 @@ public class IBeaconScanner extends TimerTask implements BeaconConsumer {
 
     //The constructor requires the context and the period between scans
     IBeaconScanner(Context context, double period) {
-        Log.i(IBEACON_SCANNER,"Period: "+period+" seconds");
+        Log.i("AAAA " + IBEACON_SCANNER,"Period: "+period+" seconds");
         try {
             this.period = period;
             this.context = context;
@@ -77,13 +77,13 @@ public class IBeaconScanner extends TimerTask implements BeaconConsumer {
 
     //Returns the list of beacons
     public String getBeaconsString(){
-        Log.i(IBEACON_SCANNER,"getBeaconsString: "+beaconList.toString());
+        Log.i("AAAA " + IBEACON_SCANNER,"getBeaconsString: "+beaconList.toString());
         return beaconList.toString();
     }
 
     //Starts the scanning during the established scan_period
     public void start(int scan_period) {
-        Log.i(IBEACON_SCANNER,"start scanning for "+scan_period+" seconds");
+        Log.i("AAAA " + IBEACON_SCANNER,"start scanning for "+scan_period+" seconds");
         try {
             this.scan_period = scan_period;
             this.current_time = 0;
@@ -103,7 +103,7 @@ public class IBeaconScanner extends TimerTask implements BeaconConsumer {
 
     //This is called when the scanning stops
     public void stop() {
-        Log.i(IBEACON_SCANNER,"Scanning stopped");
+        Log.i("AAAA " + IBEACON_SCANNER,"Scanning stopped");
         timer.cancel();
         timer.purge();
         beaconManager.unbind(this);
@@ -114,7 +114,7 @@ public class IBeaconScanner extends TimerTask implements BeaconConsumer {
 
     //Makes an HTTP get request to obtain the indoor location
     public void makeHttpRequest(){
-        Log.i(IBEACON_SCANNER,"making HTTP get request");
+        Log.i("AAAA " + IBEACON_SCANNER,"making HTTP get request");
         for(IBeacon b: beaconList){
             try {
                 json.updateMyJsonIndoor(String.valueOf(b.getMajor()),String.valueOf(b.getMinor()),String.valueOf(b.getRssi()));
@@ -124,9 +124,9 @@ public class IBeaconScanner extends TimerTask implements BeaconConsumer {
         }
 
         try {
-            Log.i(IBEACON_SCANNER,"JSON: "+json.readMyJson());
+            Log.i("AAAA " + IBEACON_SCANNER,"JSON: "+json.readMyJson());
             String result = httptx.HttpGetRequest(json.readMyJson());
-            Log.i(IBEACON_SCANNER,"Result: "+result);
+            Log.i("AAAA " + IBEACON_SCANNER,"Result: "+result);
             Data d = Data.getInstance();
             d.setReceived(result);
         } catch (JSONException e) {

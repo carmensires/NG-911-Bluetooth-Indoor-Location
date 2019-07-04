@@ -55,6 +55,7 @@ public class SipdroidEngine implements RegisterAgentListener {
 
     public static final int UNINITIALIZED = 0x0;
     public static final int INITIALIZED = 0x2;
+    public static final String SIPDROID_ENGINE = "SIPDROID_ENGINE";
 
     /**
      * User Agent
@@ -81,22 +82,26 @@ public class SipdroidEngine implements RegisterAgentListener {
     static WifiManager.WifiLock[] wwl;
 
     UserAgentProfile getUserAgentProfile(String suffix) {
+        Log.i("AAAA " + SIPDROID_ENGINE,"getUserAgentProfile");
         UserAgentProfile user_profile = new UserAgentProfile(null);
 
         user_profile.username = PreferenceManager.getDefaultSharedPreferences(getUIContext()).getString(Settings.PREF_USERNAME + suffix, Settings.DEFAULT_USERNAME); // modified
+        Log.i("AAAA " + SIPDROID_ENGINE,"getUserAgentProfile. username: " + user_profile.username);
         user_profile.passwd = PreferenceManager.getDefaultSharedPreferences(getUIContext()).getString(Settings.PREF_PASSWORD + suffix, Settings.DEFAULT_PASSWORD);
+        Log.i("AAAA " + SIPDROID_ENGINE,"getUserAgentProfile. password: " + user_profile.passwd);
         if (PreferenceManager.getDefaultSharedPreferences(getUIContext()).getString(Settings.PREF_DOMAIN + suffix, Settings.DEFAULT_DOMAIN).length() == 0) {
             user_profile.realm = PreferenceManager.getDefaultSharedPreferences(getUIContext()).getString(Settings.PREF_SERVER + suffix, Settings.DEFAULT_SERVER);
         } else {
             user_profile.realm = PreferenceManager.getDefaultSharedPreferences(getUIContext()).getString(Settings.PREF_DOMAIN + suffix, Settings.DEFAULT_DOMAIN);
         }
+        Log.i("AAAA " + SIPDROID_ENGINE,"getUserAgentProfile. realm: " + user_profile.realm);
         user_profile.realm_orig = user_profile.realm;
         if (PreferenceManager.getDefaultSharedPreferences(getUIContext()).getString(Settings.PREF_FROMUSER + suffix, Settings.DEFAULT_FROMUSER).length() == 0) {
             user_profile.from_url = user_profile.username;
         } else {
             user_profile.from_url = PreferenceManager.getDefaultSharedPreferences(getUIContext()).getString(Settings.PREF_FROMUSER + suffix, Settings.DEFAULT_FROMUSER);
         }
-
+        Log.i("AAAA " + SIPDROID_ENGINE,"getUserAgentProfile. from url: " + user_profile.from_url);
         // MMTel configuration (added by mandrajg)
         user_profile.qvalue = PreferenceManager.getDefaultSharedPreferences(getUIContext()).getString(Settings.PREF_MMTEL_QVALUE, Settings.DEFAULT_MMTEL_QVALUE);
         user_profile.mmtel = PreferenceManager.getDefaultSharedPreferences(getUIContext()).getBoolean(Settings.PREF_MMTEL, Settings.DEFAULT_MMTEL);
@@ -107,8 +112,9 @@ public class SipdroidEngine implements RegisterAgentListener {
     }
 
     public boolean StartEngine() {
+        Log.i("AAAA " + SIPDROID_ENGINE,"startEngine");
         PowerManager pm = (PowerManager) getUIContext().getSystemService(Context.POWER_SERVICE);
-        WifiManager wm = (WifiManager) getUIContext().getSystemService(Context.WIFI_SERVICE);
+        WifiManager wm = (WifiManager) getUIContext().getApplicationContext().getSystemService(Context.WIFI_SERVICE);
         if (wl == null) {
             if (!PreferenceManager.getDefaultSharedPreferences(getUIContext()).contains(Settings.PREF_KEEPON)) {
                 Editor edit = PreferenceManager.getDefaultSharedPreferences(getUIContext()).edit();
@@ -186,6 +192,7 @@ public class SipdroidEngine implements RegisterAgentListener {
             } catch (Exception E) {
             }
             i++;
+            Log.i("AAAA " + SIPDROID_ENGINE,"startEngine. user profile: " + user_profile.username + ", " + user_profile.passwd + ", " + user_profile.from_url + ", " + user_profile.call_to);
         }
         register();
         listen();
@@ -295,9 +302,11 @@ public class SipdroidEngine implements RegisterAgentListener {
     }
 
     public void register() {
+        Log.i("AAAA " + SIPDROID_ENGINE, "register");
         IpAddress.setLocalIpAddress();
         int i = 0;
         for (RegisterAgent ra : ras) {
+            Log.i("AAAA " + SIPDROID_ENGINE, "register. RA: " + ra.username);
             try {
                 if (user_profiles[i] == null || user_profiles[i].username.equals("") ||
                         user_profiles[i].realm.equals("")) {
@@ -307,15 +316,18 @@ public class SipdroidEngine implements RegisterAgentListener {
                 user_profiles[i].contact_url = getContactURL(user_profiles[i].from_url, sip_providers[i]);
 
                 if (!Receiver.isFast(i)) {
+                    Log.i("AAAA " + SIPDROID_ENGINE, "register: !Receiver.isFast(i)");
                     unregister(i);
                 } else {
+                    Log.i("AAAA " + SIPDROID_ENGINE, "register: Receiver.isFast(i)");
                     if (ra != null && ra.register()) {
+                        Log.i("AAAA " + SIPDROID_ENGINE, "register: ra != null && ra.register");
                         Receiver.onText(Receiver.REGISTER_NOTIFICATION + i, getUIContext().getString(R.string.reg), R.drawable.sym_presence_idle, 0);
                         wl[i].acquire();
                     }
                 }
             } catch (Exception ex) {
-
+                Log.i("AAAA " + SIPDROID_ENGINE, "register: ERROR");
             }
             i++;
         }
@@ -352,6 +364,7 @@ public class SipdroidEngine implements RegisterAgentListener {
     }
 
     public void halt() { // modified
+        Log.i("AAAA " + SIPDROID_ENGINE, "halt");
         long time = SystemClock.elapsedRealtime();
 
         int i = 0;
@@ -382,6 +395,7 @@ public class SipdroidEngine implements RegisterAgentListener {
     }
 
     public boolean isRegistered() {
+        Log.i("AAAA " + SIPDROID_ENGINE, "isRegistered");
         for (RegisterAgent ra : ras)
             if (ra != null && ra.isRegistered())
                 return true;
@@ -389,6 +403,7 @@ public class SipdroidEngine implements RegisterAgentListener {
     }
 
     public boolean isRegistered(int i) {
+        Log.i("AAAA " + SIPDROID_ENGINE, "isRegistered> " + i);
         if (ras[i] == null) {
             return false;
         }
@@ -404,6 +419,7 @@ public class SipdroidEngine implements RegisterAgentListener {
 
     public void onUaRegistrationSuccess(RegisterAgent reg_ra, NameAddress target,
                                         NameAddress contact, String result) {
+        Log.i("AAAA " + SIPDROID_ENGINE, "onUaRegistrationSuccess");
         int i = 0;
         for (RegisterAgent ra : ras) {
             if (ra == reg_ra) break;
@@ -457,6 +473,7 @@ public class SipdroidEngine implements RegisterAgentListener {
      */
     public void onUaRegistrationFailure(RegisterAgent reg_ra, NameAddress target,
                                         NameAddress contact, String result) {
+        Log.i("AAAA " + SIPDROID_ENGINE, "onRegistrationFailure");
         boolean retry = false;
         int i = 0;
         for (RegisterAgent ra : ras) {
@@ -523,12 +540,14 @@ public class SipdroidEngine implements RegisterAgentListener {
             setOutboundProxy(sip_provider, i);
             i++;
         }
+        Log.i("AAAA " + SIPDROID_ENGINE, "updateDns");
     }
 
     /**
      * Receives incoming calls (auto accept)
      */
     public void listen() {
+        Log.i("AAAA " + SIPDROID_ENGINE, "listen");
         for (UserAgent ua : uas) {
             if (ua != null) {
                 ua.printLog("UAS: WAITING FOR INCOMING CALL");
@@ -550,14 +569,15 @@ public class SipdroidEngine implements RegisterAgentListener {
      * Makes a new call
      */
     public boolean call(String target_url, boolean force) {
-        Log.d("NG911 [SipdroidEngine]", "Calling " + target_url);
-        Log.i("carmenlog[CALL]","sipdroid engine: call metohd");
+        Log.i("AAAA " + SIPDROID_ENGINE,"call: " + target_url);
         int p = pref;
         boolean found = false;
 
-        if (isRegistered(p) && Receiver.isFast(p))
+        if (isRegistered(p) && Receiver.isFast(p)) {
+            Log.i("AAAA " + SIPDROID_ENGINE, "call. is registered, is fast");
             found = true;
-        else {
+        } else {
+            Log.i("AAAA " + SIPDROID_ENGINE, "call. not registered or fast");
             for (p = 0; p < LINES; p++)
                 if (isRegistered(p) && Receiver.isFast(p)) {
                     found = true;
@@ -585,6 +605,7 @@ public class SipdroidEngine implements RegisterAgentListener {
         }
 
         ua.printLog("UAC: CALLING " + target_url);
+        Log.i("AAAA " + SIPDROID_ENGINE, "call ");
 
         if (!ua.user_profile.audio && !ua.user_profile.video) {
             ua.printLog("ONLY SIGNALING, NO MEDIA");
@@ -592,7 +613,7 @@ public class SipdroidEngine implements RegisterAgentListener {
 
         boolean ng911 = false;  //boolean indicating whether the user dialed the emergency number
         if (target_url.equals("767")) {
-            Log.d("NG911 [SipdroidEngine]", "Emergency number dialed! Triggering NG911 process");
+            Log.i(SIPDROID_ENGINE, "call. Emergency number dialed! Triggering NG911 process");
             ng911 = true;   //This is an emergency call!
         }
         //Go to UserAgent.java and execute call(...) method

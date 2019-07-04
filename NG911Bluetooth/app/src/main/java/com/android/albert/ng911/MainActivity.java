@@ -27,7 +27,7 @@ import com.facebook.Profile;
  * Main activity with the 3 buttons and the settings option. Turns on the Bluetooth for having the app ready to make an emergency call.
  */
 public class MainActivity extends AppCompatActivity {
-    final String MAIN_ACTIVITY="[NG 911] MainActivity";
+    final String MAIN_ACTIVITY = "MainActivity";
     public static final int MAX = 50;
     BluetoothChecker bluetooth;
     TextView textFname;
@@ -142,6 +142,22 @@ public class MainActivity extends AppCompatActivity {
                     new String[]{Manifest.permission.WRITE_CALL_LOG},
                     7);
         }
+        if (ContextCompat.checkSelfPermission(this, Manifest.permission.ACCESS_NETWORK_STATE) != PackageManager.PERMISSION_GRANTED) {
+            ActivityCompat.requestPermissions(this,
+                    new String[]{Manifest.permission.ACCESS_NETWORK_STATE},
+                    7);
+        }
+        if (ContextCompat.checkSelfPermission(this, Manifest.permission.READ_CONTACTS) != PackageManager.PERMISSION_GRANTED) {
+            ActivityCompat.requestPermissions(this,
+                    new String[]{Manifest.permission.READ_CONTACTS},
+                    7);
+        }
+        if (ContextCompat.checkSelfPermission(this, Manifest.permission.WRITE_CONTACTS) != PackageManager.PERMISSION_GRANTED) {
+            ActivityCompat.requestPermissions(this,
+                    new String[]{Manifest.permission.WRITE_CONTACTS},
+                    7);
+        }
+
     }
 
 
@@ -167,19 +183,19 @@ public class MainActivity extends AppCompatActivity {
                     case R.id.callButton:
                         Intent intent = new Intent(v.getContext(), CallActivity.class);
                         startActivity(intent);
-                        Log.i(MAIN_ACTIVITY,"Call button pressed");
+                        Log.i("AAAA " + MAIN_ACTIVITY,"Call button pressed");
                         break;
 
                     case R.id.statusButton:
                         Intent intent2 = new Intent(v.getContext(), status.class);
                         startActivity(intent2);
-                        Log.i(MAIN_ACTIVITY, "Status button pressed");
+                        Log.i("AAAA " + MAIN_ACTIVITY, "Status button pressed");
                         break;
 
                     case R.id.infoButton:
                         Intent intent3 = new Intent(v.getContext(), infoActivity.class);
                         startActivity(intent3);
-                        Log.i(MAIN_ACTIVITY, "Info button pressed");
+                        Log.i("AAAA " + MAIN_ACTIVITY, "Info button pressed");
                         break;
                 }
 

@@ -26,6 +26,7 @@ import android.content.IntentFilter;
 import android.net.ConnectivityManager;
 import android.net.wifi.WifiManager;
 import android.os.IBinder;
+import android.util.Log;
 
 import org.sipdroid.media.RtpStreamReceiver;
 
@@ -44,6 +45,7 @@ public class RegisterService extends Service {
 
     @Override
     public void onCreate() {
+        Log.i("carmenlog[REGISTER_SER]", "ON CREATE");
         super.onCreate();
         if (Receiver.mContext == null) Receiver.mContext = this;
         if (m_receiver == null) {

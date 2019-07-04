@@ -47,7 +47,7 @@ public class CallActivity extends AppCompatActivity {
 
         try {
             //Create bluetooth scanner
-            Log.i(CALL_ACTIVITY,"Creating bluetooth scanner. Period: "+period+", scan period: "+scan_period);
+            Log.i("AAAA " + CALL_ACTIVITY,"Creating bluetooth scanner. Period: "+period+", scan period: "+scan_period);
             bluetoothScanner = new IBeaconScanner(this, period);
             bluetoothScanner.start(scan_period);
         }

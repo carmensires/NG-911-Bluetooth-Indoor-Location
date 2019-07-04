@@ -65,6 +65,7 @@ public class UserAgent extends CallListenerAdapter {
      * Event logger.
      */
     Log log;
+    public static final String USER_AGENT = "USER AGENT";
 
     /**
      * UserAgentProfile
@@ -316,11 +317,12 @@ public class UserAgent extends CallListenerAdapter {
      * Makes a new call (acting as UAC).
      */
     public boolean call(String target_url, boolean send_anonymous, boolean ng911) { //NG911 boolean added
-
+        android.util.Log.i("AAAA " + USER_AGENT, "call: " + target_url);
         if (Receiver.call_state != UA_STATE_IDLE) {
             //We can initiate or terminate a call only when
             //we are in an idle state
             printLog("Call attempted in state" + this.getSessionDescriptor() + " : Failing Request", LogLevel.HIGH);
+            android.util.Log.i("AAAA " + USER_AGENT, "call. Call attempted in state" + this.getSessionDescriptor() + " : Failing Request");
             return false;
         }
         hangup(); // modified

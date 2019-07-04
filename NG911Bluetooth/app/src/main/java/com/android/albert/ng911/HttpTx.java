@@ -21,7 +21,7 @@ public class HttpTx {
         String url = baseUrl+json;
         try {
             result = new HttpGetRequestTask().execute(url).get();
-            Log.i(HTTP_TX,"result: "+result);
+            Log.i("AAAA " + HTTP_TX,"result: "+result);
         } catch (ExecutionException e) {
             e.printStackTrace();
         } catch (InterruptedException e) {
@@ -33,7 +33,7 @@ public class HttpTx {
         String url = baseUrl+json;
         try {
             result = new HttpGetRequestTask().execute(url).get();
-            Log.i(HTTP_TX,"result: "+result);
+            Log.i("AAAA " + HTTP_TX,"result: "+result);
         } catch (ExecutionException e) {
             e.printStackTrace();
         } catch (InterruptedException e) {

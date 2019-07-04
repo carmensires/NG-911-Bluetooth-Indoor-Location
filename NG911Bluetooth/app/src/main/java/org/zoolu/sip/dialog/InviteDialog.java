@@ -88,6 +88,7 @@ public class InviteDialog extends Dialog implements TransactionClientListener,
         InviteTransactionServerListener, AckTransactionServerListener,
         SipProviderListener {
 
+    final String INVITE_DIALOG = "INVITE_DIALOG";
     /**
      * The last invite message
      */
@@ -354,36 +355,40 @@ public class InviteDialog extends Dialog implements TransactionClientListener,
         final String icsi_local = icsi;
         Data data = Data.getInstance();
         String response = data.getReceived();
-        Log.i("carmenlog[INVITE-D]", response);
+        Log.i("AAAA " + INVITE_DIALOG, "inviteNG911. Response: " + response);
 
         if (response==null&&!CallActivity.sended){
-            Log.i("NG911 [InviteDialog]", "XML HAS NOT BEEN RECEIVED");
-        }
-        //LAT LONG, City, Street Values, outdoor location
-        LocationHelper loc=new LocationHelper(CallActivity.c);
-        Geocoder geocoder = new Geocoder(CallActivity.c, Locale.getDefault());
-        List<Address> addresses = null;
-        String streetName = null,cityName=null,stateName=null,countryName = null;
-        try {
-            addresses = geocoder.getFromLocation(loc.getLocation().getLatitude(), loc.getLocation().getLongitude(), 1);
-            streetName = addresses.get(0).getAddressLine(0);
-            cityName=addresses.get(0).getAddressLine(1).split(",")[0];
-            stateName = addresses.get(0).getAddressLine(1).split("\\s+")[1];
-            countryName = addresses.get(0).getAddressLine(2);
-            Log.i("Out Location", streetName+";"+cityName+"; "+stateName+"; "+countryName+"; "+loc.getLocation().toString().substring(8));
-        } catch (IOException | NullPointerException e) {
-            e.printStackTrace();
+            Log.i("AAAA " + INVITE_DIALOG, "inviteNG911. response==null&&!CallActivity.sended");
+            Log.i("AAAA " + INVITE_DIALOG, "inviteNG911. XML HAS NOT BEEN RECEIVED");
         }
 
         //'response' is a String with the location infoActivity in XML format
-        Log.d("NG911 [InviteDialog]", "1.Server response:" + response);
-        if (response != null || !response.equals("")) {
+        Log.i("AAAA " + INVITE_DIALOG, "inviteNG911. 1.Server response:" + response);
+        if (response != null) {
             //Send an INVITE with the location information
-            Log.d("NG911 [InviteDialog]", "2.Sending an INVITE request with location information");
+            Log.i("AAAA " + INVITE_DIALOG, "inviteNG911. 2.Sending an INVITE request with location information");
             // do invite
-            Log.d("NG911 [InviteDialog]", "NG911 INVITE successfully created");
+            Log.i("AAAA " + INVITE_DIALOG, "inviteNG911. NG911 INVITE successfully created");
         }else{
+            Log.i("AAAA " + INVITE_DIALOG, "inviteNG911. No indoor location, creating outdoor location");
+            /*
             //No Beacon around generate data based on outdoor GPS Location
+            //LAT LONG, City, Street Values, outdoor location
+            LocationHelper loc=new LocationHelper(CallActivity.c);
+            Geocoder geocoder = new Geocoder(CallActivity.c, Locale.getDefault());
+            List<Address> addresses = null;
+            String streetName = null,cityName=null,stateName=null,countryName = null;
+            try {
+                addresses = geocoder.getFromLocation(loc.getLocation().getLatitude(), loc.getLocation().getLongitude(), 1);
+                streetName = addresses.get(0).getAddressLine(0);
+                cityName=addresses.get(0).getAddressLine(1).split(",")[0];
+                stateName = addresses.get(0).getAddressLine(1).split("\\s+")[1];
+                countryName = addresses.get(0).getAddressLine(2);
+                Log.i("Out Location", streetName+";"+cityName+"; "+stateName+"; "+countryName+"; "+loc.getLocation().toString().substring(8));
+            } catch (IOException | NullPointerException e) {
+                e.printStackTrace();
+            }
+
             double lat=loc.getLocation().getLatitude();
             double longitude=loc.getLocation().getLongitude();
             response = "<?xml version=\"1.0\" encoding=\"ISO-8859-1\"?>\n" +
@@ -417,6 +422,7 @@ public class InviteDialog extends Dialog implements TransactionClientListener,
                     "<timestamp>2016-04-07T07:01:18.059Z</timestamp>\n" +
                     "  </tuple>\n" +
                     "</presence>\n";
+                    */
         }
         Message invite = NG911MessageFactory.createInviteNG911(call_id, sip_provider,
                 request_uri, to_url, from_url, contact_url_local, sdp_local, icsi_local, response);
@@ -432,8 +438,7 @@ public class InviteDialog extends Dialog implements TransactionClientListener,
      */
     public void invite(Message invite) {
         printLog("inside invite(invite)", LogLevel.MEDIUM);
-        Log.d("NG911 [InviteDialog]", "Invite(Message invite)");
-        Log.d("[NG911MessageFactory]", "Message sent:" + invite.toString());
+        Log.i("AAAA " + INVITE_DIALOG, "invite. " + invite.toString());
         if (!statusIs(D_INIT))
             return;
         // else

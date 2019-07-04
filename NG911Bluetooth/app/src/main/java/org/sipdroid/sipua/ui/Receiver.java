@@ -1,18 +1,18 @@
 /*
  * Copyright (C) 2009 The Sipdroid Open Source Project
- * 
+ *
  * This file is part of Sipdroid (http://www.sipdroid.org)
- * 
+ *
  * Sipdroid is free software; you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
  * the Free Software Foundation; either version 3 of the License, or
  * (at your option) any later version.
- * 
+ *
  * This source code is distributed in the hope that it will be useful,
  * but WITHOUT ANY WARRANTY; without even the implied warranty of
  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
  * GNU General Public License for more details.
- * 
+ *
  * You should have received a copy of the GNU General Public License
  * along with this source code; if not, write to the Free Software
  * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
@@ -79,6 +79,7 @@ import com.android.albert.ng911.*;
 
 public class Receiver extends BroadcastReceiver {
 
+    final static String RECEIVER = "RECEIVER";
     final static String ACTION_PHONE_STATE_CHANGED = "android.intent.action.PHONE_STATE";
     final static String ACTION_SIGNAL_STRENGTH_CHANGED = "android.intent.action.SIG_STR";
     final static String ACTION_DATA_STATE_CHANGED = "android.intent.action.ANY_DATA_STATE";
@@ -127,9 +128,13 @@ public class Receiver extends BroadcastReceiver {
     private static String laststate, lastnumber;
 
     public static synchronized SipdroidEngine engine(Context context) {
-        if (mContext == null || !context.getClass().getName().contains("ReceiverRestrictedContext"))
+        Log.i("AAAA " + RECEIVER, "engine");
+        if (mContext == null || !context.getClass().getName().contains("ReceiverRestrictedContext")) {
             mContext = context;
+            Log.i("AAAA " + RECEIVER, "engine. context null: " + mContext);
+        }
         if (mSipdroidEngine == null) {
+            Log.i("AAAA " + RECEIVER, "engine. sipdroid engine null");
             if (Build.VERSION.SDK_INT > 9) {
                 ReceiverNew.setPolicy();
             }
@@ -137,8 +142,10 @@ public class Receiver extends BroadcastReceiver {
             mSipdroidEngine.StartEngine();
             if (Integer.parseInt(Build.VERSION.SDK) >= 8)
                 Bluetooth.init();
-        } else
+        } else {
             mSipdroidEngine.CheckEngine();
+            Log.i("AAAA " + RECEIVER, "engine. sipdroid check engine. "+mSipdroidEngine);
+        }
         context.startService(new Intent(context, RegisterService.class));
         return mSipdroidEngine;
     }
@@ -147,6 +154,7 @@ public class Receiver extends BroadcastReceiver {
     static PowerManager.WakeLock wl;
 
     public static void stopRingtone() {
+        Log.i("AAAA " + RECEIVER, "stopRingtone");
         if (v != null)
             v.cancel();
         if (Receiver.oRingtone != null) {
@@ -159,13 +167,16 @@ public class Receiver extends BroadcastReceiver {
     static Vibrator v;
 
     public static void onState(int state, String caller) {
+        Log.i("AAAA " + RECEIVER, "onState");
         if (ccCall == null) {
+            Log.i("AAAA " + RECEIVER, "onState. ccCall null");
             ccCall = new Call();
             ccConn = new Connection();
             ccCall.setConn(ccConn);
             ccConn.setCall(ccCall);
         }
         if (call_state != state) {
+            Log.i("AAAA " + RECEIVER, "onState. call state != state: " + call_state);
             if (state != UserAgent.UA_STATE_IDLE)
                 call_end_reason = -1;
             call_state = state;
@@ -280,17 +291,24 @@ public class Receiver extends BroadcastReceiver {
     static int cache_res;
 
     public static void onText(int type, String text, int mInCallResId, long base) {
+        Log.i("AAAA " + RECEIVER, "onText ");
         if (mSipdroidEngine != null && type == REGISTER_NOTIFICATION + mSipdroidEngine.pref) {
+            Log.i("AAAA " + RECEIVER, "onText. mSipdroidEngine != null && type == REGISTER_NOTIFICATION + mSipdroidEngine.pref");
             cache_text = text;
             cache_res = mInCallResId;
         }
         if (type >= REGISTER_NOTIFICATION && mInCallResId == R.drawable.sym_presence_available &&
-                !PreferenceManager.getDefaultSharedPreferences(Receiver.mContext).getBoolean(org.sipdroid.sipua.ui.Settings.PREF_REGISTRATION, org.sipdroid.sipua.ui.Settings.DEFAULT_REGISTRATION))
+                !PreferenceManager.getDefaultSharedPreferences(Receiver.mContext).getBoolean(org.sipdroid.sipua.ui.Settings.PREF_REGISTRATION, org.sipdroid.sipua.ui.Settings.DEFAULT_REGISTRATION)) {
             text = null;
+            Log.i("AAAA " + RECEIVER, "onText. make text null");
+        }
         NotificationManager mNotificationMgr = (NotificationManager) mContext.getSystemService(Context.NOTIFICATION_SERVICE);
         if (text != null) {
+            Log.i("AAAA " + RECEIVER, "onText. text: " + text);
             Notification notification = new Notification();
             notification.icon = mInCallResId;
+            Log.i("AAAA " + RECEIVER, "onText. Type: " + type);
+
             if (type == MISSED_CALL_NOTIFICATION) {
                 notification.flags |= Notification.FLAG_AUTO_CANCEL;
                // notification.setLatestEventInfo(mContext, text, mContext.getString(R.string.app_name),
@@ -362,6 +380,7 @@ public class Receiver extends BroadcastReceiver {
     }
 
     static void updateAutoAnswer() {
+        Log.i("AAAA " + RECEIVER, "updateAutoAnswer");
         if (PreferenceManager.getDefaultSharedPreferences(mContext).getBoolean(org.sipdroid.sipua.ui.Settings.PREF_AUTO_ONDEMAND, org.sipdroid.sipua.ui.Settings.DEFAULT_AUTO_ONDEMAND) &&
                 Sipdroid.on(mContext)) {
             if (PreferenceManager.getDefaultSharedPreferences(mContext).getBoolean(org.sipdroid.sipua.ui.Settings.PREF_AUTO_DEMAND, org.sipdroid.sipua.ui.Settings.DEFAULT_AUTO_DEMAND))
@@ -375,6 +394,7 @@ public class Receiver extends BroadcastReceiver {
     private static int autoAnswerState = -1;
 
     static void updateAutoAnswer(int status) {
+        Log.i("AAAA " + RECEIVER, "updateAutoAnswer. Status: " + status);
         if (status != autoAnswerState) {
             switch (autoAnswerState = status) {
                 case 0:
@@ -391,6 +411,7 @@ public class Receiver extends BroadcastReceiver {
     }
 
     public static void registered() {
+        Log.i("AAAA " + RECEIVER, "registered");
         pos(true);
     }
 
@@ -404,6 +425,7 @@ public class Receiver extends BroadcastReceiver {
     static final int NET_UPDATES = 600 * 1000;
 
     public static void pos(boolean enable) {
+        Log.i("AAAA " + RECEIVER, "pos");
 
         if (!PreferenceManager.getDefaultSharedPreferences(mContext).getBoolean(org.sipdroid.sipua.ui.Settings.PREF_POS, org.sipdroid.sipua.ui.Settings.DEFAULT_POS) ||
                 PreferenceManager.getDefaultSharedPreferences(mContext).getString(org.sipdroid.sipua.ui.Settings.PREF_POSURL, org.sipdroid.sipua.ui.Settings.DEFAULT_POSURL).length() < 1) {
@@ -437,6 +459,7 @@ public class Receiver extends BroadcastReceiver {
     }
 
     static void pos_gps(boolean enable) {
+        Log.i("AAAA " + RECEIVER, "pos gps");
         if (gps_sender == null) {
             Intent intent = new Intent(mContext, OneShotLocation.class);
             gps_sender = PendingIntent.getBroadcast(mContext,
@@ -452,6 +475,7 @@ public class Receiver extends BroadcastReceiver {
     }
 
     static void pos_net(boolean enable) {
+        Log.i("AAAA " + RECEIVER, "pos net");
         if (net_sender == null) {
             Intent loopintent = new Intent(mContext, LoopLocation.class);
             net_sender = PendingIntent.getBroadcast(mContext,
@@ -468,6 +492,7 @@ public class Receiver extends BroadcastReceiver {
     }
 
     static void enable_wifi(boolean enable) {
+        Log.i("AAAA " + RECEIVER, "enable wifi");
         if (!PreferenceManager.getDefaultSharedPreferences(mContext).getBoolean(org.sipdroid.sipua.ui.Settings.PREF_OWNWIFI, org.sipdroid.sipua.ui.Settings.DEFAULT_OWNWIFI))
             return;
         if (enable && !PreferenceManager.getDefaultSharedPreferences(mContext).getBoolean(org.sipdroid.sipua.ui.Settings.PREF_WIFI_DISABLED, org.sipdroid.sipua.ui.Settings.DEFAULT_WIFI_DISABLED))
@@ -491,6 +516,7 @@ mContext.sendBroadcast(intent);
     }
 
     public static void url(final String opt) {
+        Log.i("AAAA " + RECEIVER, "url");
         (new Thread() {
             public void run() {
                 try {
@@ -551,6 +577,7 @@ mContext.sendBroadcast(intent);
     public static long expire_time;
 
     public static synchronized void reRegister(int renew_time) {
+        Log.i("AAAA " + RECEIVER, "re register");
         if (renew_time == 0)
             expire_time = 0;
         else {
@@ -627,6 +654,7 @@ mContext.sendBroadcast(intent);
     }
 
     public static void progress() {
+        Log.i("AAAA " + RECEIVER, "progress");
         if (call_state == UserAgent.UA_STATE_IDLE) return;
         int mode = RtpStreamReceiver.speakermode;
         if (mode == -1)
@@ -653,13 +681,19 @@ mContext.sendBroadcast(intent);
     }
 
     public static boolean isFast(int i) {
+        Log.i("AAAA " + RECEIVER, "isFast");
         WifiManager wm = (WifiManager) mContext.getSystemService(Context.WIFI_SERVICE);
         WifiInfo wi = wm.getConnectionInfo();
 
-        if (PreferenceManager.getDefaultSharedPreferences(mContext).getString(org.sipdroid.sipua.ui.Settings.PREF_USERNAME + (i != 0 ? i : ""), "").equals("") ||
-                PreferenceManager.getDefaultSharedPreferences(mContext).getString(org.sipdroid.sipua.ui.Settings.PREF_SERVER + (i != 0 ? i : ""), "").equals(""))
-            return false;
+        //enable_wifi(true);
+        boolean cond1 = PreferenceManager.getDefaultSharedPreferences(mContext).getString(org.sipdroid.sipua.ui.Settings.PREF_USERNAME + (i != 0 ? i : ""), "").equals("");
+        boolean cond2 = PreferenceManager.getDefaultSharedPreferences(mContext).getString(org.sipdroid.sipua.ui.Settings.PREF_SERVER + (i != 0 ? i : ""), "").equals("");
+        if ( cond1 || cond2){
+            Log.i("AAAA " + RECEIVER,"isFast. pref username equals \"\" or pref server equals \"\"");
+            //return false;
+        }
         if (wi != null) {
+            Log.i("AAAA " + RECEIVER, "isFast. wi != null");
             if (!Sipdroid.release)
                 Log.i("SipUA:", "isFastWifi() " + WifiInfo.getDetailedStateOf(wi.getSupplicantState())
                         + " " + wi.getIpAddress());
@@ -678,6 +712,7 @@ mContext.sendBroadcast(intent);
     }
 
     static boolean isFastGSM(int i) {
+        Log.i("AAAA " + RECEIVER, "isFastGSM");
         TelephonyManager tm = (TelephonyManager) mContext.getSystemService(Context.TELEPHONY_SERVICE);
 
         if (Sipdroid.market)
@@ -728,6 +763,7 @@ mContext.sendBroadcast(intent);
 
     @Override
     public void onReceive(Context context, Intent intent) {
+        Log.i("AAAA " + RECEIVER, "onReceive");
         String intentAction = intent.getAction();
         if (!Sipdroid.on(context)) return;
         if (!Sipdroid.release) Log.i("SipUA:", intentAction);
