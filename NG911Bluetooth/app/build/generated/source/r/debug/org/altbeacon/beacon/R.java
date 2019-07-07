@@ -17,9 +17,9 @@ public final class R {
 	}
 	public static final class color {
 		public static final int primary_text_default_material_dark = 0x7f0d0054;
-		public static final int ripple_material_light = 0x7f0d005b;
-		public static final int secondary_text_default_material_dark = 0x7f0d005c;
-		public static final int secondary_text_default_material_light = 0x7f0d005d;
+		public static final int ripple_material_light = 0x7f0d005c;
+		public static final int secondary_text_default_material_dark = 0x7f0d005d;
+		public static final int secondary_text_default_material_light = 0x7f0d005e;
 	}
 	public static final class dimen {
 		public static final int notification_large_icon_height = 0x7f0a00a1;
@@ -27,7 +27,7 @@ public final class R {
 		public static final int notification_subtext_size = 0x7f0a00a3;
 	}
 	public static final class drawable {
-		public static final int notification_template_icon_bg = 0x7f020129;
+		public static final int notification_template_icon_bg = 0x7f02012a;
 	}
 	public static final class id {
 		public static final int action0 = 0x7f0e010d;

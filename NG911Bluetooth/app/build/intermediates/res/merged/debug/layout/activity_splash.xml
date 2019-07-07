@@ -9,24 +9,23 @@
         android:id="@+id/textSplash"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="28dip"
+        android:textSize="23dip"
         android:layout_marginLeft="10dip"
+        android:layout_marginTop="10dp"
         android:layout_centerVertical="true"
         android:singleLine="true"
         android:ellipsize="end"
         android:textStyle="bold"
         android:textColor="#000000"
-        android:text="@string/title_activity_splash" />
+        android:text="@string/title_splash" />
 
-    <ImageView
-        android:layout_width="100dp"
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|top"
+        android:src="@drawable/mobile_bluetooth"
         android:id="@+id/imageViewSplash"
-        android:layout_gravity="center_horizontal"
-        android:src="@drawable/icon64"
-        android:layout_marginTop="50dp"
-        android:gravity="center"
-        android:layout_weight="0.1" />
+        />
 
     <RelativeLayout
         android:id="@+id/loadingPanel"

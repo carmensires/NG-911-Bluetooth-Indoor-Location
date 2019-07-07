@@ -470,6 +470,7 @@ public class CallCard extends FrameLayout
         } else {
             // All other states use the "upper title":
             mUpperTitle.setText(cardTitle);
+            mUpperTitle.setTextColor(getResources().getColor(R.color.white));
             mLowerTitleViewGroup.setVisibility(View.INVISIBLE);
             if (state != Call.State.HOLDING)
                 mElapsedTime.setVisibility(View.INVISIBLE);

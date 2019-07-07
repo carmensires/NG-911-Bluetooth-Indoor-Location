@@ -302,11 +302,11 @@ public class SipdroidEngine implements RegisterAgentListener {
     }
 
     public void register() {
-        Log.i("AAAA " + SIPDROID_ENGINE, "register");
+        Log.i("AAAAA " + SIPDROID_ENGINE, "register");
         IpAddress.setLocalIpAddress();
         int i = 0;
         for (RegisterAgent ra : ras) {
-            Log.i("AAAA " + SIPDROID_ENGINE, "register. RA: " + ra.username);
+            Log.i("AAAAA " + SIPDROID_ENGINE, "register. RA username: " + ra.username);
             try {
                 if (user_profiles[i] == null || user_profiles[i].username.equals("") ||
                         user_profiles[i].realm.equals("")) {
@@ -316,14 +316,22 @@ public class SipdroidEngine implements RegisterAgentListener {
                 user_profiles[i].contact_url = getContactURL(user_profiles[i].from_url, sip_providers[i]);
 
                 if (!Receiver.isFast(i)) {
-                    Log.i("AAAA " + SIPDROID_ENGINE, "register: !Receiver.isFast(i)");
+                    Log.i("AAAAA " + SIPDROID_ENGINE, "register: !Receiver.isFast(i)");
                     unregister(i);
                 } else {
-                    Log.i("AAAA " + SIPDROID_ENGINE, "register: Receiver.isFast(i)");
-                    if (ra != null && ra.register()) {
-                        Log.i("AAAA " + SIPDROID_ENGINE, "register: ra != null && ra.register");
+                    boolean raRegister = ra.register();
+                    Log.i("AAAAA " + SIPDROID_ENGINE, "register: Receiver.isFast(i)");
+                    Log.i("AAAAA " + SIPDROID_ENGINE, "register: RA Register: "+ raRegister);
+                    Log.i("AAAAA " + SIPDROID_ENGINE, "register: RA: "+ ra);
+                    if (ra != null && raRegister) { //SERIA INTERESANTE PASAR EL raRegister a False
+                        Log.i("AAAAA " + SIPDROID_ENGINE, "register: ra != null && ra.register");
                         Receiver.onText(Receiver.REGISTER_NOTIFICATION + i, getUIContext().getString(R.string.reg), R.drawable.sym_presence_idle, 0);
                         wl[i].acquire();
+                        Log.i("AAAAA " + SIPDROID_ENGINE,"register. wl: "+wl);
+                        Log.i("AAAAA " + SIPDROID_ENGINE,"register. i: "+i);
+                        Log.i("AAAAA " + SIPDROID_ENGINE,"register. wl[i]: "+wl[i]);
+
+
                     }
                 }
             } catch (Exception ex) {

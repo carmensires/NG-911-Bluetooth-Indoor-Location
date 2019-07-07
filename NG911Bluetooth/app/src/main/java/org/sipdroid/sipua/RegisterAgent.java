@@ -232,6 +232,8 @@ public class RegisterAgent implements TransactionClientListener, SubscriberDialo
      */
     public boolean register(int expire_time) {
         attempts = 0;
+        android.util.Log.i("AAAA REGISTER AGENT", "expire time: " + expire_time);
+        android.util.Log.i("AAAA REGISTER AGENT", "current state: " + CurrentState);
         if (expire_time > 0) {
             //Update this to be the default registration duration for next
             //instances as well.

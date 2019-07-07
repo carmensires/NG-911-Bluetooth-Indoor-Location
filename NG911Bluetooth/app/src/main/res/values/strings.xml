@@ -2,6 +2,12 @@
     <string name="app_name">NG911BL</string>
 
     <string name="main_name">NG911BL</string>
+    <string name="NG_911_options">NG 911 Options</string>
+    <string name="first_name">first name</string>
+    <string name="call_911">CALL 911</string>
+    <string name="status">Status</string>
+    <string name="info_help">Info/Help</string>
+    <string name="title_splash">Scanning for bluetooth signals...</string>
 
     <!-- Strings related to login -->
     <string name="username">Username</string>
@@ -306,7 +312,7 @@
 
     <string name="help_speakerphone">Press and hold volume buttons to force talk</string>
     <string name="menu_create">New PBX linked to my Google Voice</string>
-    <string name="title_activity_splash">Initializing SIP client...</string>
+    <string name="initializing_SIP_client">Initializing SIP client...</string>
     <string name="settings_firstname">First Name</string>
     <string name="settings_lastname">Last Name</string>
     <string name="settings_bloodtype">Blood Type</string>

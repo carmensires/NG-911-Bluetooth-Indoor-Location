@@ -71,6 +71,7 @@ public class InCallScreen extends CallScreen implements View.OnClickListener, Se
     final int MSG_ACCEPT_FORCE = 7;
 
     final int SCREEN_OFF_TIMEOUT = 12000;
+    final String IN_CALL_SCREEN = "IN CALL SCREEN";
 
     CallCard mCallCard;
     Phone ccPhone;
@@ -134,8 +135,10 @@ public class InCallScreen extends CallScreen implements View.OnClickListener, Se
                 if (!RtpStreamReceiver.isBluetoothAvailable()) Receiver.moveTop();
                 break;
             case UserAgent.UA_STATE_IDLE:
-                if (Receiver.ccCall != null)
+                if (Receiver.ccCall != null) {
+                    Log.i("AAAA " + IN_CALL_SCREEN,"OnPause. STATE IS IDLE");
                     mCallCard.displayMainCallStatus(ccPhone, Receiver.ccCall);
+                }
                 mHandler.sendEmptyMessageDelayed(MSG_BACK, Receiver.call_end_reason == -1 ?
                         2000 : 5000);
                 break;
@@ -190,8 +193,14 @@ public class InCallScreen extends CallScreen implements View.OnClickListener, Se
             mDialerDrawer.close();
             mDialerDrawer.setVisibility(View.GONE);
         }
-        if (Receiver.ccCall != null) mCallCard.displayMainCallStatus(ccPhone, Receiver.ccCall);
-        if (mSlidingCardManager != null) mSlidingCardManager.showPopup();
+        if (Receiver.ccCall != null) {
+            Log.i("AAAA " + IN_CALL_SCREEN,"OnResume. Receiver.ccCall != null");
+            Log.i("AAAA " + IN_CALL_SCREEN,"OnResume. Receiver.call: " + Receiver.ccCall);
+            mCallCard.displayMainCallStatus(ccPhone, Receiver.ccCall);
+        }
+        if (mSlidingCardManager != null) {
+            mSlidingCardManager.showPopup();
+        }
         mHandler.sendEmptyMessage(MSG_TICK);
         mHandler.sendEmptyMessage(MSG_POPUP);
         if (t == null && Receiver.call_state != UserAgent.UA_STATE_IDLE) {
@@ -407,6 +416,7 @@ public class InCallScreen extends CallScreen implements View.OnClickListener, Se
         if (Receiver.ccCall != null) {
             Receiver.stopRingtone();
             Receiver.ccCall.setState(Call.State.DISCONNECTED);
+            Log.i("AAAA " + IN_CALL_SCREEN,"reject. disconnected");
             mCallCard.displayMainCallStatus(ccPhone, Receiver.ccCall);
             mDialerDrawer.close();
             mDialerDrawer.setVisibility(View.GONE);
@@ -429,6 +439,7 @@ public class InCallScreen extends CallScreen implements View.OnClickListener, Se
         if (Receiver.ccCall != null) {
             Receiver.ccCall.setState(Call.State.ACTIVE);
             Receiver.ccCall.base = SystemClock.elapsedRealtime();
+            Log.i("AAAA " + IN_CALL_SCREEN,"answer. active");
             mCallCard.displayMainCallStatus(ccPhone, Receiver.ccCall);
             mDialerDrawer.setVisibility(View.VISIBLE);
             if (mSlidingCardManager != null)

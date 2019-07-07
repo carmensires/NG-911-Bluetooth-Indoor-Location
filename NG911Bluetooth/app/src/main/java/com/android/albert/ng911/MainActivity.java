@@ -158,6 +158,12 @@ public class MainActivity extends AppCompatActivity {
                     7);
         }
 
+        if (ContextCompat.checkSelfPermission(this, Manifest.permission.WRITE_SETTINGS) != PackageManager.PERMISSION_GRANTED) {
+            ActivityCompat.requestPermissions(this,
+                    new String[]{Manifest.permission.WRITE_SETTINGS},
+                    7);
+        }
+
     }
 
 

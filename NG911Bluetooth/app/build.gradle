@@ -41,4 +41,5 @@ dependencies {
     compile 'com.facebook.android:audience-network-sdk:4.11.0'
     // Account Kit
     compile 'com.facebook.android:account-kit-sdk:4.11.0'
+    compile 'pl.droidsonroids.gif:android-gif-drawable:1.2.3'
 }

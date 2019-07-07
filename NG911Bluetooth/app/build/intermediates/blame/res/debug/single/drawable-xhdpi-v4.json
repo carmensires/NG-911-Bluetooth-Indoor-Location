@@ -4,12 +4,12 @@
         "source": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.11.0/res/drawable-xhdpi-v4/messenger_bubble_large_blue.png"
     },
     {
-        "merged": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_scrubber_primary_mtrl_alpha.9.png",
-        "source": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/drawable-xhdpi-v4/abc_scrubber_primary_mtrl_alpha.9.png"
-    },
-    {
         "merged": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/com_facebook_button_send_icon_blue.png",
         "source": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.11.0/res/drawable-xhdpi-v4/com_facebook_button_send_icon_blue.png"
+    },
+    {
+        "merged": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_scrubber_primary_mtrl_alpha.9.png",
+        "source": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/drawable-xhdpi-v4/abc_scrubber_primary_mtrl_alpha.9.png"
     },
     {
         "merged": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/com_facebook_button_send_icon_white.png",
@@ -32,12 +32,12 @@
         "source": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.11.0/res/drawable-xhdpi/com_accountkit_error.png"
     },
     {
-        "merged": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/com_facebook_tooltip_black_background.9.png",
-        "source": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.11.0/res/drawable-xhdpi-v4/com_facebook_tooltip_black_background.9.png"
-    },
-    {
         "merged": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/messenger_button_send_round_shadow.png",
         "source": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.11.0/res/drawable-xhdpi-v4/messenger_button_send_round_shadow.png"
+    },
+    {
+        "merged": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/com_facebook_tooltip_black_background.9.png",
+        "source": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.11.0/res/drawable-xhdpi-v4/com_facebook_tooltip_black_background.9.png"
     },
     {
         "merged": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_btn_radio_to_on_mtrl_000.png",
@@ -64,12 +64,12 @@
         "source": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/drawable-xhdpi-v4/abc_ic_star_half_black_36dp.png"
     },
     {
-        "merged": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/com_facebook_button_like_icon_selected.png",
-        "source": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.11.0/res/drawable-xhdpi-v4/com_facebook_button_like_icon_selected.png"
-    },
-    {
         "merged": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_btn_rating_star_off_mtrl_alpha.png",
         "source": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/drawable-xhdpi-v4/abc_btn_rating_star_off_mtrl_alpha.png"
+    },
+    {
+        "merged": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/com_facebook_button_like_icon_selected.png",
+        "source": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.11.0/res/drawable-xhdpi-v4/com_facebook_button_like_icon_selected.png"
     },
     {
         "merged": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/com_facebook_favicon_white.png",

@@ -8,6 +8,8 @@ import android.support.v4.app.NavUtils;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.MenuItem;
+import android.widget.Toast;
+
 import org.sipdroid.sipua.ui.Sipdroid;
 
 /**
@@ -38,6 +40,7 @@ public class CallActivity extends AppCompatActivity {
         //When the Splash time finishes, it will open the Sipdroid Activity
         new Handler().postDelayed(new Runnable() {
             public void run() {
+                Toast.makeText(CallActivity.this,getResources().getString(R.string.initializing_SIP_client),Toast.LENGTH_LONG);
                 Intent intent = new Intent();
                 intent.setClass(CallActivity.this, Sipdroid.class);
                 CallActivity.this.startActivity(intent);

@@ -561,6 +561,7 @@ MERGED from [com.android.support:support-vector-drawable:23.2.1] /Users/carmensi
 MERGED from [com.android.support:support-v4:23.2.1] /Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/AndroidManifest.xml:20:5-43
 MERGED from [com.android.support:support-vector-drawable:23.2.1] /Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.2.1/AndroidManifest.xml:5:5-43
 MERGED from [com.android.support:support-v4:23.2.1] /Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/AndroidManifest.xml:20:5-43
+MERGED from [pl.droidsonroids.gif:android-gif-drawable:1.2.3] /Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/build/intermediates/exploded-aar/pl.droidsonroids.gif/android-gif-drawable/1.2.3/AndroidManifest.xml:7:5-9:41
 	tools:overrideLibrary
 		ADDED from [com.android.support:appcompat-v7:23.2.1] /Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/AndroidManifest.xml:23:9-75
 	android:targetSdkVersion

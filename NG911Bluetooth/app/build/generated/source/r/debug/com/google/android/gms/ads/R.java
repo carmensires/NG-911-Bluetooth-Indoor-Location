@@ -11,9 +11,9 @@ public final class R {
 		public static final int adSize = 0x7f01001f;
 		public static final int adSizes = 0x7f010020;
 		public static final int adUnitId = 0x7f010021;
-		public static final int circleCrop = 0x7f0100da;
-		public static final int imageAspectRatio = 0x7f0100d9;
-		public static final int imageAspectRatioAdjust = 0x7f0100d8;
+		public static final int circleCrop = 0x7f0100dd;
+		public static final int imageAspectRatio = 0x7f0100dc;
+		public static final int imageAspectRatioAdjust = 0x7f0100db;
 	}
 	public static final class color {
 	}
@@ -37,15 +37,15 @@ public final class R {
 	public static final class raw {
 	}
 	public static final class string {
-		public static final int accept = 0x7f0800e3;
-		public static final int auth_google_play_services_client_facebook_display_name = 0x7f0800e8;
-		public static final int auth_google_play_services_client_google_display_name = 0x7f0800e9;
+		public static final int accept = 0x7f0800e4;
+		public static final int auth_google_play_services_client_facebook_display_name = 0x7f0800e9;
+		public static final int auth_google_play_services_client_google_display_name = 0x7f0800ea;
 		public static final int common_google_play_services_unknown_issue = 0x7f08004e;
-		public static final int create_calendar_message = 0x7f0800ec;
-		public static final int create_calendar_title = 0x7f0800ed;
-		public static final int decline = 0x7f0800ee;
-		public static final int store_picture_message = 0x7f080104;
-		public static final int store_picture_title = 0x7f080105;
+		public static final int create_calendar_message = 0x7f0800ee;
+		public static final int create_calendar_title = 0x7f0800ef;
+		public static final int decline = 0x7f0800f0;
+		public static final int store_picture_message = 0x7f08010a;
+		public static final int store_picture_title = 0x7f08010b;
 	}
 	public static final class style {
 		public static final int Theme_IAPTheme = 0x7f0b0137;
@@ -55,7 +55,7 @@ public final class R {
 		public static final int AdsAttrs_adSize = 0;
 		public static final int AdsAttrs_adSizes = 1;
 		public static final int AdsAttrs_adUnitId = 2;
-		public static final int[] LoadingImageView = { 0x7f0100d8, 0x7f0100d9, 0x7f0100da };
+		public static final int[] LoadingImageView = { 0x7f0100db, 0x7f0100dc, 0x7f0100dd };
 		public static final int LoadingImageView_circleCrop = 2;
 		public static final int LoadingImageView_imageAspectRatio = 1;
 		public static final int LoadingImageView_imageAspectRatioAdjust = 0;

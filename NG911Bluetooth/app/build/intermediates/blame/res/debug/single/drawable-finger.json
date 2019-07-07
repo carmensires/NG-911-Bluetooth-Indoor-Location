@@ -20,12 +20,12 @@
         "source": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/src/main/res/drawable-finger/dial_num_0_wht.png"
     },
     {
-        "merged": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/build/intermediates/res/merged/debug/drawable-finger/dial_num_2.xml",
-        "source": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/src/main/res/drawable-finger/dial_num_2.xml"
-    },
-    {
         "merged": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/build/intermediates/res/merged/debug/drawable-finger/dark_header_dithered.xml",
         "source": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/src/main/res/drawable-finger/dark_header_dithered.xml"
+    },
+    {
+        "merged": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/build/intermediates/res/merged/debug/drawable-finger/dial_num_2.xml",
+        "source": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/src/main/res/drawable-finger/dial_num_2.xml"
     },
     {
         "merged": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/build/intermediates/res/merged/debug/drawable-finger/dial_num_6_wht.png",
