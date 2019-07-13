@@ -195,12 +195,12 @@ public class Settings extends PreferenceActivity implements OnSharedPreferenceCh
     public static final String DEFAULT_FACEBOOK = "";
     // Default values of the preferences
     public static final String DEFAULT_USERNAME = "" +SipStack.default_username;
-    public static final String DEFAULT_PASSWORD = "";
+    public static final String DEFAULT_PASSWORD = "" + SipStack.default_password;
     public static final String DEFAULT_SERVER = "" + SipStack.default_server;//ESInet 911 IIT
-    public static final String DEFAULT_DOMAIN = "";
-    public static final String DEFAULT_FROMUSER = "";
+    public static final String DEFAULT_DOMAIN = "" + SipStack.default_domain;
+    public static final String DEFAULT_FROMUSER = "" + SipStack.default_callerID;
     public static final String DEFAULT_PORT = "" + SipStack.default_port;
-    public static final String DEFAULT_PROTOCOL = "tcp";
+    public static final String DEFAULT_PROTOCOL = "" + SipStack.default_transport_protocols[0];
     public static final boolean DEFAULT_WLAN = true;
     public static final boolean DEFAULT_3G = false;
     public static final boolean DEFAULT_EDGE = false;

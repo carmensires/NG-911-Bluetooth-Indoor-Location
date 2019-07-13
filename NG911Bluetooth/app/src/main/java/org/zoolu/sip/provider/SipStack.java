@@ -74,9 +74,21 @@ public class SipStack extends Configure {
      */
     public static String default_username = "android2";
     /**
+     * Default password.
+     */
+    public static String default_password = "teamc255";
+    /**
      * Default Server (SBC).
      */
     public static String default_server = "64.131.109.30";
+    /**
+     * Default Domain.
+     */
+    public static String default_domain = "64.131.109.30";
+    /**
+     * Default Domain.
+     */
+    public static String default_callerID = "caller1";
     /**
      * Default supported transport protocols.
      */

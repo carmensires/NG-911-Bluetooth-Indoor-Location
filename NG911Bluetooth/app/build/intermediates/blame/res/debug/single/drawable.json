@@ -4,28 +4,28 @@
         "source": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/drawable/abc_cab_background_top_material.xml"
     },
     {
-        "merged": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/build/intermediates/res/merged/debug/drawable/ng911icon.png",
-        "source": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/src/main/res/drawable/ng911icon.png"
-    },
-    {
         "merged": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/build/intermediates/res/merged/debug/drawable/messenger_button_blue_bg_round.xml",
         "source": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.11.0/res/drawable/messenger_button_blue_bg_round.xml"
     },
     {
-        "merged": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_holo_light.xml",
-        "source": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/drawable/abc_list_selector_holo_light.xml"
+        "merged": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/build/intermediates/res/merged/debug/drawable/ng911icon.png",
+        "source": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/src/main/res/drawable/ng911icon.png"
     },
     {
-        "merged": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/build/intermediates/res/merged/debug/drawable/ic_incall_answer.png",
-        "source": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/src/main/res/drawable/ic_incall_answer.png"
+        "merged": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/build/intermediates/res/merged/debug/drawable/incall_frame_connected_tall_land.9.png",
+        "source": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/src/main/res/drawable/incall_frame_connected_tall_land.9.png"
     },
     {
         "merged": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/build/intermediates/res/merged/debug/drawable/com_facebook_auth_dialog_cancel_background.xml",
         "source": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.11.0/res/drawable/com_facebook_auth_dialog_cancel_background.xml"
     },
     {
-        "merged": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/build/intermediates/res/merged/debug/drawable/incall_frame_connected_tall_land.9.png",
-        "source": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/src/main/res/drawable/incall_frame_connected_tall_land.9.png"
+        "merged": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/build/intermediates/res/merged/debug/drawable/ic_incall_answer.png",
+        "source": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/src/main/res/drawable/ic_incall_answer.png"
+    },
+    {
+        "merged": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_holo_light.xml",
+        "source": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/drawable/abc_list_selector_holo_light.xml"
     },
     {
         "merged": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/build/intermediates/res/merged/debug/drawable/sym_incoming_call_answer.png",
@@ -64,12 +64,12 @@
         "source": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/src/main/res/drawable/stat_sys_phone_call_bluetooth.png"
     },
     {
-        "merged": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/build/intermediates/res/merged/debug/drawable/picture_frame.png",
-        "source": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/src/main/res/drawable/picture_frame.png"
-    },
-    {
         "merged": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/build/intermediates/res/merged/debug/drawable/incall_frame_ended_tall_land.9.png",
         "source": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/src/main/res/drawable/incall_frame_ended_tall_land.9.png"
+    },
+    {
+        "merged": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/build/intermediates/res/merged/debug/drawable/picture_frame.png",
+        "source": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/src/main/res/drawable/picture_frame.png"
     },
     {
         "merged": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/build/intermediates/res/merged/debug/drawable/sym_incoming_call_dont_answer.png",
@@ -104,12 +104,12 @@
         "source": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/drawable/abc_btn_borderless_material.xml"
     },
     {
-        "merged": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/build/intermediates/res/merged/debug/drawable/infopic5.png",
-        "source": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/src/main/res/drawable/infopic5.png"
-    },
-    {
         "merged": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/build/intermediates/res/merged/debug/drawable/ic_menu_dial_pad.png",
         "source": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/src/main/res/drawable/ic_menu_dial_pad.png"
+    },
+    {
+        "merged": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/build/intermediates/res/merged/debug/drawable/infopic5.png",
+        "source": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/src/main/res/drawable/infopic5.png"
     },
     {
         "merged": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/build/intermediates/res/merged/debug/drawable/design_fab_background.xml",
@@ -144,12 +144,12 @@
         "source": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/src/main/res/drawable/sym_incoming_call_hold_answer.png"
     },
     {
-        "merged": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/build/intermediates/res/merged/debug/drawable/ng911icon2.png",
-        "source": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/src/main/res/drawable/ng911icon2.png"
-    },
-    {
         "merged": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/build/intermediates/res/merged/debug/drawable/ic_launcher_phone.png",
         "source": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/src/main/res/drawable/ic_launcher_phone.png"
+    },
+    {
+        "merged": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/build/intermediates/res/merged/debug/drawable/ng911icon2.png",
+        "source": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/src/main/res/drawable/ng911icon2.png"
     },
     {
         "merged": "/Users/carmensires/AndroidStudioProjects/TFM/NG-911-Bluetooth-Indoor-Location/NG911Bluetooth/app/build/intermediates/res/merged/debug/drawable/incall_frame_ended_tall_port.9.png",

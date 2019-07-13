@@ -306,7 +306,7 @@ public class SipdroidEngine implements RegisterAgentListener {
         IpAddress.setLocalIpAddress();
         int i = 0;
         for (RegisterAgent ra : ras) {
-            Log.i("AAAAA " + SIPDROID_ENGINE, "register. RA username: " + ra.username);
+            Log.i("AAAAA " + SIPDROID_ENGINE, "register. RA username " + i + ": " + ra.username);
             try {
                 if (user_profiles[i] == null || user_profiles[i].username.equals("") ||
                         user_profiles[i].realm.equals("")) {
@@ -355,6 +355,7 @@ public class SipdroidEngine implements RegisterAgentListener {
                     continue;
                 }
                 user_profiles[i].contact_url = getContactURL(user_profiles[i].from_url, sip_providers[i]);
+                Log.i("AAAA " + SIPDROID_ENGINE,"contact_url[" + i + "]: " + user_profiles[i].contact_url);
 
                 if (!Receiver.isFast(i)) {
                     unregister(i);
@@ -411,11 +412,13 @@ public class SipdroidEngine implements RegisterAgentListener {
     }
 
     public boolean isRegistered(int i) {
-        Log.i("AAAA " + SIPDROID_ENGINE, "isRegistered> " + i);
         if (ras[i] == null) {
+            Log.i("AAAA " + SIPDROID_ENGINE, "isRegistered[" + i + "]: false");
             return false;
         }
-        return ras[i].isRegistered();
+        boolean reg = ras[i].isRegistered();
+        Log.i("AAAA " + SIPDROID_ENGINE, "isRegistered[" + i + "]: " + reg);
+        return reg;
     }
 
     int getKeepaliveInterval(int i) {

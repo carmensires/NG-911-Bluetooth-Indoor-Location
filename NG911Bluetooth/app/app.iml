@@ -123,5 +123,8 @@
     <orderEntry type="library" exported="" name="Gradle: com.android.support:support-v4:23.2.1@aar" level="project" />
     <orderEntry type="library" exported="" name="Gradle: com.android.support:cardview-v7:23.2.1@aar" level="project" />
     <orderEntry type="module" module-name="volley" exported="" />
+    <orderEntry type="module" module-name="volley" exported="" />
+    <orderEntry type="module" module-name="volley" exported="" />
+    <orderEntry type="module" module-name="volley" exported="" />
   </component>
 </module>

@@ -176,6 +176,7 @@ public class RegisterAgent implements TransactionClientListener, SubscriberDialo
         this.realm = realm;
         this.passwd = passwd;
         this.user_profile = user_profile;
+        android.util.Log.i("AAAA REGISTER AGENT", "username: " + this.username + ", passwd: " + this.passwd + ", realm: " + this.realm + ", user profile: " + this.user_profile);
 
         // IMS specifics (added by mandrajg)
         this.qvalue = qvalue;
@@ -630,8 +631,10 @@ public class RegisterAgent implements TransactionClientListener, SubscriberDialo
      * Callback function called when client expires timeout.
      */
     public void onTransTimeout(TransactionClient transaction) {
+        android.util.Log.i("AAAA REGISTER AGENT", "onTransTimeout: " + transaction);
         if (transaction == null) return;
         if (transaction.getTransactionMethod().equals(SipMethods.REGISTER)) {
+            android.util.Log.i("AAAA REGISTER AGENT", "onTransTimeout. " + "Method Register. Registration Failure");
             printLog("Registration failure: No response from server.",
                     LogLevel.HIGH);
 
@@ -640,11 +643,13 @@ public class RegisterAgent implements TransactionClientListener, SubscriberDialo
 
             if (CurrentState == REGISTERING) {
                 CurrentState = UNDEFINED;
+                android.util.Log.i("AAAA REGISTER AGENT", "onTransTimeout. " + "Current state: undefined");
 
                 if (listener != null) {
                     listener.onUaRegistrationFailure(this, target, contact,
                             "Timeout");
                     Receiver.reRegister(1000);
+                    android.util.Log.i("AAAA REGISTER AGENT", "onTransTimeout. " + "Re Register");
                 }
             } else {
                 if (pub && android.provider.Settings.System.getInt(
