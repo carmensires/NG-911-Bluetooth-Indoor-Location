@@ -161,18 +161,12 @@ public class MainActivity extends AppCompatActivity {
         }
 
         if (ContextCompat.checkSelfPermission(this, Manifest.permission.WRITE_SETTINGS) != PackageManager.PERMISSION_GRANTED) {
-            Log.i("AAAA " + MAIN_ACTIVITY, "Need to grant WRITE_SETTINGS permission");
             boolean settingsCanWrite = Settings.System.canWrite(MainActivity.this);
-            Log.i("AAAA " + MAIN_ACTIVITY, "Can write settings: " + settingsCanWrite);
             if (!settingsCanWrite) {
-                Log.i("AAAA " + MAIN_ACTIVITY, "Open settings manually");
                 Intent intent = new Intent(Settings.ACTION_MANAGE_WRITE_SETTINGS);
                 startActivity(intent);
             }
-            //ActivityCompat.requestPermissions(this, new String[]{Manifest.permission.WRITE_SETTINGS}, 7);
-        } else {
-            Log.i("AAAA " + MAIN_ACTIVITY, "App has WRITE_SETTINGS permission");
-        }
+        } 
 
     }
 

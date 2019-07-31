@@ -79,8 +79,8 @@ public class Json {
         jsonStr+="algorithim=1";
 
         //To perform tests while not in SB, use this example
-        String jsonStrExample = "json[]={\"major\":1000,\"minor\":575,\"rssi\":-91}&json[]={\"major\":1000,\"minor\":539,\"rssi\":-84}&json[]={\"major\":1000,\"minor\":515,\"rssi\":-91}&json[]={\"major\":1000,\"minor\":575,\"rssi\":-94}&json[]={\"major\":1000,\"minor\":515,\"rssi\":-91}&json[]={\"major\":1000,\"minor\":515,\"rssi\":-92}&json[]={\"major\":1000,\"minor\":552,\"rssi\":-85}&algorithim=1";
-        return jsonStrExample;
-        //return jsonStr;
+        //String jsonStrExample = "json[]={\"major\":1000,\"minor\":575,\"rssi\":-91}&json[]={\"major\":1000,\"minor\":539,\"rssi\":-84}&json[]={\"major\":1000,\"minor\":515,\"rssi\":-91}&json[]={\"major\":1000,\"minor\":575,\"rssi\":-94}&json[]={\"major\":1000,\"minor\":515,\"rssi\":-91}&json[]={\"major\":1000,\"minor\":515,\"rssi\":-92}&json[]={\"major\":1000,\"minor\":552,\"rssi\":-85}&algorithim=1";
+        //return jsonStrExample;
+        return jsonStr;
     }
 }
